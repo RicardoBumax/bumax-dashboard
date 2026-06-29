@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 5827.86,
     "vendas_qtd": 11,
-    "atividades": 20
+    "atividades": 31
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,13 +24,13 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 158,
+      "atividades": 165,
       "ganhos_qtd": 92,
       "ganhos_valor": 179081.32,
-      "iniciados_qtd": 135,
-      "iniciados_valor": 357761.78,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "iniciados_qtd": 142,
+      "iniciados_valor": 383229.77,
+      "abertos_qtd": 8,
+      "abertos_valor": 25467.99,
       "atrasados": 0,
       "perdidos_qtd": 59,
       "perdidos_valor": 297763.81,
@@ -38,9 +38,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 4871.87,
-      "hoje_orcado_qtd": 1,
-      "hoje_orcado_valor": 2102.52,
-      "hoje_movimentacoes": 4
+      "hoje_orcado_qtd": 2,
+      "hoje_orcado_valor": 3251.77,
+      "hoje_movimentacoes": 8
     },
     {
       "iniciais": "GAB",
@@ -50,13 +50,13 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 179,
+      "atividades": 191,
       "ganhos_qtd": 106,
       "ganhos_valor": 119998.82,
-      "iniciados_qtd": 130,
-      "iniciados_valor": 161559.58,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "iniciados_qtd": 142,
+      "iniciados_valor": 281682.41,
+      "abertos_qtd": 13,
+      "abertos_valor": 120122.83,
       "atrasados": 0,
       "perdidos_qtd": 29,
       "perdidos_valor": 50949.09,
@@ -64,9 +64,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 8,
       "hoje_vendas_valor": 955.99,
-      "hoje_orcado_qtd": 8,
-      "hoje_orcado_valor": 955.99,
-      "hoje_movimentacoes": 16
+      "hoje_orcado_qtd": 11,
+      "hoje_orcado_valor": 25060.64,
+      "hoje_movimentacoes": 23
     },
     {
       "iniciais": "MAC",
@@ -81,8 +81,8 @@
       "ganhos_valor": 0,
       "iniciados_qtd": 0,
       "iniciados_valor": 0,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "abertos_qtd": 58,
+      "abertos_valor": 11645.87,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -98,38 +98,45 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 96,
-      "valor": 178405.58,
+      "qtd": 113,
+      "valor": 268718.18,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 76,
-      "valor": 181493.9,
-      "conv": 79.2,
+      "qtd": 88,
+      "valor": 223988.65,
+      "conv": 77.9,
       "cor": "#4facfe"
+    },
+    {
+      "etapa": "Envio de Proposta",
+      "qtd": 50,
+      "valor": 182913.04,
+      "conv": 56.8,
+      "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 47,
       "valor": 23798.45,
-      "conv": 61.8,
-      "cor": "#00d2b2"
-    },
-    {
-      "etapa": "Envio de Proposta",
-      "qtd": 41,
-      "valor": 119753.96,
-      "conv": 87.2,
+      "conv": 94,
       "cor": "#ffd60a"
     },
     {
-      "etapa": "Negociação",
-      "qtd": 5,
-      "valor": 15869.47,
-      "conv": 12.2,
+      "etapa": "Envio de Amostras",
+      "qtd": 16,
+      "valor": 0,
+      "conv": 34,
       "cor": "#00ff95"
+    },
+    {
+      "etapa": "E-mail Inicial",
+      "qtd": 13,
+      "valor": 0,
+      "conv": 81.2,
+      "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
@@ -169,5 +176,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-29T17:24:35.6742184-03:00"
+  "atualizado_em": "2026-06-29T17:27:09.7238091-03:00"
 }
