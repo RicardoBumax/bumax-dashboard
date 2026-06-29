@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, initial-scale=1">
+<title>Dashboard Comercial BUMAX — TV ao Vivo</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+html{overflow:auto}
+body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;background:#080c18;color:#fff;display:flex;flex-direction:column}
+/* Em modo TV (tela >=1920x1080), trava sem scroll. Em telas menores, permite rolar para testar. */
+@media (min-width:1920px) and (min-height:1080px){
+  html,body{width:1920px;height:1080px;overflow:hidden}
+}
+.green{color:#00ff95}.red{color:#ff4d6d}.blue{color:#4facfe}.yellow{color:#ffd60a}.purple{color:#a855f7}.teal{color:#00d2b2}.orange{color:#ff9e00}
+
+/* ============ HEADER ============ */
+.header{height:70px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.logo-box{display:flex;align-items:center;gap:14px}
+.logo-icon{width:50px;height:50px;background:linear-gradient(135deg,#6c63ff,#4facfe);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;font-weight:900}
+.logo-text h1{font-size:1.5rem;font-weight:800;line-height:1.1}
+.logo-text span{font-size:.78rem;color:#64748b}
+.header-right{display:flex;align-items:center;gap:24px}
+.live-pill{display:flex;align-items:center;gap:8px;background:rgba(0,255,100,.12);border:1px solid rgba(0,255,100,.35);border-radius:22px;padding:6px 16px;font-size:.78rem;font-weight:800;color:#00ff64;letter-spacing:1.5px}
+.dot{width:9px;height:9px;background:#00ff64;border-radius:50%;animation:blink 1.4s infinite;box-shadow:0 0 12px #00ff64}
+.clock{font-size:1.7rem;font-weight:800;color:#4facfe;font-variant-numeric:tabular-nums;letter-spacing:1px;line-height:1}
+.date-str{font-size:.72rem;color:#94a3b8;text-align:right;margin-top:3px}
+.next-update{text-align:center;font-size:.65rem;color:#475569}
+.cbar{width:110px;height:4px;background:rgba(255,255,255,.1);border-radius:3px;overflow:hidden;margin-top:4px}
+.cbar-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4facfe);animation:drain 900s linear forwards}
+
+/* ============ MOTIVATIONAL BAR ============ */
+.motive{margin:8px 24px 0;background:linear-gradient(90deg,rgba(108,99,255,.14),rgba(79,172,254,.08));border-left:3px solid #6c63ff;border-radius:8px;padding:8px 18px;font-size:.95rem;color:#cbd5e1;font-style:italic;transition:all .5s;height:36px;display:flex;align-items:center;flex-shrink:0}
+
+/* ============ MAIN GRID ============ */
+.main{flex:1;padding:8px 24px 12px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:auto auto auto auto;gap:10px;min-height:0}
+
+/* Section labels */
+.slbl{font-size:.7rem;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#4facfe;display:flex;align-items:center;gap:8px;grid-column:1/-1;margin-top:2px}
+.slbl::after{content:'';flex:1;height:1px;background:rgba(79,172,254,.18)}
+
+/* ============ KPI STRIP (TOP) ============ */
+.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:14px 18px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:120px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2))}
+.kpi-head{display:flex;align-items:center;justify-content:space-between}
+.kpi-lbl{font-size:.7rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
+.kpi-icon{font-size:1.4rem}
+.kpi-val{font-size:1.85rem;font-weight:900;line-height:1}
+.kpi-sub{font-size:.72rem;color:#64748b;display:flex;align-items:center;gap:6px}
+.kpi-trend{font-size:.78rem;font-weight:700;padding:2px 8px;border-radius:6px}
+.kpi-up{background:rgba(0,255,149,.15);color:#00ff95}
+.kpi-down{background:rgba(255,77,109,.15);color:#ff4d6d}
+.goal-bar{width:100%;height:8px;background:rgba(255,255,255,.08);border-radius:4px;overflow:hidden;margin-top:4px}
+.goal-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4facfe);border-radius:4px;transition:width 1s ease}
+
+/* ============ DUELO DO DIA ============ */
+.duelo-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.duelo-card{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:14px 18px;border:2px solid rgba(255,255,255,.07);position:relative;transition:all .4s;overflow:hidden}
+.duelo-card.lider{border-color:rgba(255,215,0,.6);background:linear-gradient(160deg,#1f1a0a,#161c2e);animation:duelo-glow 2s ease-in-out infinite}
+.duelo-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--dc1,#6c63ff),var(--dc2,#4facfe))}
+.duelo-head{display:flex;align-items:center;gap:12px;margin-bottom:12px;position:relative}
+.duelo-rank{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;font-weight:900}
+.duelo-rank.r1{background:linear-gradient(135deg,#FFD700,#FFA500);color:#000;box-shadow:0 0 18px rgba(255,215,0,.5)}
+.duelo-rank.r2{background:linear-gradient(135deg,#C0C0C0,#A8A9AD);color:#000}
+.duelo-rank.r3{background:linear-gradient(135deg,#CD7F32,#A06324);color:#fff}
+.duelo-av{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;flex-shrink:0}
+.duelo-info{flex:1;min-width:0}
+.duelo-name{font-size:1.05rem;font-weight:800;line-height:1.1}
+.duelo-sub{font-size:.7rem;color:#94a3b8;margin-top:2px}
+.duelo-status{position:absolute;top:0;right:0;font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;padding:3px 9px;border-radius:5px}
+.duelo-status.lider{background:rgba(255,215,0,.18);color:#FFD700;border:1px solid rgba(255,215,0,.35)}
+.duelo-metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.duelo-metric{background:rgba(255,255,255,.05);border-radius:10px;padding:10px 12px;border:1px solid rgba(255,255,255,.04)}
+.duelo-metric.span2{grid-column:span 2}
+.duelo-metric-icon{font-size:1rem;line-height:1}
+.duelo-metric-val{font-size:1.45rem;font-weight:900;line-height:1.1;margin-top:4px}
+.duelo-metric-lbl{font-size:.6rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1.3px;margin-top:3px;font-weight:700}
+.duelo-metric-sub{font-size:.7rem;color:#cbd5e1;margin-top:2px}
+@keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
+
+/* ============ PODIUM ============ */
+.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:14px;align-items:stretch;height:215px}
+.pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:14px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden}
+.p1{border:2px solid rgba(108,99,255,.55);background:linear-gradient(160deg,#1a1535,#130d28);box-shadow:0 8px 30px rgba(108,99,255,.22)}
+.p2{border-color:rgba(79,172,254,.4)}
+.p3{border-color:rgba(0,210,178,.35)}
+.crown{position:absolute;top:4px;left:50%;transform:translateX(-50%);font-size:1.6rem;animation:bounce 2s ease-in-out infinite}
+.rn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-size:.85rem;font-weight:800;margin-bottom:6px}
+.r1{background:linear-gradient(135deg,#FFD700,#FFA500);color:#000}
+.r2{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#000}
+.r3{background:linear-gradient(135deg,#00d2b2,#00ff95);color:#000}
+.av{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:800;margin:0 auto 6px}
+.ag{background:linear-gradient(135deg,#6c63ff,#a855f7)}
+.aa{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#000}
+.am{background:linear-gradient(135deg,#00d2b2,#00ff95);color:#000}
+.pname{font-size:1rem;font-weight:700;margin-bottom:3px}
+.pgain{font-weight:900;color:#00ff95;line-height:1.05}
+.pgain-l{font-size:.6rem;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+.pct{font-size:.82rem;font-weight:600;margin-bottom:8px}
+.pmini{display:flex;gap:6px;justify-content:center}
+.pm{background:rgba(255,255,255,.06);border-radius:7px;padding:4px 6px;flex:1}
+.pmv{font-size:.85rem;font-weight:700}
+.pml{font-size:.55rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px}
+.pbar{width:100%;height:5px;background:rgba(255,255,255,.07);border-radius:3px;margin-top:8px;overflow:hidden}
+.pbf{height:100%;border-radius:3px;transition:width 1s}
+
+/* ============ SELLER METRICS ============ */
+.mc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:12px 14px;border:1px solid rgba(255,255,255,.07);grid-column:span 1}
+.mch{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.mav{width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:800}
+.mn{font-size:.92rem;font-weight:700}
+.mr{font-size:.62rem;color:#64748b}
+.mrow{display:flex;justify-content:space-between;align-items:center;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+.mrow:last-child{border-bottom:none}
+.ml{font-size:.7rem;color:#94a3b8}
+.mv{font-size:.78rem;font-weight:700}
+.br{background:rgba(255,77,109,.2);border:1px solid rgba(255,77,109,.4);color:#ff4d6d;border-radius:5px;padding:1px 7px;font-size:.66rem;font-weight:700}
+.bg{background:rgba(0,255,149,.15);border:1px solid rgba(0,255,149,.3);color:#00ff95;border-radius:5px;padding:1px 7px;font-size:.66rem;font-weight:700}
+.metabar-wrap{display:flex;align-items:center;gap:8px;margin:2px 0 6px}
+.metabar{flex:1;height:8px;background:rgba(255,255,255,.07);border-radius:5px;overflow:hidden}
+.metabar-fill{height:100%;border-radius:5px;transition:width 1.2s ease}
+.metabar-pct{font-size:.68rem;font-weight:800;color:#cbd5e1;width:42px;text-align:right}
+
+/* ============ CHARTS & FUNNEL ============ */
+.cc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:12px 14px;border:1px solid rgba(255,255,255,.07);display:flex;flex-direction:column;min-height:0}
+.ct{font-size:.78rem;font-weight:700;margin-bottom:8px;color:#cbd5e1;flex-shrink:0}
+.cc-body{flex:1;min-height:0;position:relative}
+
+/* Funnel */
+.funnel{display:flex;flex-direction:column;gap:6px;padding-top:4px}
+.fstage{display:flex;align-items:center;gap:10px}
+.fname{width:110px;font-size:.72rem;color:#cbd5e1;text-align:right;flex-shrink:0;font-weight:600}
+.fwrap{flex:1;background:rgba(255,255,255,.06);border-radius:6px;height:22px;overflow:hidden;position:relative}
+.ffill{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:10px;font-size:.7rem;font-weight:700;color:#fff;white-space:nowrap;transition:width 1s ease}
+.fconv{width:100px;text-align:right;font-size:.78rem;font-weight:700;flex-shrink:0}
+
+/* Activities bars */
+.brow{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.brow:last-child{margin-bottom:0}
+.bnm{width:96px;font-size:.72rem;color:#cbd5e1;text-align:right;flex-shrink:0;font-weight:600}
+.bwrap{flex:1;background:rgba(255,255,255,.06);border-radius:5px;height:22px;overflow:hidden}
+.bfill{height:100%;border-radius:5px;display:flex;align-items:center;padding-left:10px;font-size:.7rem;font-weight:700;white-space:nowrap;transition:width 1s ease}
+.bnum{width:55px;text-align:right;font-size:.78rem;font-weight:700;flex-shrink:0}
+
+/* ============ FOOTER ============ */
+.footer{text-align:center;padding:6px;font-size:.65rem;color:rgba(255,255,255,.25);border-top:1px solid rgba(255,255,255,.06);flex-shrink:0;background:#080c18}
+
+/* ============ ANIMATIONS ============ */
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.6)}}
+@keyframes drain{from{width:100%}to{width:0}}
+@keyframes bounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-4px)}}
+@keyframes glow{0%,100%{box-shadow:0 8px 30px rgba(108,99,255,.22)}50%{box-shadow:0 8px 40px rgba(108,99,255,.5)}}
+.celebrate{animation:glow 1.2s ease-in-out 3}
+
+/* Goal celebration overlay */
+.celebration{position:fixed;inset:0;display:none;align-items:center;justify-content:center;pointer-events:none;z-index:9999}
+.celebration.show{display:flex}
+.celebration-text{font-size:5rem;font-weight:900;background:linear-gradient(135deg,#FFD700,#FF8C00,#6c63ff);-webkit-background-clip:text;background-clip:text;color:transparent;animation:pop 2s ease-out;text-shadow:0 0 60px rgba(255,215,0,.6)}
+@keyframes pop{0%{transform:scale(0);opacity:0}30%{transform:scale(1.2);opacity:1}70%{transform:scale(1);opacity:1}100%{transform:scale(1.1);opacity:0}}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<div class="header">
+  <div class="logo-box">
+    <div class="logo-icon">B</div>
+    <div class="logo-text">
+      <h1>BUMAX — Dashboard Comercial</h1>
+      <span>Performance da Equipe · <span id="periodLbl">Maio 2026</span> · Funil de Vendas</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="live-pill"><div class="dot"></div>AO VIVO</div>
+    <div>
+      <div class="clock" id="clk">--:--:--</div>
+      <div class="date-str" id="dstr">--</div>
+    </div>
+    <div class="next-update">
+      <div>Próx. atualiz. em <span id="nxt">5</span> min</div>
+      <div class="cbar"><div class="cbar-fill" id="cbf"></div></div>
+      <div class="fresh" id="freshness" style="font-size:.62rem;color:#00ff95;margin-top:3px">Carregando...</div>
+    </div>
+  </div>
+</div>
+
+<!-- Motivational rotating bar -->
+<div class="motive" id="motive">💡 "A excelência não é um ato, mas um hábito. Cada ligação é um passo rumo ao fechamento!" — Equipe BUMAX</div>
+
+<!-- ===== MAIN GRID ===== -->
+<div class="main">
+
+  <!-- ===== DUELO DO DIA ===== -->
+  <div class="slbl">🔥 Duelo do Dia · Quem está vendendo mais agora?</div>
+  <div class="duelo-grid">
+    <div class="duelo-card" id="duelo1" style="--dc1:#6c63ff;--dc2:#a855f7">
+      <div class="duelo-head">
+        <div class="duelo-rank r1" id="duelo1Rank">🥇</div>
+        <div class="duelo-av ag" id="duelo1Av">GAB</div>
+        <div class="duelo-info">
+          <div class="duelo-name" id="duelo1Name">Gabriele</div>
+          <div class="duelo-sub" id="duelo1Sub">Vendedora</div>
+        </div>
+        <div class="duelo-status lider" id="duelo1Status">LÍDER</div>
+      </div>
+      <div class="duelo-metrics">
+        <div class="duelo-metric">
+          <div class="duelo-metric-icon">💰</div>
+          <div class="duelo-metric-val green" id="duelo1Vend">R$ 0</div>
+          <div class="duelo-metric-lbl">Vendido hoje</div>
+          <div class="duelo-metric-sub" id="duelo1VendSub">0 negócios</div>
+        </div>
+        <div class="duelo-metric">
+          <div class="duelo-metric-icon">📋</div>
+          <div class="duelo-metric-val blue" id="duelo1Orc">R$ 0</div>
+          <div class="duelo-metric-lbl">Orçado hoje</div>
+          <div class="duelo-metric-sub" id="duelo1OrcSub">0 novos</div>
+        </div>
+        <div class="duelo-metric span2">
+          <div class="duelo-metric-icon">⚡</div>
+          <div class="duelo-metric-val yellow" id="duelo1Mov">0</div>
+          <div class="duelo-metric-lbl">Movimentações de hoje (deals tocados)</div>
+        </div>
+      </div>
+    </div>
+    <div class="duelo-card" id="duelo2" style="--dc1:#4facfe;--dc2:#00f2fe">
+      <div class="duelo-head">
+        <div class="duelo-rank r2" id="duelo2Rank">🥈</div>
+        <div class="duelo-av aa" id="duelo2Av">ADR</div>
+        <div class="duelo-info">
+          <div class="duelo-name" id="duelo2Name">Adriane</div>
+          <div class="duelo-sub" id="duelo2Sub">Vendedora</div>
+        </div>
+        <div class="duelo-status" id="duelo2Status" style="display:none">LÍDER</div>
+      </div>
+      <div class="duelo-metrics">
+        <div class="duelo-metric">
+          <div class="duelo-metric-icon">💰</div>
+          <div class="duelo-metric-val green" id="duelo2Vend">R$ 0</div>
+          <div class="duelo-metric-lbl">Vendido hoje</div>
+          <div class="duelo-metric-sub" id="duelo2VendSub">0 negócios</div>
+        </div>
+        <div class="duelo-metric">
+          <div class="duelo-metric-icon">📋</div>
+          <div class="duelo-metric-val blue" id="duelo2Orc">R$ 0</div>
+          <div class="duelo-metric-lbl">Orçado hoje</div>
+          <div class="duelo-metric-sub" id="duelo2OrcSub">0 novos</div>
+        </div>
+        <div class="duelo-metric span2">
+          <div class="duelo-metric-icon">⚡</div>
+          <div class="duelo-metric-val yellow" id="duelo2Mov">0</div>
+          <div class="duelo-metric-lbl">Movimentações de hoje (deals tocados)</div>
+        </div>
+      </div>
+    </div>
+    <div class="duelo-card" id="duelo3" style="--dc1:#00d2b2;--dc2:#00ff95">
+      <div class="duelo-head">
+        <div class="duelo-rank r3" id="duelo3Rank">🥉</div>
+        <div class="duelo-av am" id="duelo3Av">MAC</div>
+        <div class="duelo-info">
+          <div class="duelo-name" id="duelo3Name">Maria Cleide</div>
+          <div class="duelo-sub" id="duelo3Sub">Vendedora</div>
+        </div>
+        <div class="duelo-status" id="duelo3Status" style="display:none">LÍDER</div>
+      </div>
+      <div class="duelo-metrics">
+        <div class="duelo-metric">
+          <div class="duelo-metric-icon">💰</div>
+          <div class="duelo-metric-val green" id="duelo3Vend">R$ 0</div>
+          <div class="duelo-metric-lbl">Vendido hoje</div>
+          <div class="duelo-metric-sub" id="duelo3VendSub">0 negócios</div>
+        </div>
+        <div class="duelo-metric">
+          <div class="duelo-metric-icon">📋</div>
+          <div class="duelo-metric-val blue" id="duelo3Orc">R$ 0</div>
+          <div class="duelo-metric-lbl">Orçado hoje</div>
+          <div class="duelo-metric-sub" id="duelo3OrcSub">0 novos</div>
+        </div>
+        <div class="duelo-metric span2">
+          <div class="duelo-metric-icon">⚡</div>
+          <div class="duelo-metric-val yellow" id="duelo3Mov">0</div>
+          <div class="duelo-metric-lbl">Movimentações de hoje (deals tocados)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 1: TOP STRIP KPIs (HOJE + META + COMPARATIVO) -->
+  <div class="slbl">🚀 Hoje · Meta do Mês · Comparativo vs. Abril 2026</div>
+
+  <div class="kpi" style="--c1:#00ff95;--c2:#00d2b2">
+    <div class="kpi-head"><div class="kpi-lbl">Vendas de Hoje</div><div class="kpi-icon">💰</div></div>
+    <div><div class="kpi-val green" id="vHojeVal">R$ 0</div><div class="kpi-sub"><span id="vHojeQtd">0 negócios fechados</span></div></div>
+  </div>
+
+  <div class="kpi" style="--c1:#4facfe;--c2:#00f2fe">
+    <div class="kpi-head"><div class="kpi-lbl">Atividades Hoje</div><div class="kpi-icon">⚡</div></div>
+    <div><div class="kpi-val blue" id="aHojeVal">0</div><div class="kpi-sub">ligações · WhatsApp · e-mails · visitas</div></div>
+  </div>
+
+  <div class="kpi" style="--c1:#6c63ff;--c2:#a855f7">
+    <div class="kpi-head"><div class="kpi-lbl">Meta do Mês</div><div class="kpi-icon">🎯</div></div>
+    <div>
+      <div style="display:flex;align-items:baseline;justify-content:space-between">
+        <div class="kpi-val purple" id="metaVal">R$ 111.998</div>
+        <div style="font-size:.78rem;color:#94a3b8">de <strong style="color:#cbd5e1" id="metaAlvo">R$ 150.000</strong></div>
+      </div>
+      <div class="goal-bar"><div class="goal-fill" id="metaFill" style="width:0%"></div></div>
+      <div class="kpi-sub"><span id="metaPct">75%</span> da meta · <span id="metaFalta" class="yellow">faltam R$ 38.002</span></div>
+    </div>
+  </div>
+
+  <div class="kpi" style="--c1:#ffd60a;--c2:#ff9e00">
+    <div class="kpi-head"><div class="kpi-lbl">vs. Abril 2026</div><div class="kpi-icon">📈</div></div>
+    <div>
+      <div style="display:flex;align-items:baseline;gap:10px">
+        <div class="kpi-val" id="cmpVal">+22%</div>
+        <div class="kpi-trend kpi-up" id="cmpBadge">▲ crescimento</div>
+      </div>
+      <div class="kpi-sub">Abril: <strong style="color:#cbd5e1" id="cmpAnt">R$ 91.800</strong> · Maio: <strong style="color:#cbd5e1" id="cmpAtu">R$ 111.998</strong></div>
+    </div>
+  </div>
+
+  <!-- Row 2: PODIUM -->
+  <div class="slbl">🏆 Ranking de Vendas — Negócios Ganhos · <span id="rankPeriod">Maio 2026</span></div>
+
+  <div class="podium">
+    <!-- 2nd place -->
+    <div class="pc p2" id="pod2">
+      <div class="rn r2">2</div><div class="av aa" id="pod2Av">ADR</div>
+      <div class="pname" id="pod2Name">Adriane</div>
+      <div class="pgain" style="font-size:1.4rem" id="pod2Val">R$ 40.887,71</div>
+      <div class="pgain-l">valor ganho no mês</div>
+      <div class="pct blue" id="pod2Qtd">28 negócios fechados</div>
+      <div class="pmini">
+        <div class="pm"><div class="pmv green" id="pod2Nov">54</div><div class="pml">Novos</div></div>
+        <div class="pm"><div class="pmv red" id="pod2Per">11</div><div class="pml">Perdidos</div></div>
+        <div class="pm"><div class="pmv yellow" id="pod2Abe">30</div><div class="pml">Abertos</div></div>
+      </div>
+      <div class="pbar"><div class="pbf" id="pod2Bar" style="width:63%;background:linear-gradient(90deg,#4facfe,#00f2fe)"></div></div>
+    </div>
+    <!-- 1st place -->
+    <div class="pc p1" id="pod1">
+      <div class="crown">👑</div><div class="rn r1">1</div><div class="av ag" id="pod1Av">GAB</div>
+      <div class="pname" id="pod1Name">Gabriele</div>
+      <div class="pgain" style="font-size:1.7rem" id="pod1Val">R$ 64.572,95</div>
+      <div class="pgain-l">valor ganho no mês</div>
+      <div class="pct purple" id="pod1Qtd">42 negócios fechados</div>
+      <div class="pmini">
+        <div class="pm"><div class="pmv green" id="pod1Nov">43</div><div class="pml">Novos</div></div>
+        <div class="pm"><div class="pmv red" id="pod1Per">6</div><div class="pml">Perdidos</div></div>
+        <div class="pm"><div class="pmv yellow" id="pod1Abe">10</div><div class="pml">Abertos</div></div>
+      </div>
+      <div class="pbar"><div class="pbf" id="pod1Bar" style="width:100%;background:linear-gradient(90deg,#6c63ff,#a855f7)"></div></div>
+    </div>
+    <!-- 3rd place -->
+    <div class="pc p3" id="pod3">
+      <div class="rn r3">3</div><div class="av am" id="pod3Av">MAC</div>
+      <div class="pname" id="pod3Name">Maria Cleide</div>
+      <div class="pgain" style="font-size:1.1rem" id="pod3Val">R$ 6.537,51</div>
+      <div class="pgain-l">valor ganho no mês</div>
+      <div class="pct teal" id="pod3Qtd">3 negócios fechados</div>
+      <div class="pmini">
+        <div class="pm"><div class="pmv green" id="pod3Nov">13</div><div class="pml">Novos</div></div>
+        <div class="pm"><div class="pmv red" id="pod3Per">3</div><div class="pml">Perdidos</div></div>
+        <div class="pm"><div class="pmv yellow" id="pod3Abe">68</div><div class="pml">Abertos</div></div>
+      </div>
+      <div class="pbar"><div class="pbf" id="pod3Bar" style="width:10%;background:linear-gradient(90deg,#00d2b2,#00ff95)"></div></div>
+    </div>
+  </div>
+
+  <!-- Row 3: DETAILED METRICS PER SELLER + FUNNEL -->
+  <div class="slbl">📊 Métricas Detalhadas · 🪜 Funil por Etapa · 📉 Análise Visual</div>
+
+  <!-- Seller 1 -->
+  <div class="mc">
+    <div class="mch"><div class="mav aa">ADR</div><div><div class="mn">Adriane</div><div class="mr">Vendedora</div></div></div>
+    <div class="mrow"><span class="ml">🎯 Meta Individual</span><span class="mv" id="s1MetaTxt">—</span></div>
+    <div class="metabar-wrap"><div class="metabar"><div class="metabar-fill" id="s1MetaFill" style="background:linear-gradient(90deg,#4facfe,#00f2fe);width:0%"></div></div><div class="metabar-pct" id="s1MetaPct">0%</div></div>
+    <div class="mrow"><span class="ml">✅ Atividades</span><span class="mv green" id="s1Ativ">1.091</span></div>
+    <div class="mrow"><span class="ml">💰 Ganhos</span><span class="mv green" id="s1Ganh">28 · R$ 40.887</span></div>
+    <div class="mrow"><span class="ml">🚀 Iniciados</span><span class="mv blue" id="s1Ini">54 · R$ 317.368</span></div>
+    <div class="mrow"><span class="ml">📂 Em Aberto</span><span class="mv yellow" id="s1Abe">30 · R$ 286.517</span></div>
+    <div class="mrow"><span class="ml">⚠️ Atrasados</span><span class="mv"><span class="br" id="s1Atr">25 negócios</span></span></div>
+    <div class="mrow"><span class="ml">❌ Perdidos</span><span class="mv red" id="s1Per">11 · R$ 19.198</span></div>
+    <div class="mrow"><span class="ml">📈 Conversão</span><span class="mv green" id="s1Conv">71,8%</span></div>
+  </div>
+
+  <!-- Seller 2 (Leader) -->
+  <div class="mc" style="border-color:rgba(108,99,255,.35)">
+    <div class="mch"><div class="mav ag">GAB</div><div><div class="mn">Gabriele</div><div class="mr">🏆 Líder do Mês</div></div></div>
+    <div class="mrow"><span class="ml">🎯 Meta Individual</span><span class="mv" id="s2MetaTxt">—</span></div>
+    <div class="metabar-wrap"><div class="metabar"><div class="metabar-fill" id="s2MetaFill" style="background:linear-gradient(90deg,#6c63ff,#a855f7);width:0%"></div></div><div class="metabar-pct" id="s2MetaPct">0%</div></div>
+    <div class="mrow"><span class="ml">✅ Atividades</span><span class="mv green" id="s2Ativ">326</span></div>
+    <div class="mrow"><span class="ml">💰 Ganhos</span><span class="mv green" id="s2Ganh">42 · R$ 64.572</span></div>
+    <div class="mrow"><span class="ml">🚀 Iniciados</span><span class="mv blue" id="s2Ini">43 · R$ 55.102</span></div>
+    <div class="mrow"><span class="ml">📂 Em Aberto</span><span class="mv yellow" id="s2Abe">10 · R$ 15.699</span></div>
+    <div class="mrow"><span class="ml">⚠️ Atrasados</span><span class="mv"><span class="bg" id="s2Atr">2 negócios</span></span></div>
+    <div class="mrow"><span class="ml">❌ Perdidos</span><span class="mv red" id="s2Per">6 · R$ 9.703</span></div>
+    <div class="mrow"><span class="ml">📈 Conversão</span><span class="mv green" id="s2Conv">87,5%</span></div>
+  </div>
+
+  <!-- Funnel by stage -->
+  <div class="cc">
+    <div class="ct">🪜 Taxa de Conversão por Etapa do Funil</div>
+    <div class="cc-body">
+      <div class="funnel" id="funnel">
+        <!-- Will be rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Loss reasons chart -->
+  <div class="cc">
+    <div class="ct">🎯 Principais Motivos de Perda</div>
+    <div class="cc-body"><canvas id="cPerda"></canvas></div>
+  </div>
+
+  <!-- Row 4: Seller 3 + Activities + Comparative chart -->
+  <!-- Seller 3 -->
+  <div class="mc">
+    <div class="mch"><div class="mav am">MAC</div><div><div class="mn">Maria Cleide</div><div class="mr">Vendedora</div></div></div>
+    <div class="mrow"><span class="ml">🎯 Meta Individual</span><span class="mv" id="s3MetaTxt">—</span></div>
+    <div class="metabar-wrap"><div class="metabar"><div class="metabar-fill" id="s3MetaFill" style="background:linear-gradient(90deg,#00d2b2,#00ff95);width:0%"></div></div><div class="metabar-pct" id="s3MetaPct">0%</div></div>
+    <div class="mrow"><span class="ml">✅ Atividades</span><span class="mv green" id="s3Ativ">361</span></div>
+    <div class="mrow"><span class="ml">💰 Ganhos</span><span class="mv green" id="s3Ganh">3 · R$ 6.537</span></div>
+    <div class="mrow"><span class="ml">🚀 Iniciados</span><span class="mv blue" id="s3Ini">13 · R$ 110.993</span></div>
+    <div class="mrow"><span class="ml">📂 Em Aberto</span><span class="mv yellow" id="s3Abe">68 · R$ 85.445</span></div>
+    <div class="mrow"><span class="ml">⚠️ Atrasados</span><span class="mv"><span class="br" id="s3Atr">29 negócios</span></span></div>
+    <div class="mrow"><span class="ml">❌ Perdidos</span><span class="mv red" id="s3Per">3 · R$ 29.234</span></div>
+    <div class="mrow"><span class="ml">📈 Conversão</span><span class="mv yellow" id="s3Conv">50,0%</span></div>
+  </div>
+
+  <!-- Activities -->
+  <div class="cc">
+    <div class="ct">⚡ Volume de Atividades no Mês</div>
+    <div class="cc-body" id="activities">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+
+  <!-- Comparative bar chart -->
+  <div class="cc" style="grid-column:span 2">
+    <div class="ct">📊 Ganhos × Perdidos × Iniciados × Em Aberto</div>
+    <div class="cc-body"><canvas id="cComp"></canvas></div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">Dashboard Comercial BUMAX · Fonte: Agendor CRM · Atualização automática · © 2026 BUMAX</div>
+
+<!-- Celebration overlay -->
+<div class="celebration" id="celeb"><div class="celebration-text" id="celebText">🎉 NOVA VENDA! 🎉</div></div>
+
+<!-- ============== DATA + LOGIC ============== -->
+<script>
+/* =====================================================================
+   📊 BUMAX Dashboard TV — v2.0 (GitHub Pages + fetch data.json)
+   - Carrega dados de ./data.json (atualizado pelo agendor_sync.ps1)
+   - Recarrega a cada 5 minutos
+   - Mostra "atualizado há X min" e indicador de status
+   - Fallback: se fetch falhar, usa último snapshot do localStorage
+   ===================================================================== */
+
+const REFRESH_MIN = 5;
+const DATA_URL = 'data.json?_t=' + Date.now(); // cache bust no boot
+const LS_KEY = 'bumax_last_data';
+const LS_KEY_TS = 'bumax_last_data_ts';
+
+let DATA = null;
+let DATA_TS = null; // timestamp do data.json
+let lastFetchOK = false;
+
+/* ============== UTILIDADES ============== */
+const fmtBRL = v => 'R$ ' + (v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtBRLs = v => 'R$ ' + Math.round(v||0).toLocaleString('pt-BR');
+const fmtNum = v => (v||0).toLocaleString('pt-BR');
+
+/* ============== CLOCK ============== */
+function tick(){
+  const n=new Date();
+  document.getElementById('clk').textContent=[n.getHours(),n.getMinutes(),n.getSeconds()].map(x=>String(x).padStart(2,'0')).join(':');
+  const D=['Domingo','Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado'];
+  const M=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+  document.getElementById('dstr').textContent=D[n.getDay()]+', '+n.getDate()+' de '+M[n.getMonth()]+' de '+n.getFullYear();
+  // Atualiza indicador "atualizado há X min"
+  updateFreshness();
+}
+setInterval(tick,1000);
+
+/* ============== FRESHNESS INDICATOR ============== */
+function updateFreshness(){
+  if (!DATA_TS) return;
+  const ts = new Date(DATA_TS);
+  const diffMin = Math.floor((Date.now() - ts.getTime()) / 60000);
+  const el = document.getElementById('freshness');
+  if (!el) return;
+  let label, cls;
+  if (diffMin < 1)       { label = 'agora';         cls = 'green'; }
+  else if (diffMin < 6)  { label = `há ${diffMin} min`; cls = 'green'; }
+  else if (diffMin < 15) { label = `há ${diffMin} min`; cls = 'yellow'; }
+  else                   { label = `há ${diffMin} min ⚠️`; cls = 'red'; }
+  el.textContent = 'Dados atualizados ' + label;
+  el.className = 'fresh ' + cls;
+}
+
+/* ============== MOTIVATIONAL QUOTES ============== */
+const Q=[
+  '💡 "A excelência não é um ato, mas um hábito. Cada ligação é um passo rumo ao fechamento!" — Equipe BUMAX',
+  '🔥 "Quem faz mais atividades, fecha mais negócios. Constância é o segredo do campeão!"',
+  '🚀 "Cada cliente é uma oportunidade de mostrar o melhor da BUMAX. Dê o seu máximo hoje!"',
+  '🏆 "Ganhar é consequência. Agir com disciplina é a causa. Mais ligações = mais fechamentos!"',
+  '⭐ "O cliente que você não contactar hoje, seu concorrente vai contactar amanhã!"',
+  '💪 "Foco, disciplina e positividade. Esses são os pilares da campeã de vendas BUMAX!"',
+  '🎯 "Meta sem prazo é só desejo. Meta com ação é resultado garantido!"',
+  '🌟 "Vendedor de verdade não espera oportunidade — ele cria oportunidade!"',
+  '⚡ "A diferença entre o impossível e o possível está na determinação de uma vendedora BUMAX."',
+  '🔝 "Não conte os dias, faça os dias contarem. Cada hora é um passo rumo à liderança!"',
+  '💎 "Pequenas ações diárias, repetidas com disciplina, geram resultados extraordinários!"',
+  '🚪 "Cada NÃO é um passo mais perto do próximo SIM. Continue ligando, continue prospectando!"',
+  '📞 "A ligação que você adia hoje, é o cliente que seu concorrente fecha amanhã."',
+  '🎖️ "Vencedoras são feitas de hábitos consistentes, não de momentos isolados de genialidade."',
+  '🌈 "Atitude positiva + ação massiva = resultado extraordinário. Fórmula BUMAX!"',
+  '🦁 "Coragem para ligar, paciência para escutar, técnica para fechar. Você tem tudo isso!"'
+];
+let qi=0;
+setInterval(()=>{qi=(qi+1)%Q.length;const m=document.getElementById('motive');if(m)m.innerHTML=Q[qi];},10000);
+
+/* ============== AUTO-RELOAD COUNTDOWN ============== */
+let minsLeft = REFRESH_MIN;
+function startCountdown(){
+  minsLeft = REFRESH_MIN;
+  const nxtEl = document.getElementById('nxt');
+  if (nxtEl) nxtEl.textContent = minsLeft;
+  const cbf = document.getElementById('cbf');
+  if (cbf) cbf.style.animationDuration = (REFRESH_MIN*60)+'s';
+}
+setInterval(()=>{
+  minsLeft--;
+  if(minsLeft<=0){
+    // Em vez de location.reload(), refaz só o fetch do data.json (mais leve, sem flicker)
+    loadData();
+    minsLeft = REFRESH_MIN;
+  }
+  const nxtEl = document.getElementById('nxt');
+  if (nxtEl) nxtEl.textContent = minsLeft;
+}, 60000);
+
+/* ============== RENDER DASHBOARD ============== */
+function render(){
+  if (!DATA) return;
+
+  document.getElementById('periodLbl').textContent = DATA.periodo || '';
+  document.getElementById('rankPeriod').textContent = DATA.periodo || '';
+
+  // Duelo do Dia
+  const duelo = [...(DATA.vendedoras||[])].map(v => ({
+    iniciais: v.iniciais, nome: v.nome, classe: v.classe, cor1: v.cor1, cor2: v.cor2,
+    vendas_v: v.hoje_vendas_valor || 0,
+    vendas_q: v.hoje_vendas_qtd   || 0,
+    orcado_v: v.hoje_orcado_valor || 0,
+    orcado_q: v.hoje_orcado_qtd   || 0,
+    movim:    v.hoje_movimentacoes || 0
+  })).sort((a,b) => {
+    if (b.vendas_v !== a.vendas_v) return b.vendas_v - a.vendas_v;
+    if (b.orcado_v !== a.orcado_v) return b.orcado_v - a.orcado_v;
+    return b.movim - a.movim;
+  });
+  const rankIcons = ['🥇','🥈','🥉'];
+  duelo.forEach((v, i) => {
+    const id = 'duelo' + (i+1);
+    document.getElementById(id+'Av').textContent  = v.iniciais;
+    document.getElementById(id+'Av').className    = 'duelo-av ' + v.classe;
+    document.getElementById(id+'Name').textContent = v.nome;
+    document.getElementById(id+'Rank').textContent = rankIcons[i];
+    document.getElementById(id+'Rank').className   = 'duelo-rank r' + (i+1);
+    document.getElementById(id+'Vend').textContent = fmtBRLs(v.vendas_v);
+    document.getElementById(id+'VendSub').textContent = v.vendas_q + (v.vendas_q===1 ? ' negócio' : ' negócios');
+    document.getElementById(id+'Orc').textContent  = fmtBRLs(v.orcado_v);
+    document.getElementById(id+'OrcSub').textContent = v.orcado_q + (v.orcado_q===1 ? ' novo' : ' novos');
+    document.getElementById(id+'Mov').textContent  = fmtNum(v.movim);
+    document.getElementById(id+'Sub').textContent  = i===0 ? '🏆 No topo agora' : 'Vendedora';
+    const card = document.getElementById(id);
+    const status = document.getElementById(id+'Status');
+    if (i === 0 && v.vendas_v > 0) {
+      card.classList.add('lider');
+      status.style.display = 'block';
+      status.className = 'duelo-status lider';
+      status.textContent = 'LÍDER';
+    } else {
+      card.classList.remove('lider');
+      status.style.display = 'none';
+    }
+  });
+
+  // KPIs do dia
+  document.getElementById('vHojeVal').textContent = fmtBRLs(DATA.hoje.vendas_valor);
+  document.getElementById('vHojeQtd').textContent = DATA.hoje.vendas_qtd + ' negócios fechados';
+  document.getElementById('aHojeVal').textContent = fmtNum(DATA.hoje.atividades);
+
+  // Meta
+  const metaAlvoTotal    = DATA.vendedoras.reduce((s,v)=>s + (v.meta||0), 0);
+  const metaAtingidoTotal= DATA.vendedoras.reduce((s,v)=>s + (v.ganhos_valor||0), 0);
+  const pctMeta = metaAlvoTotal>0 ? Math.min(100, (metaAtingidoTotal/metaAlvoTotal)*100) : 0;
+  document.getElementById('metaVal').textContent = fmtBRLs(metaAtingidoTotal);
+  document.getElementById('metaAlvo').textContent = fmtBRLs(metaAlvoTotal);
+  document.getElementById('metaPct').textContent = pctMeta.toFixed(0) + '%';
+  const falta = Math.max(0, metaAlvoTotal - metaAtingidoTotal);
+  document.getElementById('metaFalta').textContent = falta>0 ? 'faltam '+fmtBRLs(falta) : '✅ Meta batida!';
+  setTimeout(()=>{document.getElementById('metaFill').style.width = pctMeta+'%';}, 200);
+
+  // Comparativo
+  const var_pct = ((DATA.comparativo.mes_atual.total - DATA.comparativo.mes_anterior.total) / DATA.comparativo.mes_anterior.total) * 100;
+  const cv = document.getElementById('cmpVal');
+  const cb = document.getElementById('cmpBadge');
+  cv.textContent = (var_pct>=0?'+':'') + var_pct.toFixed(1) + '%';
+  cv.className = 'kpi-val ' + (var_pct>=0?'green':'red');
+  cb.textContent = (var_pct>=0?'▲ crescimento':'▼ queda');
+  cb.className = 'kpi-trend ' + (var_pct>=0?'kpi-up':'kpi-down');
+  document.getElementById('cmpAnt').textContent = fmtBRLs(DATA.comparativo.mes_anterior.total);
+  document.getElementById('cmpAtu').textContent = fmtBRLs(DATA.comparativo.mes_atual.total);
+
+  // Pódio
+  const sorted = [...DATA.vendedoras].sort((a,b)=>b.ganhos_valor - a.ganhos_valor);
+  const maxGanho = sorted[0].ganhos_valor || 1;
+  const podMap = [sorted[1], sorted[0], sorted[2]];
+  const ids = ['pod2','pod1','pod3'];
+  podMap.forEach((p,i)=>{
+    if(!p) return;
+    const pid = ids[i];
+    document.getElementById(pid+'Av').textContent = p.iniciais;
+    document.getElementById(pid+'Name').textContent = p.nome;
+    document.getElementById(pid+'Val').textContent = fmtBRL(p.ganhos_valor);
+    document.getElementById(pid+'Qtd').textContent = p.ganhos_qtd + ' negócios fechados';
+    document.getElementById(pid+'Nov').textContent = p.iniciados_qtd;
+    document.getElementById(pid+'Per').textContent = p.perdidos_qtd;
+    document.getElementById(pid+'Abe').textContent = p.abertos_qtd;
+    const widthPct = Math.max(8, (p.ganhos_valor/maxGanho)*100);
+    setTimeout(()=>{document.getElementById(pid+'Bar').style.width = widthPct + '%';},300);
+  });
+
+  // Métricas por vendedora
+  const byIni = Object.fromEntries(DATA.vendedoras.map(v=>[v.iniciais,v]));
+  const cards = [
+    {pref:'s1',ini:'ADR'},
+    {pref:'s2',ini:'GAB'},
+    {pref:'s3',ini:'MAC'}
+  ];
+  cards.forEach(c=>{
+    const v = byIni[c.ini]; if(!v) return;
+    const meta = v.meta || 0;
+    const pctInd = meta>0 ? Math.min(100, (v.ganhos_valor/meta)*100) : 0;
+    const metaTxtEl = document.getElementById(c.pref+'MetaTxt');
+    if(metaTxtEl){
+      metaTxtEl.innerHTML = `<span style="color:${v.cor1}">${fmtBRLs(v.ganhos_valor)}</span> / ${fmtBRLs(meta)}`;
+    }
+    const metaPctEl = document.getElementById(c.pref+'MetaPct');
+    if(metaPctEl){
+      metaPctEl.textContent = pctInd.toFixed(0)+'%';
+      metaPctEl.style.color = pctInd>=100 ? '#00ff95' : pctInd>=70 ? '#ffd60a' : '#94a3b8';
+    }
+    setTimeout(()=>{
+      const f = document.getElementById(c.pref+'MetaFill');
+      if(f) f.style.width = pctInd+'%';
+    },300);
+
+    document.getElementById(c.pref+'Ativ').textContent = fmtNum(v.atividades);
+    document.getElementById(c.pref+'Ganh').textContent = v.ganhos_qtd + ' · ' + fmtBRLs(v.ganhos_valor);
+    document.getElementById(c.pref+'Ini').textContent  = v.iniciados_qtd + ' · ' + fmtBRLs(v.iniciados_valor);
+    document.getElementById(c.pref+'Abe').textContent  = v.abertos_qtd + ' · ' + fmtBRLs(v.abertos_valor);
+    document.getElementById(c.pref+'Per').textContent  = v.perdidos_qtd + ' · ' + fmtBRLs(v.perdidos_valor);
+    document.getElementById(c.pref+'Conv').textContent = v.conversao.toFixed(1).replace('.',',') + '%';
+    const atrEl = document.getElementById(c.pref+'Atr');
+    atrEl.textContent = v.atrasados + ' negócios';
+    atrEl.className = v.atrasados_ok ? 'bg' : 'br';
+  });
+
+  // Funil
+  const maxF = Math.max(...DATA.funil.map(f=>f.qtd));
+  const funnelEl = document.getElementById('funnel');
+  funnelEl.innerHTML = DATA.funil.map((f,i)=>{
+    const valStr = (f.valor !== undefined && f.valor !== null) ? fmtBRLs(f.valor) : (f.conv.toFixed(1).replace('.',',') + '%');
+    return `<div class="fstage">
+      <div class="fname">${f.etapa}</div>
+      <div class="fwrap"><div class="ffill" style="width:0%;background:linear-gradient(90deg,${f.cor},${f.cor}cc)">${f.qtd}</div></div>
+      <div class="fconv" style="color:${f.cor}">${valStr}</div>
+    </div>`;
+  }).join('');
+  setTimeout(()=>{
+    document.querySelectorAll('.ffill').forEach((el,i)=>{
+      const w = (DATA.funil[i].qtd / maxF * 100).toFixed(1);
+      el.style.width = w+'%';
+    });
+  },400);
+
+  // Atividades volume
+  const actEl = document.getElementById('activities');
+  const sortedAct = [...DATA.vendedoras].sort((a,b)=>b.atividades - a.atividades);
+  const maxAct = sortedAct[0].atividades || 1;
+  const totalAct = DATA.vendedoras.reduce((s,v)=>s+v.atividades,0);
+  actEl.innerHTML = sortedAct.map(v=>{
+    return `<div class="brow">
+      <div class="bnm">${v.nome}</div>
+      <div class="bwrap"><div class="bfill" style="width:0%;background:linear-gradient(90deg,${v.cor1},${v.cor2});${v.iniciais==='ADR'?'color:#000':''}">${fmtNum(v.atividades)} atividades</div></div>
+      <div class="bnum" style="color:${v.cor1}">${fmtNum(v.atividades)}</div>
+    </div>`;
+  }).join('') +
+    `<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font-size:.66rem;color:#64748b">
+      <span>Ligações · WhatsApp · E-mails · Tarefas · Visitas</span>
+      <span>Total: <strong style="color:#fff">${fmtNum(totalAct)}</strong></span>
+    </div>`;
+  setTimeout(()=>{
+    document.querySelectorAll('#activities .bfill').forEach((el,i)=>{
+      const w = (sortedAct[i].atividades / maxAct * 100).toFixed(1);
+      el.style.width = w+'%';
+    });
+  },500);
+}
+
+let chartLoss = null;
+let chartComp = null;
+function renderCharts(){
+  if (!DATA) return;
+  // Destrói gráficos antigos antes de recriar
+  if (chartLoss) { chartLoss.destroy(); chartLoss = null; }
+  if (chartComp) { chartComp.destroy(); chartComp = null; }
+
+  const cp=document.getElementById('cPerda').getContext('2d');
+  chartLoss = new Chart(cp,{
+    type:'doughnut',
+    data:{
+      labels:DATA.motivos_perda.map(m=>m.label),
+      datasets:[{data:DATA.motivos_perda.map(m=>m.pct),backgroundColor:DATA.motivos_perda.map(m=>m.cor),borderWidth:2,borderColor:'#080c18',hoverOffset:8}]
+    },
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#cbd5e1',font:{size:10},padding:6,boxWidth:11}},tooltip:{callbacks:{label:ctx=>' '+ctx.label+': ~'+ctx.parsed+'%'}}}}
+  });
+
+  const cc=document.getElementById('cComp').getContext('2d');
+  chartComp = new Chart(cc,{
+    type:'bar',
+    data:{
+      labels:DATA.vendedoras.map(v=>v.nome),
+      datasets:[
+        {label:'Ganhos',     data:DATA.vendedoras.map(v=>v.ganhos_qtd),    backgroundColor:'rgba(0,255,149,.78)',borderRadius:5},
+        {label:'Perdidos',   data:DATA.vendedoras.map(v=>v.perdidos_qtd),  backgroundColor:'rgba(255,77,109,.78)',borderRadius:5},
+        {label:'Iniciados',  data:DATA.vendedoras.map(v=>v.iniciados_qtd), backgroundColor:'rgba(79,172,254,.78)',borderRadius:5},
+        {label:'Em Aberto',  data:DATA.vendedoras.map(v=>v.abertos_qtd),   backgroundColor:'rgba(255,214,10,.78)',borderRadius:5}
+      ]
+    },
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#cbd5e1',font:{size:11},padding:8}}},scales:{x:{ticks:{color:'#cbd5e1',font:{size:11}},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,.04)'}}}}
+  });
+}
+
+/* ============== CELEBRATION (nova venda detectada) ============== */
+function checkNewSale(){
+  if (!DATA) return;
+  try{
+    const lastQtd = parseInt(localStorage.getItem('bumax_last_sale_qtd')||'0');
+    const lastDate = localStorage.getItem('bumax_last_sale_date')||'';
+    const today = new Date().toISOString().slice(0,10);
+    if(lastDate !== today){
+      localStorage.setItem('bumax_last_sale_qtd', DATA.hoje.vendas_qtd);
+      localStorage.setItem('bumax_last_sale_date', today);
+      return;
+    }
+    if(DATA.hoje.vendas_qtd > lastQtd){
+      celebrate();
+      localStorage.setItem('bumax_last_sale_qtd', DATA.hoje.vendas_qtd);
+    }
+  }catch(e){console.warn(e);}
+}
+function celebrate(){
+  const el = document.getElementById('celeb');
+  el.classList.add('show');
+  if(window.confetti){
+    const duration = 3000;
+    const end = Date.now()+duration;
+    (function frame(){
+      confetti({particleCount:5,angle:60,spread:55,origin:{x:0},colors:['#6c63ff','#4facfe','#00ff95','#ffd60a']});
+      confetti({particleCount:5,angle:120,spread:55,origin:{x:1},colors:['#6c63ff','#4facfe','#00ff95','#ffd60a']});
+      if(Date.now()<end) requestAnimationFrame(frame);
+    })();
+  }
+  const leader = document.getElementById('pod1');
+  leader.classList.add('celebrate');
+  setTimeout(()=>{
+    el.classList.remove('show');
+    leader.classList.remove('celebrate');
+  }, 2500);
+}
+
+/* ============== FETCH DATA ============== */
+async function loadData(){
+  try {
+    const r = await fetch('data.json?_t=' + Date.now(), {cache: 'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const json = await r.json();
+    DATA = json;
+    DATA_TS = json.atualizado_em || new Date().toISOString();
+    lastFetchOK = true;
+    // Salva snapshot pra fallback
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify(json));
+      localStorage.setItem(LS_KEY_TS, DATA_TS);
+    } catch(e){}
+    render();
+    renderCharts();
+    checkNewSale();
+    updateFreshness();
+    startCountdown();
+  } catch(err){
+    console.error('Falha ao carregar data.json:', err);
+    lastFetchOK = false;
+    // Fallback: tenta usar último snapshot do localStorage
+    try {
+      const raw = localStorage.getItem(LS_KEY);
+      const ts  = localStorage.getItem(LS_KEY_TS);
+      if (raw && !DATA) {
+        DATA = JSON.parse(raw);
+        DATA_TS = ts;
+        render();
+        renderCharts();
+        showError('Conexão temporariamente indisponível. Mostrando último snapshot salvo.');
+      } else if (!DATA) {
+        showError('Não foi possível carregar os dados. Verifique a conexão com a internet.');
+      }
+    } catch(e){
+      showError('Erro ao carregar dados: ' + err.message);
+    }
+    updateFreshness();
+  }
+}
+
+function showError(msg){
+  let el = document.getElementById('errBanner');
+  if (!el){
+    el = document.createElement('div');
+    el.id = 'errBanner';
+    el.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9000;padding:8px 16px;background:rgba(255,77,109,.92);color:#fff;text-align:center;font-weight:700;font-size:0.85rem;letter-spacing:.5px;box-shadow:0 4px 12px rgba(0,0,0,.4)';
+    document.body.appendChild(el);
+  }
+  el.textContent = '⚠️ ' + msg;
+}
+
+/* ============== INIT ============== */
+tick();
+startCountdown();
+loadData();
+
+// Mostra a quote inicial
+const m=document.getElementById('motive');
+if(m)m.innerHTML=Q[0];
+</script>
+</body>
+</html>
