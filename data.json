@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 5827.86,
     "vendas_qtd": 11,
-    "atividades": 31
+    "atividades": 33
   },
   "comparativo": {
     "mes_anterior": {
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 4871.87,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 3251.77,
-      "hoje_movimentacoes": 8
+      "hoje_movimentacoes": 10
     },
     {
       "iniciais": "GAB",
@@ -176,5 +176,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-29T17:38:42.1210512-03:00"
+  "atualizado_em": "2026-06-29T17:45:48.5980990-03:00"
 }
