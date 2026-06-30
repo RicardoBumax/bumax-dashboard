@@ -1,8 +1,8 @@
 {
   "periodo": "Junho 2026",
   "hoje": {
-    "vendas_valor": 10656.41,
-    "vendas_qtd": 6,
+    "vendas_valor": 10952.51,
+    "vendas_qtd": 7,
     "atividades": 38
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Junho 2026",
-      "total": 309736.55
+      "total": 310032.65
     }
   },
   "vendedoras": [
@@ -25,19 +25,19 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 178,
-      "ganhos_qtd": 94,
-      "ganhos_valor": 183468.09,
+      "ganhos_qtd": 95,
+      "ganhos_valor": 183764.19,
       "iniciados_qtd": 154,
       "iniciados_valor": 421044.11,
-      "abertos_qtd": 18,
-      "abertos_valor": 60422.23,
+      "abertos_qtd": 17,
+      "abertos_valor": 60126.13,
       "atrasados": 0,
       "perdidos_qtd": 59,
       "perdidos_valor": 296237.14,
-      "conversao": 61.4,
+      "conversao": 61.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 2,
-      "hoje_vendas_valor": 4386.77,
+      "hoje_vendas_qtd": 3,
+      "hoje_vendas_valor": 4682.87,
       "hoje_orcado_qtd": 12,
       "hoje_orcado_valor": 38094.17,
       "hoje_movimentacoes": 20,
@@ -80,37 +80,37 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 124,
-      "valor": 298150.7,
+      "qtd": 126,
+      "valor": 306217.18,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 97,
-      "valor": 261574.82,
-      "conv": 78.2,
+      "qtd": 95,
+      "valor": 253508.34,
+      "conv": 75.4,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 51,
       "valor": 164811.24,
-      "conv": 52.6,
+      "conv": 53.7,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 50,
-      "valor": 27243.59,
-      "conv": 98,
+      "qtd": 49,
+      "valor": 26947.49,
+      "conv": 96.1,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 13,
       "valor": 123457.51,
-      "conv": 26,
+      "conv": 26.5,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T17:04:21.0040051-03:00"
+  "atualizado_em": "2026-06-30T17:11:23.4916527-03:00"
 }
