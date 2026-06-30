@@ -42,7 +42,7 @@
       "hoje_orcado_valor": 38094.17,
       "hoje_movimentacoes": 20,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 122,
-      "valor": 288243.66,
+      "qtd": 124,
+      "valor": 298150.7,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,21 +89,21 @@
       "etapa": "Follow-up",
       "qtd": 97,
       "valor": 261574.82,
-      "conv": 79.5,
+      "conv": 78.2,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 53,
-      "valor": 174718.28,
-      "conv": 54.6,
+      "qtd": 51,
+      "valor": 164811.24,
+      "conv": 52.6,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 50,
       "valor": 27243.59,
-      "conv": 94.3,
+      "conv": 98,
       "cor": "#ffd60a"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T16:57:15.7479389-03:00"
+  "atualizado_em": "2026-06-30T17:04:21.0040051-03:00"
 }
