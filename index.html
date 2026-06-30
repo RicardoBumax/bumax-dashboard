@@ -352,8 +352,8 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
   <div class="slbl">📊 Métricas Detalhadas · 🪜 Funil por Etapa · 📉 Análise Visual</div>
 
   <!-- Seller 1 -->
-  <div class="mc">
-    <div class="mch"><div class="mav aa">ADR</div><div><div class="mn">Adriane</div><div class="mr">Vendedora</div></div></div>
+  <div class="mc" id="s1Card">
+    <div class="mch"><div class="mav aa">ADR</div><div><div class="mn">Adriane</div><div class="mr" id="s1Title">Vendedora</div></div></div>
     <div class="mrow"><span class="ml">🎯 Meta Individual</span><span class="mv" id="s1MetaTxt">—</span></div>
     <div class="metabar-wrap"><div class="metabar"><div class="metabar-fill" id="s1MetaFill" style="background:linear-gradient(90deg,#4facfe,#00f2fe);width:0%"></div></div><div class="metabar-pct" id="s1MetaPct">0%</div></div>
     <div class="mrow"><span class="ml">✅ Atividades</span><span class="mv green" id="s1Ativ">1.091</span></div>
@@ -365,9 +365,9 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
     <div class="mrow"><span class="ml">📈 Conversão</span><span class="mv green" id="s1Conv">71,8%</span></div>
   </div>
 
-  <!-- Seller 2 (Leader) -->
-  <div class="mc" style="border-color:rgba(108,99,255,.35)">
-    <div class="mch"><div class="mav ag">GAB</div><div><div class="mn">Gabriele</div><div class="mr">🏆 Líder do Mês</div></div></div>
+  <!-- Seller 2 -->
+  <div class="mc" id="s2Card">
+    <div class="mch"><div class="mav ag">GAB</div><div><div class="mn">Gabriele</div><div class="mr" id="s2Title">Vendedora</div></div></div>
     <div class="mrow"><span class="ml">🎯 Meta Individual</span><span class="mv" id="s2MetaTxt">—</span></div>
     <div class="metabar-wrap"><div class="metabar"><div class="metabar-fill" id="s2MetaFill" style="background:linear-gradient(90deg,#6c63ff,#a855f7);width:0%"></div></div><div class="metabar-pct" id="s2MetaPct">0%</div></div>
     <div class="mrow"><span class="ml">✅ Atividades</span><span class="mv green" id="s2Ativ">326</span></div>
@@ -619,6 +619,9 @@ function render(){
     {pref:'s1',ini:'ADR'},
     {pref:'s2',ini:'GAB'}
   ];
+  // Identifica o lider do mes (quem tem maior ganhos_valor)
+  const leaderIni = [...DATA.vendedoras].sort((a,b)=>b.ganhos_valor - a.ganhos_valor)[0]?.iniciais;
+
   cards.forEach(c=>{
     const v = byIni[c.ini]; if(!v) return;
     const meta = v.meta || 0;
@@ -636,6 +639,24 @@ function render(){
       const f = document.getElementById(c.pref+'MetaFill');
       if(f) f.style.width = pctInd+'%';
     },300);
+
+    // Titulo dinamico: Lider do Mes ou Vendedora (usa v.titulo do sync, com fallback)
+    const isLeader = v.iniciais === leaderIni && v.ganhos_valor > 0;
+    const titleEl = document.getElementById(c.pref+'Title');
+    if(titleEl){
+      titleEl.innerHTML = isLeader ? '🏆 Líder do Mês' : 'Vendedora';
+    }
+    // Destaca border do card lider
+    const cardEl = document.getElementById(c.pref+'Card');
+    if(cardEl){
+      if(isLeader){
+        cardEl.style.borderColor = v.cor1;
+        cardEl.style.boxShadow = `0 0 20px ${v.cor1}33`;
+      } else {
+        cardEl.style.borderColor = '';
+        cardEl.style.boxShadow = '';
+      }
+    }
 
     document.getElementById(c.pref+'Ativ').textContent = fmtNum(v.atividades);
     document.getElementById(c.pref+'Ganh').textContent = v.ganhos_qtd + ' · ' + fmtBRLs(v.ganhos_valor);
