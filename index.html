@@ -79,6 +79,13 @@ body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;backgroun
 .duelo-metric-val{font-size:1.45rem;font-weight:900;line-height:1.1;margin-top:4px}
 .duelo-metric-lbl{font-size:.6rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1.3px;margin-top:3px;font-weight:700}
 .duelo-metric-sub{font-size:.7rem;color:#cbd5e1;margin-top:2px}
+/* Grid 4 atividades (Ligação, WhatsApp, Email, Proposta) */
+.duelo-atv-grid{grid-column:span 2;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:2px}
+.duelo-atv{background:rgba(255,255,255,.05);border-radius:8px;padding:8px 4px;border:1px solid rgba(255,255,255,.04);text-align:center;transition:all .3s}
+.duelo-atv:hover{background:rgba(255,255,255,.08)}
+.duelo-atv-icon{font-size:1.1rem;line-height:1}
+.duelo-atv-val{font-size:1.2rem;font-weight:900;line-height:1;margin-top:3px}
+.duelo-atv-lbl{font-size:.52rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.8px;margin-top:3px;font-weight:700}
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
@@ -219,10 +226,11 @@ body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;backgroun
           <div class="duelo-metric-lbl">Orçado hoje</div>
           <div class="duelo-metric-sub" id="duelo1OrcSub">0 novos</div>
         </div>
-        <div class="duelo-metric span2">
-          <div class="duelo-metric-icon">⚡</div>
-          <div class="duelo-metric-val yellow" id="duelo1Mov">0</div>
-          <div class="duelo-metric-lbl">Movimentações de hoje (deals tocados)</div>
+        <div class="duelo-atv-grid">
+          <div class="duelo-atv"><div class="duelo-atv-icon">📞</div><div class="duelo-atv-val green" id="duelo1Lig">0</div><div class="duelo-atv-lbl">Ligações</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">💬</div><div class="duelo-atv-val teal" id="duelo1Wpp">0</div><div class="duelo-atv-lbl">WhatsApp</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">✉️</div><div class="duelo-atv-val blue" id="duelo1Eml">0</div><div class="duelo-atv-lbl">E-mail</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">📋</div><div class="duelo-atv-val orange" id="duelo1Prp">0</div><div class="duelo-atv-lbl">Proposta</div></div>
         </div>
       </div>
     </div>
@@ -249,10 +257,11 @@ body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;backgroun
           <div class="duelo-metric-lbl">Orçado hoje</div>
           <div class="duelo-metric-sub" id="duelo2OrcSub">0 novos</div>
         </div>
-        <div class="duelo-metric span2">
-          <div class="duelo-metric-icon">⚡</div>
-          <div class="duelo-metric-val yellow" id="duelo2Mov">0</div>
-          <div class="duelo-metric-lbl">Movimentações de hoje (deals tocados)</div>
+        <div class="duelo-atv-grid">
+          <div class="duelo-atv"><div class="duelo-atv-icon">📞</div><div class="duelo-atv-val green" id="duelo2Lig">0</div><div class="duelo-atv-lbl">Ligações</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">💬</div><div class="duelo-atv-val teal" id="duelo2Wpp">0</div><div class="duelo-atv-lbl">WhatsApp</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">✉️</div><div class="duelo-atv-val blue" id="duelo2Eml">0</div><div class="duelo-atv-lbl">E-mail</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">📋</div><div class="duelo-atv-val orange" id="duelo2Prp">0</div><div class="duelo-atv-lbl">Proposta</div></div>
         </div>
       </div>
     </div>
@@ -279,10 +288,11 @@ body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;backgroun
           <div class="duelo-metric-lbl">Orçado hoje</div>
           <div class="duelo-metric-sub" id="duelo3OrcSub">0 novos</div>
         </div>
-        <div class="duelo-metric span2">
-          <div class="duelo-metric-icon">⚡</div>
-          <div class="duelo-metric-val yellow" id="duelo3Mov">0</div>
-          <div class="duelo-metric-lbl">Movimentações de hoje (deals tocados)</div>
+        <div class="duelo-atv-grid">
+          <div class="duelo-atv"><div class="duelo-atv-icon">📞</div><div class="duelo-atv-val green" id="duelo3Lig">0</div><div class="duelo-atv-lbl">Ligações</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">💬</div><div class="duelo-atv-val teal" id="duelo3Wpp">0</div><div class="duelo-atv-lbl">WhatsApp</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">✉️</div><div class="duelo-atv-val blue" id="duelo3Eml">0</div><div class="duelo-atv-lbl">E-mail</div></div>
+          <div class="duelo-atv"><div class="duelo-atv-icon">📋</div><div class="duelo-atv-val orange" id="duelo3Prp">0</div><div class="duelo-atv-lbl">Proposta</div></div>
         </div>
       </div>
     </div>
@@ -564,11 +574,15 @@ function render(){
     vendas_q: v.hoje_vendas_qtd   || 0,
     orcado_v: v.hoje_orcado_valor || 0,
     orcado_q: v.hoje_orcado_qtd   || 0,
-    movim:    v.hoje_movimentacoes || 0
+    lig:      v.hoje_atv_ligacao  || 0,
+    wpp:      v.hoje_atv_whatsapp || 0,
+    eml:      v.hoje_atv_email    || 0,
+    prp:      v.hoje_atv_proposta || 0,
+    atv_total:(v.hoje_atv_ligacao||0)+(v.hoje_atv_whatsapp||0)+(v.hoje_atv_email||0)+(v.hoje_atv_proposta||0)
   })).sort((a,b) => {
     if (b.vendas_v !== a.vendas_v) return b.vendas_v - a.vendas_v;
     if (b.orcado_v !== a.orcado_v) return b.orcado_v - a.orcado_v;
-    return b.movim - a.movim;
+    return b.atv_total - a.atv_total;
   });
   const rankIcons = ['🥇','🥈','🥉'];
   duelo.forEach((v, i) => {
@@ -582,7 +596,10 @@ function render(){
     document.getElementById(id+'VendSub').textContent = v.vendas_q + (v.vendas_q===1 ? ' negócio' : ' negócios');
     document.getElementById(id+'Orc').textContent  = fmtBRLs(v.orcado_v);
     document.getElementById(id+'OrcSub').textContent = v.orcado_q + (v.orcado_q===1 ? ' novo' : ' novos');
-    document.getElementById(id+'Mov').textContent  = fmtNum(v.movim);
+    document.getElementById(id+'Lig').textContent  = fmtNum(v.lig);
+    document.getElementById(id+'Wpp').textContent  = fmtNum(v.wpp);
+    document.getElementById(id+'Eml').textContent  = fmtNum(v.eml);
+    document.getElementById(id+'Prp').textContent  = fmtNum(v.prp);
     document.getElementById(id+'Sub').textContent  = i===0 ? '🏆 No topo agora' : 'Vendedora';
     const card = document.getElementById(id);
     const status = document.getElementById(id+'Status');
