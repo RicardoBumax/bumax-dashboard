@@ -99,8 +99,8 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
-.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:215px}
-.pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:14px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden}
+.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:220px}
+.pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:10px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}
 .p1{border:2px solid rgba(108,99,255,.55);background:linear-gradient(160deg,#1a1535,#130d28);box-shadow:0 8px 30px rgba(108,99,255,.22)}
 .p2{border-color:rgba(79,172,254,.4)}
 .p3{border-color:rgba(0,210,178,.35)}
@@ -109,19 +109,19 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
 .r1{background:linear-gradient(135deg,#FFD700,#FFA500);color:#000}
 .r2{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#000}
 .r3{background:linear-gradient(135deg,#00d2b2,#00ff95);color:#000}
-.av{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05rem;font-weight:800;margin:0 auto 6px}
+.av{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:800;margin:0 auto 3px}
 .ag{background:linear-gradient(135deg,#6c63ff,#a855f7)}
 .aa{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#000}
 .am{background:linear-gradient(135deg,#00d2b2,#00ff95);color:#000}
-.pname{font-size:1rem;font-weight:700;margin-bottom:3px}
-.pgain{font-weight:900;color:#00ff95;line-height:1.05}
-.pgain-l{font-size:.6rem;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
-.pct{font-size:.82rem;font-weight:600;margin-bottom:8px}
-.pmini{display:flex;gap:6px;justify-content:center}
-.pm{background:rgba(255,255,255,.06);border-radius:7px;padding:4px 6px;flex:1}
-.pmv{font-size:.85rem;font-weight:700}
-.pml{font-size:.55rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px}
-.pbar{width:100%;height:5px;background:rgba(255,255,255,.07);border-radius:3px;margin-top:8px;overflow:hidden}
+.pname{font-size:.95rem;font-weight:700;margin-bottom:2px}
+.pgain{font-weight:900;color:#00ff95;line-height:1}
+.pgain-l{font-size:.55rem;color:#64748b;margin-bottom:3px;text-transform:uppercase;letter-spacing:1px}
+.pct{font-size:.78rem;font-weight:600;margin-bottom:5px}
+.pmini{display:flex;gap:5px;justify-content:center}
+.pm{background:rgba(255,255,255,.06);border-radius:6px;padding:3px 5px;flex:1}
+.pmv{font-size:.8rem;font-weight:700}
+.pml{font-size:.52rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px}
+.pbar{width:100%;height:4px;background:rgba(255,255,255,.07);border-radius:3px;margin-top:5px;overflow:hidden}
 .pbf{height:100%;border-radius:3px;transition:width 1s}
 
 /* ============ SELLER METRICS ============ */
@@ -322,7 +322,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
     <div class="pc p2" id="pod2">
       <div class="rn r2">2</div><div class="av aa" id="pod2Av">ADR</div>
       <div class="pname" id="pod2Name">Adriane</div>
-      <div class="pgain" style="font-size:1.4rem" id="pod2Val">R$ 40.887,71</div>
+      <div class="pgain" style="font-size:1.25rem" id="pod2Val">R$ 40.887,71</div>
       <div class="pgain-l">valor ganho no mês</div>
       <div class="pct blue" id="pod2Qtd">28 negócios fechados</div>
       <div class="pmini">
@@ -336,7 +336,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
     <div class="pc p1" id="pod1">
       <div class="crown">👑</div><div class="rn r1">1</div><div class="av ag" id="pod1Av">GAB</div>
       <div class="pname" id="pod1Name">Gabriele</div>
-      <div class="pgain" style="font-size:1.7rem" id="pod1Val">R$ 64.572,95</div>
+      <div class="pgain" style="font-size:1.5rem" id="pod1Val">R$ 64.572,95</div>
       <div class="pgain-l">valor ganho no mês</div>
       <div class="pct purple" id="pod1Qtd">42 negócios fechados</div>
       <div class="pmini">
