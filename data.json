@@ -40,7 +40,11 @@
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 0,
       "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 1
+      "hoje_movimentacoes": 1,
+      "hoje_atv_ligacao": 0,
+      "hoje_atv_whatsapp": 0,
+      "hoje_atv_email": 0,
+      "hoje_atv_proposta": 0
     },
     {
       "iniciais": "GAB",
@@ -66,7 +70,11 @@
       "hoje_vendas_valor": 455.55,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 1268.51,
-      "hoje_movimentacoes": 6
+      "hoje_movimentacoes": 6,
+      "hoje_atv_ligacao": 0,
+      "hoje_atv_whatsapp": 0,
+      "hoje_atv_email": 0,
+      "hoje_atv_proposta": 0
     },
     {
       "iniciais": "MAC",
@@ -92,7 +100,11 @@
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 0,
       "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 0
+      "hoje_movimentacoes": 0,
+      "hoje_atv_ligacao": 0,
+      "hoje_atv_whatsapp": 0,
+      "hoje_atv_email": 0,
+      "hoje_atv_proposta": 0
     }
   ],
   "funil": [
@@ -176,5 +188,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T09:56:54.1049280-03:00"
+  "atualizado_em": "2026-06-30T09:58:23.9691638-03:00"
 }
