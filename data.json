@@ -54,9 +54,9 @@
       "ganhos_qtd": 107,
       "ganhos_valor": 120454.37,
       "iniciados_qtd": 143,
-      "iniciados_valor": 282137.96,
+      "iniciados_valor": 283707.68,
       "abertos_qtd": 12,
-      "abertos_valor": 119228.64,
+      "abertos_valor": 120798.36,
       "atrasados": 0,
       "perdidos_qtd": 30,
       "perdidos_valor": 51843.28,
@@ -99,7 +99,7 @@
     {
       "etapa": "Fechamento",
       "qtd": 114,
-      "valor": 269173.73,
+      "valor": 272313.17,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -176,5 +176,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T09:22:02.0589867-03:00"
+  "atualizado_em": "2026-06-30T09:26:55.3229986-03:00"
 }
