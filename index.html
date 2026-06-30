@@ -9,11 +9,21 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-html{overflow:auto}
-body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;background:#080c18;color:#fff;display:flex;flex-direction:column}
-/* Em modo TV (tela >=1920x1080), trava sem scroll. Em telas menores, permite rolar para testar. */
-@media (min-width:1920px) and (min-height:1080px){
-  html,body{width:1920px;height:1080px;overflow:hidden}
+html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
+/* LAYOUT FIXO 1920x1080 + SCALE pra caber em qualquer tela */
+/* O conteudo (#root) mantem 1920x1080 internamente. transform:scale() encolhe visualmente sem distorcer */
+#root{
+  width:1920px;
+  height:1080px;
+  font-family:'Inter',sans-serif;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  transform-origin:0 0;
+  position:absolute;
+  top:0;left:0;
+  /* Calcula o scale baseado em quanto cabe na viewport (escolhe o menor entre largura/altura) */
+  transform:scale(min(calc(100vw / 1920), calc(100vh / 1080)));
 }
 .green{color:#00ff95}.red{color:#ff4d6d}.blue{color:#4facfe}.yellow{color:#ffd60a}.purple{color:#a855f7}.teal{color:#00d2b2}.orange{color:#ff9e00}
 
@@ -170,6 +180,7 @@ body{min-width:1920px;min-height:1080px;font-family:'Inter',sans-serif;backgroun
 </style>
 </head>
 <body>
+<div id="root">
 
 <!-- ===== HEADER ===== -->
 <div class="header">
@@ -872,5 +883,6 @@ loadData();
 const m=document.getElementById('motive');
 if(m)m.innerHTML=Q[0];
 </script>
+</div><!-- /#root -->
 </body>
 </html>
