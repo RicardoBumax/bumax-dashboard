@@ -67,7 +67,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
 .goal-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4facfe);border-radius:4px;transition:width 1s ease}
 
 /* ============ DUELO DO DIA ============ */
-.duelo-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.duelo-grid{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 .duelo-card{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:14px 18px;border:2px solid rgba(255,255,255,.07);position:relative;transition:all .4s;overflow:hidden}
 .duelo-card.lider{border-color:rgba(255,215,0,.6);background:linear-gradient(160deg,#1f1a0a,#161c2e);animation:duelo-glow 2s ease-in-out infinite}
 .duelo-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--dc1,#6c63ff),var(--dc2,#4facfe))}
@@ -99,7 +99,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
-.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:14px;align-items:stretch;height:215px}
+.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:215px}
 .pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:14px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden}
 .p1{border:2px solid rgba(108,99,255,.55);background:linear-gradient(160deg,#1a1535,#130d28);box-shadow:0 8px 30px rgba(108,99,255,.22)}
 .p2{border-color:rgba(79,172,254,.4)}
@@ -276,37 +276,6 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
         </div>
       </div>
     </div>
-    <div class="duelo-card" id="duelo3" style="--dc1:#00d2b2;--dc2:#00ff95">
-      <div class="duelo-head">
-        <div class="duelo-rank r3" id="duelo3Rank">🥉</div>
-        <div class="duelo-av am" id="duelo3Av">MAC</div>
-        <div class="duelo-info">
-          <div class="duelo-name" id="duelo3Name">Maria Cleide</div>
-          <div class="duelo-sub" id="duelo3Sub">Vendedora</div>
-        </div>
-        <div class="duelo-status" id="duelo3Status" style="display:none">LÍDER</div>
-      </div>
-      <div class="duelo-metrics">
-        <div class="duelo-metric">
-          <div class="duelo-metric-icon">💰</div>
-          <div class="duelo-metric-val green" id="duelo3Vend">R$ 0</div>
-          <div class="duelo-metric-lbl">Vendido hoje</div>
-          <div class="duelo-metric-sub" id="duelo3VendSub">0 negócios</div>
-        </div>
-        <div class="duelo-metric">
-          <div class="duelo-metric-icon">📋</div>
-          <div class="duelo-metric-val blue" id="duelo3Orc">R$ 0</div>
-          <div class="duelo-metric-lbl">Orçado hoje</div>
-          <div class="duelo-metric-sub" id="duelo3OrcSub">0 novos</div>
-        </div>
-        <div class="duelo-atv-grid">
-          <div class="duelo-atv"><div class="duelo-atv-icon">📞</div><div class="duelo-atv-val green" id="duelo3Lig">0</div><div class="duelo-atv-lbl">Ligações</div></div>
-          <div class="duelo-atv"><div class="duelo-atv-icon">💬</div><div class="duelo-atv-val teal" id="duelo3Wpp">0</div><div class="duelo-atv-lbl">WhatsApp</div></div>
-          <div class="duelo-atv"><div class="duelo-atv-icon">✉️</div><div class="duelo-atv-val blue" id="duelo3Eml">0</div><div class="duelo-atv-lbl">E-mail</div></div>
-          <div class="duelo-atv"><div class="duelo-atv-icon">📋</div><div class="duelo-atv-val orange" id="duelo3Prp">0</div><div class="duelo-atv-lbl">Proposta</div></div>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- Row 1: TOP STRIP KPIs (HOJE + META + COMPARATIVO) -->
@@ -377,20 +346,6 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
       </div>
       <div class="pbar"><div class="pbf" id="pod1Bar" style="width:100%;background:linear-gradient(90deg,#6c63ff,#a855f7)"></div></div>
     </div>
-    <!-- 3rd place -->
-    <div class="pc p3" id="pod3">
-      <div class="rn r3">3</div><div class="av am" id="pod3Av">MAC</div>
-      <div class="pname" id="pod3Name">Maria Cleide</div>
-      <div class="pgain" style="font-size:1.1rem" id="pod3Val">R$ 6.537,51</div>
-      <div class="pgain-l">valor ganho no mês</div>
-      <div class="pct teal" id="pod3Qtd">3 negócios fechados</div>
-      <div class="pmini">
-        <div class="pm"><div class="pmv green" id="pod3Nov">13</div><div class="pml">Novos</div></div>
-        <div class="pm"><div class="pmv red" id="pod3Per">3</div><div class="pml">Perdidos</div></div>
-        <div class="pm"><div class="pmv yellow" id="pod3Abe">68</div><div class="pml">Abertos</div></div>
-      </div>
-      <div class="pbar"><div class="pbf" id="pod3Bar" style="width:10%;background:linear-gradient(90deg,#00d2b2,#00ff95)"></div></div>
-    </div>
   </div>
 
   <!-- Row 3: DETAILED METRICS PER SELLER + FUNNEL -->
@@ -440,23 +395,10 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
     <div class="cc-body"><canvas id="cPerda"></canvas></div>
   </div>
 
-  <!-- Row 4: Seller 3 + Activities + Comparative chart -->
-  <!-- Seller 3 -->
-  <div class="mc">
-    <div class="mch"><div class="mav am">MAC</div><div><div class="mn">Maria Cleide</div><div class="mr">Vendedora</div></div></div>
-    <div class="mrow"><span class="ml">🎯 Meta Individual</span><span class="mv" id="s3MetaTxt">—</span></div>
-    <div class="metabar-wrap"><div class="metabar"><div class="metabar-fill" id="s3MetaFill" style="background:linear-gradient(90deg,#00d2b2,#00ff95);width:0%"></div></div><div class="metabar-pct" id="s3MetaPct">0%</div></div>
-    <div class="mrow"><span class="ml">✅ Atividades</span><span class="mv green" id="s3Ativ">361</span></div>
-    <div class="mrow"><span class="ml">💰 Ganhos</span><span class="mv green" id="s3Ganh">3 · R$ 6.537</span></div>
-    <div class="mrow"><span class="ml">🚀 Iniciados</span><span class="mv blue" id="s3Ini">13 · R$ 110.993</span></div>
-    <div class="mrow"><span class="ml">📂 Em Aberto</span><span class="mv yellow" id="s3Abe">68 · R$ 85.445</span></div>
-    <div class="mrow"><span class="ml">⚠️ Atrasados</span><span class="mv"><span class="br" id="s3Atr">29 negócios</span></span></div>
-    <div class="mrow"><span class="ml">❌ Perdidos</span><span class="mv red" id="s3Per">3 · R$ 29.234</span></div>
-    <div class="mrow"><span class="ml">📈 Conversão</span><span class="mv yellow" id="s3Conv">50,0%</span></div>
-  </div>
+  <!-- Row 4: Activities + Comparative chart (Maria Cleide removida) -->
 
   <!-- Activities -->
-  <div class="cc">
+  <div class="cc" style="grid-column:span 2">
     <div class="ct">⚡ Volume de Atividades no Mês</div>
     <div class="cc-body" id="activities">
       <!-- Filled by JS -->
@@ -655,8 +597,8 @@ function render(){
   // Pódio
   const sorted = [...DATA.vendedoras].sort((a,b)=>b.ganhos_valor - a.ganhos_valor);
   const maxGanho = sorted[0].ganhos_valor || 1;
-  const podMap = [sorted[1], sorted[0], sorted[2]];
-  const ids = ['pod2','pod1','pod3'];
+  const podMap = [sorted[1], sorted[0]];
+  const ids = ['pod2','pod1'];
   podMap.forEach((p,i)=>{
     if(!p) return;
     const pid = ids[i];
@@ -675,8 +617,7 @@ function render(){
   const byIni = Object.fromEntries(DATA.vendedoras.map(v=>[v.iniciais,v]));
   const cards = [
     {pref:'s1',ini:'ADR'},
-    {pref:'s2',ini:'GAB'},
-    {pref:'s3',ini:'MAC'}
+    {pref:'s2',ini:'GAB'}
   ];
   cards.forEach(c=>{
     const v = byIni[c.ini]; if(!v) return;
