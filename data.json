@@ -1,9 +1,9 @@
 {
   "periodo": "Junho 2026",
   "hoje": {
-    "vendas_valor": 0,
-    "vendas_qtd": 0,
-    "atividades": 5
+    "vendas_valor": 455.55,
+    "vendas_qtd": 1,
+    "atividades": 6
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Junho 2026",
-      "total": 299080.14
+      "total": 299535.69
     }
   },
   "vendedoras": [
@@ -50,23 +50,23 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 191,
-      "ganhos_qtd": 106,
-      "ganhos_valor": 119998.82,
-      "iniciados_qtd": 142,
-      "iniciados_valor": 281682.41,
+      "atividades": 192,
+      "ganhos_qtd": 107,
+      "ganhos_valor": 120454.37,
+      "iniciados_qtd": 143,
+      "iniciados_valor": 282137.96,
       "abertos_qtd": 12,
       "abertos_valor": 119228.64,
       "atrasados": 0,
       "perdidos_qtd": 30,
       "perdidos_valor": 51843.28,
-      "conversao": 77.9,
+      "conversao": 78.1,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
-      "hoje_orcado_qtd": 0,
-      "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 4
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 455.55,
+      "hoje_orcado_qtd": 1,
+      "hoje_orcado_valor": 455.55,
+      "hoje_movimentacoes": 5
     },
     {
       "iniciais": "MAC",
@@ -98,8 +98,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 113,
-      "valor": 268718.18,
+      "qtd": 114,
+      "valor": 269173.73,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -107,7 +107,7 @@
       "etapa": "Follow-up",
       "qtd": 88,
       "valor": 223988.65,
-      "conv": 77.9,
+      "conv": 77.2,
       "cor": "#4facfe"
     },
     {
@@ -176,5 +176,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T09:17:04.1841675-03:00"
+  "atualizado_em": "2026-06-30T09:22:02.0589867-03:00"
 }
