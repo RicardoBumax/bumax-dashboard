@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 0,
     "vendas_qtd": 0,
-    "atividades": 4
+    "atividades": 5
   },
   "comparativo": {
     "mes_anterior": {
@@ -66,7 +66,7 @@
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 0,
       "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 3
+      "hoje_movimentacoes": 4
     },
     {
       "iniciais": "MAC",
@@ -176,5 +176,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T08:37:49.1533208-03:00"
+  "atualizado_em": "2026-06-30T08:41:58.8546266-03:00"
 }
