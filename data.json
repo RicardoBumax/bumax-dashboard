@@ -54,17 +54,17 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 193,
+      "atividades": 192,
       "ganhos_qtd": 107,
       "ganhos_valor": 120454.37,
-      "iniciados_qtd": 144,
-      "iniciados_valor": 284520.64,
-      "abertos_qtd": 13,
-      "abertos_valor": 121611.32,
+      "iniciados_qtd": 143,
+      "iniciados_valor": 264054.84,
+      "abertos_qtd": 11,
+      "abertos_valor": 91345.52,
       "atrasados": 0,
-      "perdidos_qtd": 30,
-      "perdidos_valor": 51843.28,
-      "conversao": 78.1,
+      "perdidos_qtd": 31,
+      "perdidos_valor": 61643.28,
+      "conversao": 77.5,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 455.55,
@@ -110,8 +110,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 114,
-      "valor": 272313.17,
+      "qtd": 113,
+      "valor": 262513.17,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -119,7 +119,7 @@
       "etapa": "Follow-up",
       "qtd": 88,
       "valor": 223988.65,
-      "conv": 77.2,
+      "conv": 77.9,
       "cor": "#4facfe"
     },
     {
@@ -131,16 +131,16 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 49,
-      "valor": 182018.85,
-      "conv": 100,
+      "qtd": 47,
+      "valor": 141087.25,
+      "conv": 95.9,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 16,
       "valor": 0,
-      "conv": 32.7,
+      "conv": 34,
       "cor": "#00ff95"
     },
     {
@@ -154,32 +154,32 @@
   "motivos_perda": [
     {
       "label": "Parou de Responder",
-      "pct": 23.6,
+      "pct": 23.3,
       "cor": "#ff4d6d"
     },
     {
       "label": "Preço Produto",
-      "pct": 22.5,
+      "pct": 22.2,
       "cor": "#ff9e00"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 20.2,
+      "pct": 20,
       "cor": "#ffd60a"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 9,
+      "pct": 8.9,
       "cor": "#6c63ff"
     },
     {
       "label": "Preço Frete",
-      "pct": 4.5,
+      "pct": 4.4,
       "cor": "#4facfe"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 3.4,
+      "pct": 3.3,
       "cor": "#00d2b2"
     },
     {
@@ -188,5 +188,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-06-30T10:06:59.9294696-03:00"
+  "atualizado_em": "2026-06-30T10:11:48.0492842-03:00"
 }
