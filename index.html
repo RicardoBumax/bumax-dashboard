@@ -28,7 +28,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .green{color:#00ff95}.red{color:#ff4d6d}.blue{color:#4facfe}.yellow{color:#ffd60a}.purple{color:#a855f7}.teal{color:#00d2b2}.orange{color:#ff9e00}
 
 /* ============ HEADER ============ */
-.header{height:70px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.header{height:56px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
 .logo-box{display:flex;align-items:center;gap:14px}
 .logo-icon{width:50px;height:50px;background:linear-gradient(135deg,#6c63ff,#4facfe);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;font-weight:900}
 .logo-text h1{font-size:1.5rem;font-weight:800;line-height:1.1}
@@ -43,17 +43,17 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .cbar-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4facfe);animation:drain 900s linear forwards}
 
 /* ============ MOTIVATIONAL BAR ============ */
-.motive{margin:8px 24px 0;background:linear-gradient(90deg,rgba(108,99,255,.14),rgba(79,172,254,.08));border-left:3px solid #6c63ff;border-radius:8px;padding:8px 18px;font-size:.95rem;color:#cbd5e1;font-style:italic;transition:all .5s;height:36px;display:flex;align-items:center;flex-shrink:0}
+.motive{margin:4px 24px 0;background:linear-gradient(90deg,rgba(108,99,255,.14),rgba(79,172,254,.08));border-left:3px solid #6c63ff;border-radius:8px;padding:5px 18px;font-size:.88rem;color:#cbd5e1;font-style:italic;transition:all .5s;height:28px;display:flex;align-items:center;flex-shrink:0}
 
 /* ============ MAIN GRID ============ */
-.main{flex:1;padding:8px 24px 12px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:auto auto auto auto;gap:10px;min-height:0}
+.main{flex:1;padding:4px 24px 6px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:auto auto auto auto;gap:6px;min-height:0}
 
 /* Section labels */
-.slbl{font-size:.7rem;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#4facfe;display:flex;align-items:center;gap:8px;grid-column:1/-1;margin-top:2px}
+.slbl{font-size:.65rem;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;color:#4facfe;display:flex;align-items:center;gap:8px;grid-column:1/-1;margin-top:0}
 .slbl::after{content:'';flex:1;height:1px;background:rgba(79,172,254,.18)}
 
 /* ============ KPI STRIP (TOP) ============ */
-.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:14px 18px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:120px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:10px 16px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:100px;display:flex;flex-direction:column;justify-content:space-between}
 .kpi::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2))}
 .kpi-head{display:flex;align-items:center;justify-content:space-between}
 .kpi-lbl{font-size:.7rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
@@ -99,7 +99,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
-.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:220px}
+.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:180px}
 .pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:10px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}
 .p1{border:2px solid rgba(108,99,255,.55);background:linear-gradient(160deg,#1a1535,#130d28);box-shadow:0 8px 30px rgba(108,99,255,.22)}
 .p2{border-color:rgba(79,172,254,.4)}
