@@ -9,9 +9,9 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
-/* LAYOUT FIXO 1920x1080 + SCALE pra caber em qualquer tela */
-/* O conteudo (#root) mantem 1920x1080 internamente. transform:scale() encolhe visualmente sem distorcer */
+html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;height:100vh}
+/* LAYOUT FIXO 1920x1080 + SCALE via JS (funciona em Smart TVs) */
+/* O conteudo (#root) mantem 1920x1080 internamente. JS aplica o transform:scale correto */
 #root{
   width:1920px;
   height:1080px;
@@ -21,9 +21,9 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18}
   flex-direction:column;
   transform-origin:0 0;
   position:absolute;
-  top:0;left:0;
-  /* Calcula o scale baseado em quanto cabe na viewport (escolhe o menor entre largura/altura) */
-  transform:scale(min(calc(100vw / 1920), calc(100vh / 1080)));
+  top:0;
+  left:0;
+  transform:scale(1); /* JS reescreve isso no load + resize */
 }
 .green{color:#00ff95}.red{color:#ff4d6d}.blue{color:#4facfe}.yellow{color:#ffd60a}.purple{color:#a855f7}.teal{color:#00d2b2}.orange{color:#ff9e00}
 
@@ -844,6 +844,29 @@ loadData();
 // Mostra a quote inicial
 const m=document.getElementById('motive');
 if(m)m.innerHTML=Q[0];
+
+/* ============== SCALE VIA JS (funciona em qualquer navegador incluindo Smart TVs) ============== */
+function applyScale(){
+  var root = document.getElementById('root');
+  if(!root) return;
+  var vw = window.innerWidth || document.documentElement.clientWidth;
+  var vh = window.innerHeight || document.documentElement.clientHeight;
+  var sx = vw / 1920;
+  var sy = vh / 1080;
+  var scale = Math.min(sx, sy);
+  // Centraliza: se sobrar espaço na largura ou altura, coloca o #root no meio
+  var scaledW = 1920 * scale;
+  var scaledH = 1080 * scale;
+  var offsetX = Math.max(0, (vw - scaledW) / 2);
+  var offsetY = Math.max(0, (vh - scaledH) / 2);
+  root.style.transform = 'translate(' + offsetX + 'px, ' + offsetY + 'px) scale(' + scale + ')';
+  root.style.transformOrigin = '0 0';
+}
+applyScale();
+window.addEventListener('resize', applyScale);
+// Aplica de novo depois de 500ms (pra Smart TVs que reportam viewport tarde)
+setTimeout(applyScale, 500);
+setTimeout(applyScale, 2000);
 </script>
 </div><!-- /#root -->
 </body>
