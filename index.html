@@ -14,7 +14,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 /* O conteudo (#root) mantem 1920x1080 internamente. JS aplica o transform:scale correto */
 #root{
   width:1920px;
-  height:1080px;
+  height:1200px; /* altura interna maior — JS escala pra caber na TV */
   font-family:'Inter',sans-serif;
   color:#fff;
   display:flex;
@@ -851,12 +851,13 @@ function applyScale(){
   if(!root) return;
   var vw = window.innerWidth || document.documentElement.clientWidth;
   var vh = window.innerHeight || document.documentElement.clientHeight;
+  // Altura INTERNA do #root é 1200 (mais espaço vertical); JS escala pra caber
   var sx = vw / 1920;
-  var sy = vh / 1080;
+  var sy = vh / 1200;
   var scale = Math.min(sx, sy);
   // Centraliza: se sobrar espaço na largura ou altura, coloca o #root no meio
   var scaledW = 1920 * scale;
-  var scaledH = 1080 * scale;
+  var scaledH = 1200 * scale;
   var offsetX = Math.max(0, (vw - scaledW) / 2);
   var offsetY = Math.max(0, (vh - scaledH) / 2);
   root.style.transform = 'translate(' + offsetX + 'px, ' + offsetY + 'px) scale(' + scale + ')';
