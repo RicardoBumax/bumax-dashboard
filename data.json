@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 13399.8,
-    "vendas_qtd": 8,
-    "atividades": 25
+    "vendas_valor": 14997.53,
+    "vendas_qtd": 11,
+    "atividades": 26
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 13399.8
+      "total": 14997.53
     }
   },
   "vendedoras": [
@@ -24,25 +24,25 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 19,
-      "ganhos_qtd": 5,
-      "ganhos_valor": 11295.47,
-      "iniciados_qtd": 3,
-      "iniciados_valor": 21363.1,
-      "abertos_qtd": 12,
-      "abertos_valor": 102729.02,
+      "atividades": 20,
+      "ganhos_qtd": 8,
+      "ganhos_valor": 12893.2,
+      "iniciados_qtd": 4,
+      "iniciados_valor": 21663.89,
+      "abertos_qtd": 10,
+      "abertos_valor": 101432.08,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
       "conversao": 100,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 11295.47,
-      "hoje_orcado_qtd": 3,
-      "hoje_orcado_valor": 21363.1,
-      "hoje_movimentacoes": 19,
+      "hoje_vendas_qtd": 8,
+      "hoje_vendas_valor": 12893.2,
+      "hoje_orcado_qtd": 4,
+      "hoje_orcado_valor": 21663.89,
+      "hoje_movimentacoes": 20,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 6,
+      "hoje_atv_whatsapp": 8,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -79,17 +79,17 @@
   ],
   "funil": [
     {
-      "etapa": "Follow-up",
-      "qtd": 11,
-      "valor": 71947.76,
+      "etapa": "Fechamento",
+      "qtd": 12,
+      "valor": 50004.64,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
-      "etapa": "Fechamento",
+      "etapa": "Follow-up",
       "qtd": 11,
-      "valor": 50381.51,
-      "conv": 100,
+      "valor": 71947.76,
+      "conv": 91.7,
       "cor": "#4facfe"
     },
     {
@@ -100,24 +100,24 @@
       "cor": "#00d2b2"
     },
     {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 4,
-      "valor": 868.39,
-      "conv": 100,
-      "cor": "#ffd60a"
-    },
-    {
       "etapa": "Envio de Proposta",
       "qtd": 4,
       "valor": 10453.94,
       "conv": 100,
+      "cor": "#ffd60a"
+    },
+    {
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 2,
+      "valor": 249.11,
+      "conv": 50,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 25,
+      "conv": 50,
       "cor": "#a855f7"
     }
   ],
@@ -128,5 +128,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-07-01T14:53:30.9502212-03:00"
+  "atualizado_em": "2026-07-01T15:02:16.9209933-03:00"
 }
