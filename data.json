@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 14997.53,
-    "vendas_qtd": 11,
-    "atividades": 27
+    "vendas_valor": 20986.78,
+    "vendas_qtd": 13,
+    "atividades": 29
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 14997.53
+      "total": 20986.78
     }
   },
   "vendedoras": [
@@ -54,23 +54,23 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 6,
-      "ganhos_qtd": 3,
-      "ganhos_valor": 2104.33,
+      "atividades": 8,
+      "ganhos_qtd": 5,
+      "ganhos_valor": 8093.58,
       "iniciados_qtd": 3,
       "iniciados_valor": 2665.85,
-      "abertos_qtd": 17,
-      "abertos_valor": 60687.65,
+      "abertos_qtd": 15,
+      "abertos_valor": 54636.04,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
       "conversao": 100,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 3,
-      "hoje_vendas_valor": 2104.33,
+      "hoje_vendas_qtd": 5,
+      "hoje_vendas_valor": 8093.58,
       "hoje_orcado_qtd": 3,
       "hoje_orcado_valor": 2665.85,
-      "hoje_movimentacoes": 6,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
@@ -80,23 +80,23 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 12,
-      "valor": 50004.64,
+      "qtd": 11,
+      "valor": 45971.4,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 11,
-      "valor": 71947.76,
-      "conv": 91.7,
+      "qtd": 10,
+      "valor": 69929.39,
+      "conv": 90.9,
       "cor": "#4facfe"
     },
     {
       "etapa": "Negociação",
       "qtd": 4,
       "valor": 53794.02,
-      "conv": 36.4,
+      "conv": 40,
       "cor": "#00d2b2"
     },
     {
@@ -128,5 +128,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-07-01T15:36:00.0848227-03:00"
+  "atualizado_em": "2026-07-01T15:45:58.3500056-03:00"
 }
