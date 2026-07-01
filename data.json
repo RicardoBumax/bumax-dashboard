@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 13399.8,
     "vendas_qtd": 8,
-    "atividades": 24
+    "atividades": 25
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,13 +24,13 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 18,
+      "atividades": 19,
       "ganhos_qtd": 5,
       "ganhos_valor": 11295.47,
-      "iniciados_qtd": 2,
-      "iniciados_valor": 21053.46,
-      "abertos_qtd": 11,
-      "abertos_valor": 102419.38,
+      "iniciados_qtd": 3,
+      "iniciados_valor": 21363.1,
+      "abertos_qtd": 12,
+      "abertos_valor": 102729.02,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -38,9 +38,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 5,
       "hoje_vendas_valor": 11295.47,
-      "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 21053.46,
-      "hoje_movimentacoes": 18,
+      "hoje_orcado_qtd": 3,
+      "hoje_orcado_valor": 21363.1,
+      "hoje_movimentacoes": 19,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 6,
       "hoje_atv_email": 0,
@@ -72,7 +72,7 @@
       "hoje_orcado_valor": 2665.85,
       "hoje_movimentacoes": 6,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 2,
+      "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -100,24 +100,24 @@
       "cor": "#00d2b2"
     },
     {
-      "etapa": "Envio de Proposta",
+      "etapa": "Solicitação de Orçamento",
       "qtd": 4,
-      "valor": 10453.94,
+      "valor": 868.39,
       "conv": 100,
       "cor": "#ffd60a"
     },
     {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 2,
-      "valor": 249.11,
-      "conv": 50,
+      "etapa": "Envio de Proposta",
+      "qtd": 4,
+      "valor": 10453.94,
+      "conv": 100,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 50,
+      "conv": 25,
       "cor": "#a855f7"
     }
   ],
@@ -128,5 +128,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-07-01T14:46:48.1466759-03:00"
+  "atualizado_em": "2026-07-01T14:53:30.9502212-03:00"
 }
