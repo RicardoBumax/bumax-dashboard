@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 363.82,
     "vendas_qtd": 3,
-    "atividades": 9
+    "atividades": 10
   },
   "comparativo": {
     "mes_anterior": {
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 261.1,
       "hoje_orcado_qtd": 4,
       "hoje_orcado_valor": 5753.41,
-      "hoje_movimentacoes": 7,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 0,
@@ -72,7 +72,7 @@
       "hoje_orcado_valor": 102.72,
       "hoje_movimentacoes": 2,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -128,5 +128,5 @@
       "cor": "#ff4d6d"
     }
   ],
-  "atualizado_em": "2026-07-02T13:52:53.0717145-03:00"
+  "atualizado_em": "2026-07-02T13:59:41.7118893-03:00"
 }
