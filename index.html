@@ -32,12 +32,12 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .logo-box{display:flex;align-items:center;gap:14px}
 .logo-icon{width:50px;height:50px;background:linear-gradient(135deg,#6c63ff,#4facfe);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;font-weight:900}
 .logo-text h1{font-size:1.5rem;font-weight:800;line-height:1.1}
-.logo-text span{font-size:.78rem;color:#64748b}
+.logo-text span{font-size:.78rem;color:#94a3b8}
 .header-right{display:flex;align-items:center;gap:24px}
 .live-pill{display:flex;align-items:center;gap:8px;background:rgba(0,255,100,.12);border:1px solid rgba(0,255,100,.35);border-radius:22px;padding:6px 16px;font-size:.78rem;font-weight:800;color:#00ff64;letter-spacing:1.5px}
 .dot{width:9px;height:9px;background:#00ff64;border-radius:50%;animation:blink 1.4s infinite;box-shadow:0 0 12px #00ff64}
 .clock{font-size:1.7rem;font-weight:800;color:#4facfe;font-variant-numeric:tabular-nums;letter-spacing:1px;line-height:1}
-.date-str{font-size:.72rem;color:#94a3b8;text-align:right;margin-top:3px}
+.date-str{font-size:.72rem;color:#cbd5e1;text-align:right;margin-top:3px}
 .next-update{text-align:center;font-size:.65rem;color:#475569}
 .cbar{width:110px;height:4px;background:rgba(255,255,255,.1);border-radius:3px;overflow:hidden;margin-top:4px}
 .cbar-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4facfe);animation:drain 900s linear forwards}
@@ -56,10 +56,10 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:10px 16px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:100px;display:flex;flex-direction:column;justify-content:space-between}
 .kpi::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2))}
 .kpi-head{display:flex;align-items:center;justify-content:space-between}
-.kpi-lbl{font-size:.7rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
+.kpi-lbl{font-size:.7rem;color:#cbd5e1;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
 .kpi-icon{font-size:1.4rem}
-.kpi-val{font-size:1.85rem;font-weight:900;line-height:1}
-.kpi-sub{font-size:.72rem;color:#64748b;display:flex;align-items:center;gap:6px}
+.kpi-val{font-size:2.2rem;font-weight:900;line-height:1}
+.kpi-sub{font-size:.72rem;color:#94a3b8;display:flex;align-items:center;gap:6px}
 .kpi-trend{font-size:.78rem;font-weight:700;padding:2px 8px;border-radius:6px}
 .kpi-up{background:rgba(0,255,149,.15);color:#00ff95}
 .kpi-down{background:rgba(255,77,109,.15);color:#ff4d6d}
@@ -78,16 +78,16 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .duelo-rank.r3{background:linear-gradient(135deg,#CD7F32,#A06324);color:#fff}
 .duelo-av{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;flex-shrink:0}
 .duelo-info{flex:1;min-width:0}
-.duelo-name{font-size:1.05rem;font-weight:800;line-height:1.1}
-.duelo-sub{font-size:.7rem;color:#94a3b8;margin-top:2px}
+.duelo-name{font-size:1.25rem;font-weight:800;line-height:1.1}
+.duelo-sub{font-size:.7rem;color:#cbd5e1;margin-top:2px}
 .duelo-status{position:absolute;top:0;right:0;font-size:.65rem;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;padding:3px 9px;border-radius:5px}
 .duelo-status.lider{background:rgba(255,215,0,.18);color:#FFD700;border:1px solid rgba(255,215,0,.35)}
 .duelo-metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .duelo-metric{background:rgba(255,255,255,.05);border-radius:10px;padding:10px 12px;border:1px solid rgba(255,255,255,.04)}
 .duelo-metric.span2{grid-column:span 2}
 .duelo-metric-icon{font-size:1rem;line-height:1}
-.duelo-metric-val{font-size:1.45rem;font-weight:900;line-height:1.1;margin-top:4px}
-.duelo-metric-lbl{font-size:.6rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1.3px;margin-top:3px;font-weight:700}
+.duelo-metric-val{font-size:1.7rem;font-weight:900;line-height:1.1;margin-top:4px}
+.duelo-metric-lbl{font-size:.6rem;color:#cbd5e1;text-transform:uppercase;letter-spacing:1.3px;margin-top:3px;font-weight:700}
 .duelo-metric-sub{font-size:.7rem;color:#cbd5e1;margin-top:2px}
 /* Grid 4 atividades (Ligação, WhatsApp, Email, Proposta) */
 .duelo-atv-grid{grid-column:span 2;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:2px}
@@ -95,7 +95,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .duelo-atv:hover{background:rgba(255,255,255,.08)}
 .duelo-atv-icon{font-size:1.1rem;line-height:1}
 .duelo-atv-val{font-size:1.2rem;font-weight:900;line-height:1;margin-top:3px}
-.duelo-atv-lbl{font-size:.52rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.8px;margin-top:3px;font-weight:700}
+.duelo-atv-lbl{font-size:.52rem;color:#cbd5e1;text-transform:uppercase;letter-spacing:.8px;margin-top:3px;font-weight:700}
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
@@ -113,14 +113,14 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .ag{background:linear-gradient(135deg,#6c63ff,#a855f7)}
 .aa{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#000}
 .am{background:linear-gradient(135deg,#00d2b2,#00ff95);color:#000}
-.pname{font-size:.95rem;font-weight:700;margin-bottom:2px}
+.pname{font-size:1.1rem;font-weight:700;margin-bottom:2px}
 .pgain{font-weight:900;color:#00ff95;line-height:1}
-.pgain-l{font-size:.55rem;color:#64748b;margin-bottom:3px;text-transform:uppercase;letter-spacing:1px}
+.pgain-l{font-size:.55rem;color:#94a3b8;margin-bottom:3px;text-transform:uppercase;letter-spacing:1px}
 .pct{font-size:.78rem;font-weight:600;margin-bottom:5px}
 .pmini{display:flex;gap:5px;justify-content:center}
 .pm{background:rgba(255,255,255,.06);border-radius:6px;padding:3px 5px;flex:1}
 .pmv{font-size:.8rem;font-weight:700}
-.pml{font-size:.52rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px}
+.pml{font-size:.52rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.5px}
 .pbar{width:100%;height:4px;background:rgba(255,255,255,.07);border-radius:3px;margin-top:5px;overflow:hidden}
 .pbf{height:100%;border-radius:3px;transition:width 1s}
 
@@ -128,12 +128,12 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .mc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:12px 14px;border:1px solid rgba(255,255,255,.07);grid-column:span 1}
 .mch{display:flex;align-items:center;gap:10px;margin-bottom:8px}
 .mav{width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:800}
-.mn{font-size:.92rem;font-weight:700}
-.mr{font-size:.62rem;color:#64748b}
-.mrow{display:flex;justify-content:space-between;align-items:center;padding:3px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+.mn{font-size:1.05rem;font-weight:700}
+.mr{font-size:.72rem;color:#cbd5e1}
+.mrow{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.08)}
 .mrow:last-child{border-bottom:none}
-.ml{font-size:.7rem;color:#94a3b8}
-.mv{font-size:.78rem;font-weight:700}
+.ml{font-size:.82rem;color:#e2e8f0}
+.mv{font-size:.92rem;font-weight:700}
 .br{background:rgba(255,77,109,.2);border:1px solid rgba(255,77,109,.4);color:#ff4d6d;border-radius:5px;padding:1px 7px;font-size:.66rem;font-weight:700}
 .bg{background:rgba(0,255,149,.15);border:1px solid rgba(0,255,149,.3);color:#00ff95;border-radius:5px;padding:1px 7px;font-size:.66rem;font-weight:700}
 .metabar-wrap{display:flex;align-items:center;gap:8px;margin:2px 0 6px}
@@ -149,7 +149,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 /* Funnel */
 .funnel{display:flex;flex-direction:column;gap:6px;padding-top:4px}
 .fstage{display:flex;align-items:center;gap:10px}
-.fname{width:110px;font-size:.72rem;color:#cbd5e1;text-align:right;flex-shrink:0;font-weight:600}
+.fname{width:115px;font-size:.82rem;color:#e2e8f0;text-align:right;flex-shrink:0;font-weight:600}
 .fwrap{flex:1;background:rgba(255,255,255,.06);border-radius:6px;height:22px;overflow:hidden;position:relative}
 .ffill{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:10px;font-size:.7rem;font-weight:700;color:#fff;white-space:nowrap;transition:width 1s ease}
 .fconv{width:100px;text-align:right;font-size:.78rem;font-weight:700;flex-shrink:0}
@@ -157,7 +157,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 /* Activities bars */
 .brow{display:flex;align-items:center;gap:10px;margin-bottom:6px}
 .brow:last-child{margin-bottom:0}
-.bnm{width:96px;font-size:.72rem;color:#cbd5e1;text-align:right;flex-shrink:0;font-weight:600}
+.bnm{width:100px;font-size:.82rem;color:#e2e8f0;text-align:right;flex-shrink:0;font-weight:600}
 .bwrap{flex:1;background:rgba(255,255,255,.06);border-radius:5px;height:22px;overflow:hidden}
 .bfill{height:100%;border-radius:5px;display:flex;align-items:center;padding-left:10px;font-size:.7rem;font-weight:700;white-space:nowrap;transition:width 1s ease}
 .bnum{width:55px;text-align:right;font-size:.78rem;font-weight:700;flex-shrink:0}
@@ -296,7 +296,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
     <div>
       <div style="display:flex;align-items:baseline;justify-content:space-between">
         <div class="kpi-val purple" id="metaVal">R$ 111.998</div>
-        <div style="font-size:.78rem;color:#94a3b8">de <strong style="color:#cbd5e1" id="metaAlvo">R$ 150.000</strong></div>
+        <div style="font-size:.78rem;color:#cbd5e1">de <strong style="color:#cbd5e1" id="metaAlvo">R$ 150.000</strong></div>
       </div>
       <div class="goal-bar"><div class="goal-fill" id="metaFill" style="width:0%"></div></div>
       <div class="kpi-sub"><span id="metaPct">75%</span> da meta · <span id="metaFalta" class="yellow">faltam R$ 38.002</span></div>
@@ -699,7 +699,7 @@ function render(){
       <div class="bnum" style="color:${v.cor1}">${fmtNum(v.atividades)}</div>
     </div>`;
   }).join('') +
-    `<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font-size:.66rem;color:#64748b">
+    `<div style="margin-top:8px;padding-top:6px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;font-size:.66rem;color:#94a3b8">
       <span>Ligações · WhatsApp · E-mails · Tarefas · Visitas</span>
       <span>Total: <strong style="color:#fff">${fmtNum(totalAct)}</strong></span>
     </div>`;
@@ -851,16 +851,10 @@ function applyScale(){
   if(!root) return;
   var vw = window.innerWidth || document.documentElement.clientWidth;
   var vh = window.innerHeight || document.documentElement.clientHeight;
-  // Altura INTERNA do #root é 1200 (mais espaço vertical); JS escala pra caber
-  var sx = vw / 1920;
-  var sy = vh / 1200;
-  var scale = Math.min(sx, sy);
-  // Centraliza: se sobrar espaço na largura ou altura, coloca o #root no meio
-  var scaledW = 1920 * scale;
-  var scaledH = 1200 * scale;
-  var offsetX = Math.max(0, (vw - scaledW) / 2);
-  var offsetY = Math.max(0, (vh - scaledH) / 2);
-  root.style.transform = 'translate(' + offsetX + 'px, ' + offsetY + 'px) scale(' + scale + ')';
+  // Preenche a tela toda: scale X e Y separados (pequena distorcao imperceptivel)
+  var scaleX = vw / 1920;
+  var scaleY = vh / 1200;
+  root.style.transform = 'scale(' + scaleX + ', ' + scaleY + ')';
   root.style.transformOrigin = '0 0';
 }
 applyScale();
