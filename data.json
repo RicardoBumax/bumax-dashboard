@@ -29,12 +29,12 @@
       "ganhos_valor": 12893.2,
       "iniciados_qtd": 6,
       "iniciados_valor": 27156.2,
-      "abertos_qtd": 12,
-      "abertos_valor": 106924.39,
+      "abertos_qtd": 11,
+      "abertos_valor": 106038.37,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 1,
+      "perdidos_valor": 886.02,
+      "conversao": 88.9,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
@@ -101,16 +101,16 @@
     },
     {
       "etapa": "Negociação",
-      "qtd": 4,
-      "valor": 53794.02,
-      "conv": 66.7,
+      "qtd": 3,
+      "valor": 52908,
+      "conv": 50,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 2,
       "valor": 249.11,
-      "conv": 50,
+      "conv": 66.7,
       "cor": "#00ff95"
     },
     {
@@ -123,10 +123,10 @@
   ],
   "motivos_perda": [
     {
-      "label": "Sem perdas no mes",
+      "label": "Preço Produto",
       "pct": 100,
-      "cor": "#00ff95"
+      "cor": "#ff4d6d"
     }
   ],
-  "atualizado_em": "2026-07-02T10:16:38.7289246-03:00"
+  "atualizado_em": "2026-07-02T10:22:55.8510778-03:00"
 }
