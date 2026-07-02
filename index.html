@@ -9,12 +9,12 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;height:100vh}
-/* LAYOUT FIXO 1920x1080 + SCALE via JS (funciona em Smart TVs) */
-/* O conteudo (#root) mantem 1920x1080 internamente. JS aplica o transform:scale correto */
+html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;height:100vh;font-size:20px}
+/* LAYOUT FIXO 1920x1400 + SCALE via JS (funciona em Smart TVs) */
+/* Canvas interno 1400px de altura pra caber tudo com fontes maiores. JS escala pra caber na TV */
 #root{
   width:1920px;
-  height:1200px; /* altura interna maior — JS escala pra caber na TV */
+  height:1400px;
   font-family:'Inter',sans-serif;
   color:#fff;
   display:flex;
@@ -23,12 +23,12 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
   position:absolute;
   top:0;
   left:0;
-  transform:scale(1); /* JS reescreve isso no load + resize */
+  transform:scale(1);
 }
 .green{color:#00ff95}.red{color:#ff4d6d}.blue{color:#4facfe}.yellow{color:#ffd60a}.purple{color:#a855f7}.teal{color:#00d2b2}.orange{color:#ff9e00}
 
 /* ============ HEADER ============ */
-.header{height:56px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.header{height:80px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
 .logo-box{display:flex;align-items:center;gap:14px}
 .logo-icon{width:56px;height:56px;background:linear-gradient(135deg,#6c63ff,#4facfe);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.9rem;font-weight:900}
 .logo-text h1{font-size:1.85rem;font-weight:800;line-height:1.1}
@@ -53,7 +53,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .slbl::after{content:'';flex:1;height:1px;background:rgba(79,172,254,.18)}
 
 /* ============ KPI STRIP (TOP) ============ */
-.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:10px 16px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:100px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:14px 20px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:140px;display:flex;flex-direction:column;justify-content:space-between}
 .kpi::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2))}
 .kpi-head{display:flex;align-items:center;justify-content:space-between}
 .kpi-lbl{font-size:.85rem;color:#e2e8f0;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
@@ -99,7 +99,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
-.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:180px}
+.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:240px}
 .pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:10px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}
 .p1{border:2px solid rgba(108,99,255,.55);background:linear-gradient(160deg,#1a1535,#130d28);box-shadow:0 8px 30px rgba(108,99,255,.22)}
 .p2{border-color:rgba(79,172,254,.4)}
@@ -853,7 +853,7 @@ function applyScale(){
   var vh = window.innerHeight || document.documentElement.clientHeight;
   // Preenche a tela toda: scale X e Y separados (pequena distorcao imperceptivel)
   var scaleX = vw / 1920;
-  var scaleY = vh / 1200;
+  var scaleY = vh / 1400;
   root.style.transform = 'scale(' + scaleX + ', ' + scaleY + ')';
   root.style.transformOrigin = '0 0';
 }
