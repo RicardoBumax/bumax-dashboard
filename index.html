@@ -9,12 +9,12 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;height:100vh;font-size:30px}
+html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;height:100vh;font-size:22px}
 /* LAYOUT FIXO 1920x1400 + SCALE via JS (funciona em Smart TVs) */
 /* Canvas interno 1400px de altura pra caber tudo com fontes maiores. JS escala pra caber na TV */
 #root{
   width:1920px;
-  height:1900px;
+  height:1080px;
   font-family:'Inter',sans-serif;
   color:#fff;
   display:flex;
@@ -28,7 +28,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .green{color:#00ff95}.red{color:#ff4d6d}.blue{color:#4facfe}.yellow{color:#ffd60a}.purple{color:#a855f7}.teal{color:#00d2b2}.orange{color:#ff9e00}
 
 /* ============ HEADER ============ */
-.header{height:100px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+.header{height:70px;background:linear-gradient(135deg,#111827,#0d1123);padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #1e2d5a;flex-shrink:0;box-shadow:0 4px 20px rgba(0,0,0,.5)}
 .logo-box{display:flex;align-items:center;gap:14px}
 .logo-icon{width:56px;height:56px;background:linear-gradient(135deg,#6c63ff,#4facfe);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.9rem;font-weight:900}
 .logo-text h1{font-size:1.85rem;font-weight:800;line-height:1.1}
@@ -43,7 +43,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .cbar-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4facfe);animation:drain 900s linear forwards}
 
 /* ============ MOTIVATIONAL BAR ============ */
-.motive{margin:4px 24px 0;background:linear-gradient(90deg,rgba(108,99,255,.14),rgba(79,172,254,.08));border-left:4px solid #6c63ff;border-radius:8px;padding:6px 18px;font-size:1.08rem;color:#e2e8f0;font-style:italic;transition:all .5s;height:36px;display:flex;align-items:center;flex-shrink:0;font-weight:500}
+.motive{margin:4px 24px 0;background:linear-gradient(90deg,rgba(108,99,255,.14),rgba(79,172,254,.08));border-left:4px solid #6c63ff;border-radius:8px;padding:4px 18px;font-size:1.05rem;color:#e2e8f0;font-style:italic;transition:all .5s;height:32px;display:flex;align-items:center;flex-shrink:0;font-weight:500}
 
 /* ============ MAIN GRID ============ */
 .main{flex:1;padding:4px 24px 6px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:auto auto auto auto;gap:6px;min-height:0}
@@ -53,7 +53,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 .slbl::after{content:'';flex:1;height:1px;background:rgba(79,172,254,.18)}
 
 /* ============ KPI STRIP (TOP) ============ */
-.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:16px 22px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:170px;display:flex;flex-direction:column;justify-content:space-between}
+.kpi{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:14px;padding:12px 18px;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;height:115px;display:flex;flex-direction:column;justify-content:space-between}
 .kpi::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2))}
 .kpi-head{display:flex;align-items:center;justify-content:space-between}
 .kpi-lbl{font-size:.85rem;color:#e2e8f0;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
@@ -99,7 +99,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 @keyframes duelo-glow{0%,100%{box-shadow:0 6px 24px rgba(255,215,0,.15)}50%{box-shadow:0 6px 36px rgba(255,215,0,.4)}}
 
 /* ============ PODIUM ============ */
-.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:290px}
+.podium{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.2fr;gap:14px;align-items:stretch;height:200px}
 .pc{background:linear-gradient(160deg,#161c2e,#10141f);border-radius:16px;padding:10px 16px;text-align:center;border:1px solid rgba(255,255,255,.07);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}
 .p1{border:2px solid rgba(108,99,255,.55);background:linear-gradient(160deg,#1a1535,#130d28);box-shadow:0 8px 30px rgba(108,99,255,.22)}
 .p2{border-color:rgba(79,172,254,.4)}
@@ -454,6 +454,11 @@ function tick(){
   updateFreshness();
 }
 setInterval(tick,1000);
+
+/* AUTO-RELOAD DA PAGINA a cada 15 min pra pegar atualizacoes de HTML/CSS */
+setInterval(function(){
+  location.reload(true); // force reload sem cache
+}, 15 * 60 * 1000);
 
 /* ============== FRESHNESS INDICATOR ============== */
 function updateFreshness(){
@@ -851,10 +856,9 @@ function applyScale(){
   if(!root) return;
   var vw = window.innerWidth || document.documentElement.clientWidth;
   var vh = window.innerHeight || document.documentElement.clientHeight;
-  // Preenche a tela toda: scale X e Y separados (pequena distorcao imperceptivel)
-  var scaleX = vw / 1920;
-  var scaleY = vh / 1900;
-  root.style.transform = 'scale(' + scaleX + ', ' + scaleY + ')';
+  // Canvas 1920x1080 (16:9) igual ratio da TV — scale UNICO preserva proporcao
+  var scale = Math.min(vw / 1920, vh / 1080);
+  root.style.transform = 'scale(' + scale + ')';
   root.style.transformOrigin = '0 0';
 }
 applyScale();
