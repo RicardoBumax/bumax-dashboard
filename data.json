@@ -8,7 +8,7 @@
   "comparativo": {
     "mes_anterior": {
       "nome": "Junho 2026",
-      "total": 310032.65
+      "total": 63713.1
     },
     "mes_atual": {
       "nome": "Julho 2026",
@@ -128,5 +128,5 @@
       "cor": "#ff4d6d"
     }
   ],
-  "atualizado_em": "2026-07-02T11:26:00.5753295-03:00"
+  "atualizado_em": "2026-07-02T11:33:22.1524194-03:00"
 }
