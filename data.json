@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 1424.33,
-    "vendas_qtd": 4,
-    "atividades": 16
+    "vendas_valor": 1753.48,
+    "vendas_qtd": 5,
+    "atividades": 20
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 22935.16
+      "total": 23264.31
     }
   },
   "vendedoras": [
@@ -24,25 +24,25 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 25,
-      "ganhos_qtd": 10,
-      "ganhos_valor": 13154.3,
-      "iniciados_qtd": 8,
-      "iniciados_valor": 27417.3,
+      "atividades": 26,
+      "ganhos_qtd": 11,
+      "ganhos_valor": 13483.45,
+      "iniciados_qtd": 9,
+      "iniciados_valor": 27746.45,
       "abertos_qtd": 10,
       "abertos_valor": 83984.78,
       "atrasados": 0,
       "perdidos_qtd": 2,
       "perdidos_valor": 22939.61,
-      "conversao": 83.3,
+      "conversao": 84.6,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 2,
-      "hoje_vendas_valor": 261.1,
-      "hoje_orcado_qtd": 4,
-      "hoje_orcado_valor": 5753.41,
-      "hoje_movimentacoes": 10,
+      "hoje_vendas_qtd": 3,
+      "hoje_vendas_valor": 590.25,
+      "hoje_orcado_qtd": 5,
+      "hoje_orcado_valor": 6082.56,
+      "hoje_movimentacoes": 11,
       "hoje_atv_ligacao": 2,
-      "hoje_atv_whatsapp": 3,
+      "hoje_atv_whatsapp": 4,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -54,7 +54,7 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 17,
+      "atividades": 20,
       "ganhos_qtd": 8,
       "ganhos_valor": 9780.86,
       "iniciados_qtd": 5,
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 1163.23,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 102.72,
-      "hoje_movimentacoes": 6,
+      "hoje_movimentacoes": 9,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Fechamento",
-      "qtd": 13,
-      "valor": 46232.5,
-      "conv": 92.9,
+      "qtd": 14,
+      "valor": 46561.65,
+      "conv": 100,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 5,
       "valor": 19047,
-      "conv": 38.5,
+      "conv": 35.7,
       "cor": "#00d2b2"
     },
     {
@@ -133,5 +133,5 @@
       "cor": "#ff9e00"
     }
   ],
-  "atualizado_em": "2026-07-02T14:55:42.4027626-03:00"
+  "atualizado_em": "2026-07-02T15:04:18.5284137-03:00"
 }
