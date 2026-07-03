@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 1150,
-    "vendas_qtd": 2,
-    "atividades": 24
+    "vendas_valor": 7359.28,
+    "vendas_qtd": 4,
+    "atividades": 28
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 31789.56
+      "total": 37998.84
     }
   },
   "vendedoras": [
@@ -24,23 +24,23 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 32,
-      "ganhos_qtd": 12,
-      "ganhos_valor": 16885.11,
-      "iniciados_qtd": 14,
-      "iniciados_valor": 22685.37,
-      "abertos_qtd": 17,
-      "abertos_valor": 59116.23,
+      "atividades": 33,
+      "ganhos_qtd": 13,
+      "ganhos_valor": 19538.04,
+      "iniciados_qtd": 15,
+      "iniciados_valor": 26380.18,
+      "abertos_qtd": 15,
+      "abertos_valor": 57784.47,
       "atrasados": 0,
-      "perdidos_qtd": 3,
-      "perdidos_valor": 8552.78,
-      "conversao": 80,
+      "perdidos_qtd": 5,
+      "perdidos_valor": 10926.42,
+      "conversao": 72.2,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
-      "hoje_orcado_qtd": 1,
-      "hoje_orcado_valor": 2411.91,
-      "hoje_movimentacoes": 10,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 2652.93,
+      "hoje_orcado_qtd": 2,
+      "hoje_orcado_valor": 6106.72,
+      "hoje_movimentacoes": 13,
       "hoje_atv_ligacao": 3,
       "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 0,
@@ -54,23 +54,23 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 36,
-      "ganhos_qtd": 14,
-      "ganhos_valor": 14904.45,
-      "iniciados_qtd": 16,
-      "iniciados_valor": 35646.61,
+      "atividades": 37,
+      "ganhos_qtd": 15,
+      "ganhos_valor": 18460.8,
+      "iniciados_qtd": 17,
+      "iniciados_valor": 36995.57,
       "abertos_qtd": 12,
-      "abertos_valor": 56741.8,
+      "abertos_valor": 54534.41,
       "atrasados": 0,
       "perdidos_qtd": 4,
       "perdidos_valor": 56661.75,
-      "conversao": 77.8,
+      "conversao": 78.9,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 2,
-      "hoje_vendas_valor": 1150,
-      "hoje_orcado_qtd": 5,
-      "hoje_orcado_valor": 5953.65,
-      "hoje_movimentacoes": 14,
+      "hoje_vendas_qtd": 3,
+      "hoje_vendas_valor": 4706.35,
+      "hoje_orcado_qtd": 6,
+      "hoje_orcado_valor": 7302.61,
+      "hoje_movimentacoes": 15,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 2,
@@ -80,30 +80,30 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 20,
-      "valor": 58729.41,
+      "qtd": 19,
+      "valor": 55173.06,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
-      "etapa": "Follow-up",
-      "qtd": 16,
-      "valor": 78266.69,
-      "conv": 80,
+      "etapa": "Envio de Proposta",
+      "qtd": 15,
+      "valor": 32788.36,
+      "conv": 78.9,
       "cor": "#4facfe"
     },
     {
-      "etapa": "Envio de Proposta",
-      "qtd": 13,
-      "valor": 28006.68,
-      "conv": 81.2,
+      "etapa": "Follow-up",
+      "qtd": 15,
+      "valor": 78545.98,
+      "conv": 100,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 8,
       "valor": 7456.08,
-      "conv": 61.5,
+      "conv": 53.3,
       "cor": "#ffd60a"
     },
     {
@@ -124,24 +124,29 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 42.9,
+      "pct": 33.3,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 28.6,
+      "pct": 22.2,
       "cor": "#ff9e00"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 14.3,
+      "pct": 22.2,
       "cor": "#ffd60a"
     },
     {
-      "label": "COMPROU COM A  TATO   + BARATO",
-      "pct": 14.3,
+      "label": "Parou de Responder",
+      "pct": 11.1,
       "cor": "#6c63ff"
+    },
+    {
+      "label": "COMPROU COM A  TATO   + BARATO",
+      "pct": 11.1,
+      "cor": "#4facfe"
     }
   ],
-  "atualizado_em": "2026-07-03T12:09:42.7449467-03:00"
+  "atualizado_em": "2026-07-03T14:10:54.1923257-03:00"
 }
