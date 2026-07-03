@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 1150,
     "vendas_qtd": 1,
-    "atividades": 15
+    "atividades": 18
   },
   "comparativo": {
     "mes_anterior": {
@@ -30,7 +30,7 @@
       "iniciados_qtd": 14,
       "iniciados_valor": 22685.37,
       "abertos_qtd": 18,
-      "abertos_valor": 63472.9,
+      "abertos_valor": 64133.86,
       "atrasados": 0,
       "perdidos_qtd": 2,
       "perdidos_valor": 3535.15,
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 2411.91,
-      "hoje_movimentacoes": 5,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -81,7 +81,7 @@
     {
       "etapa": "Fechamento",
       "qtd": 18,
-      "valor": 50955.75,
+      "valor": 51616.71,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -138,5 +138,5 @@
       "cor": "#ffd60a"
     }
   ],
-  "atualizado_em": "2026-07-03T10:39:03.6943621-03:00"
+  "atualizado_em": "2026-07-03T10:47:16.5081623-03:00"
 }
