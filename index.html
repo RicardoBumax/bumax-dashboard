@@ -288,7 +288,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 
   <div class="kpi" style="--c1:#4facfe;--c2:#00f2fe">
     <div class="kpi-head"><div class="kpi-lbl">Atividades Hoje</div><div class="kpi-icon">⚡</div></div>
-    <div><div class="kpi-val blue" id="aHojeVal">0</div><div class="kpi-sub">ligações · WhatsApp · e-mails · visitas</div></div>
+    <div><div class="kpi-val blue" id="aHojeVal">0</div></div>
   </div>
 
   <div class="kpi" style="--c1:#6c63ff;--c2:#a855f7">
@@ -300,6 +300,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
       </div>
       <div class="goal-bar"><div class="goal-fill" id="metaFill" style="width:0%"></div></div>
       <div class="kpi-sub"><span id="metaPct">75%</span> da meta · <span id="metaFalta" class="yellow">faltam R$ 38.002</span></div>
+      <div class="kpi-sub" style="margin-top:2px"><span id="metaPorDia" style="color:#00ff95;font-weight:800">R$ 0/dia útil</span> pra bater meta</div>
     </div>
   </div>
 
@@ -381,7 +382,7 @@ html,body{margin:0;padding:0;overflow:hidden;background:#080c18;width:100vw;heig
 
   <!-- Funnel by stage -->
   <div class="cc">
-    <div class="ct">🪜 Taxa de Conversão por Etapa do Funil</div>
+    <div class="ct">💰 Valor em Aberto por Etapa do Funil</div>
     <div class="cc-body">
       <div class="funnel" id="funnel">
         <!-- Will be rendered by JS -->
@@ -588,6 +589,32 @@ function render(){
   document.getElementById('metaFalta').textContent = falta>0 ? 'faltam '+fmtBRLs(falta) : '✅ Meta batida!';
   setTimeout(()=>{document.getElementById('metaFill').style.width = pctMeta+'%';}, 200);
 
+  // ============ FALTA POR DIA UTIL (novo) ============
+  // Calcula dias uteis (segunda a sexta) restantes ate o fim do mes
+  function diasUteisRestantes(){
+    const hoje = new Date();
+    const ultimoDia = new Date(hoje.getFullYear(), hoje.getMonth() + 1, 0);
+    let dias = 0;
+    for(let d = new Date(hoje); d <= ultimoDia; d.setDate(d.getDate() + 1)){
+      const dow = d.getDay(); // 0=domingo, 6=sabado
+      if(dow !== 0 && dow !== 6) dias++;
+    }
+    return Math.max(1, dias); // pelo menos 1 pra evitar divisao por zero
+  }
+  const diasRestantes = diasUteisRestantes();
+  const porDia = falta / diasRestantes;
+  const metaPorDiaEl = document.getElementById('metaPorDia');
+  if(metaPorDiaEl){
+    if(falta <= 0){
+      metaPorDiaEl.textContent = '🎉 Meta batida!';
+      metaPorDiaEl.style.color = '#00ff95';
+    } else {
+      metaPorDiaEl.textContent = fmtBRLs(porDia) + '/dia útil (' + diasRestantes + ' dias)';
+      // Cor: verde se factivel (<R$5k/dia), amarelo se dificil (5-10k), vermelho se muito (>10k)
+      metaPorDiaEl.style.color = porDia > 10000 ? '#ff4d6d' : porDia > 5000 ? '#ffd60a' : '#00ff95';
+    }
+  }
+
   // Comparativo
   const var_pct = ((DATA.comparativo.mes_atual.total - DATA.comparativo.mes_anterior.total) / DATA.comparativo.mes_anterior.total) * 100;
   const cv = document.getElementById('cmpVal');
@@ -674,20 +701,21 @@ function render(){
     atrEl.className = v.atrasados_ok ? 'bg' : 'br';
   });
 
-  // Funil
-  const maxF = Math.max(...DATA.funil.map(f=>f.qtd));
+  // Funil — mostra QTD + VALOR EM ABERTO por etapa (valor em destaque)
+  const maxF = Math.max(...DATA.funil.map(f=>f.valor||0), 1); // usa valor pro tamanho da barra
   const funnelEl = document.getElementById('funnel');
   funnelEl.innerHTML = DATA.funil.map((f,i)=>{
-    const valStr = (f.valor !== undefined && f.valor !== null) ? fmtBRLs(f.valor) : (f.conv.toFixed(1).replace('.',',') + '%');
+    const valTxt = fmtBRLs(f.valor || 0);
     return `<div class="fstage">
       <div class="fname">${f.etapa}</div>
-      <div class="fwrap"><div class="ffill" style="width:0%;background:linear-gradient(90deg,${f.cor},${f.cor}cc)">${f.qtd}</div></div>
-      <div class="fconv" style="color:${f.cor}">${valStr}</div>
+      <div class="fwrap"><div class="ffill" style="width:0%;background:linear-gradient(90deg,${f.cor},${f.cor}cc)">${f.qtd} negóc.</div></div>
+      <div class="fconv" style="color:${f.cor};font-weight:900">${valTxt}</div>
     </div>`;
   }).join('');
   setTimeout(()=>{
     document.querySelectorAll('.ffill').forEach((el,i)=>{
-      const w = (DATA.funil[i].qtd / maxF * 100).toFixed(1);
+      // largura da barra proporcional ao VALOR (não mais qtd)
+      const w = ((DATA.funil[i].valor||0) / maxF * 100).toFixed(1);
       el.style.width = w+'%';
     });
   },400);
