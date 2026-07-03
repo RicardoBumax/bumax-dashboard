@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 1150,
     "vendas_qtd": 1,
-    "atividades": 18
+    "atividades": 21
   },
   "comparativo": {
     "mes_anterior": {
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 2411.91,
-      "hoje_movimentacoes": 8,
+      "hoje_movimentacoes": 10,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -54,13 +54,13 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 32,
+      "atividades": 33,
       "ganhos_qtd": 13,
       "ganhos_valor": 14904.45,
-      "iniciados_qtd": 13,
-      "iniciados_valor": 31334.82,
+      "iniciados_qtd": 14,
+      "iniciados_valor": 32090.26,
       "abertos_qtd": 10,
-      "abertos_valor": 52430.01,
+      "abertos_valor": 53185.45,
       "atrasados": 0,
       "perdidos_qtd": 4,
       "perdidos_valor": 56661.75,
@@ -68,11 +68,11 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 1150,
-      "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 1641.86,
-      "hoje_movimentacoes": 10,
+      "hoje_orcado_qtd": 3,
+      "hoje_orcado_valor": 2397.3,
+      "hoje_movimentacoes": 11,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -94,31 +94,24 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 11,
-      "valor": 26495.8,
-      "conv": 64.7,
+      "qtd": 13,
+      "valor": 28006.68,
+      "conv": 76.5,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 7,
       "valor": 7456.08,
-      "conv": 63.6,
+      "conv": 53.8,
       "cor": "#ffd60a"
-    },
-    {
-      "etapa": "Envio de Amostras",
-      "qtd": 1,
-      "valor": 0,
-      "conv": 14.3,
-      "cor": "#00ff95"
     },
     {
       "etapa": "Negociação",
       "qtd": 1,
       "valor": 1731.15,
-      "conv": 100,
-      "cor": "#a855f7"
+      "conv": 14.3,
+      "cor": "#00ff95"
     }
   ],
   "motivos_perda": [
@@ -138,5 +131,5 @@
       "cor": "#ffd60a"
     }
   ],
-  "atualizado_em": "2026-07-03T10:47:16.5081623-03:00"
+  "atualizado_em": "2026-07-03T10:53:15.0853278-03:00"
 }
