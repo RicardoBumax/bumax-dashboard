@@ -716,7 +716,7 @@ function renderCharts(){
       labels:DATA.motivos_perda.map(m=>m.label),
       datasets:[{data:DATA.motivos_perda.map(m=>m.pct),backgroundColor:DATA.motivos_perda.map(m=>m.cor),borderWidth:2,borderColor:'#080c18',hoverOffset:8}]
     },
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#e2e8f0',font:{size:15,weight:'600'},padding:10,boxWidth:16}},tooltip:{callbacks:{label:ctx=>' '+ctx.label+': ~'+ctx.parsed+'%'}}}}
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{color:'#e2e8f0',font:{size:22,weight:'700'},padding:14,boxWidth:22}},tooltip:{callbacks:{label:ctx=>' '+ctx.label+': ~'+ctx.parsed+'%'}}}}
   });
 
   const cc=document.getElementById('cComp').getContext('2d');
@@ -731,7 +731,7 @@ function renderCharts(){
         {label:'Em Aberto',  data:DATA.vendedoras.map(v=>v.abertos_qtd),   backgroundColor:'rgba(255,214,10,.78)',borderRadius:5}
       ]
     },
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#e2e8f0',font:{size:15,weight:'600'},padding:12,boxWidth:16}}},scales:{x:{ticks:{color:'#e2e8f0',font:{size:14,weight:'600'}},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:'#cbd5e1',font:{size:13}},grid:{color:'rgba(255,255,255,.04)'}}}}
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#e2e8f0',font:{size:20,weight:'700'},padding:16,boxWidth:22}}},scales:{x:{ticks:{color:'#e2e8f0',font:{size:18,weight:'700'}},grid:{color:'rgba(255,255,255,.04)'}},y:{ticks:{color:'#cbd5e1',font:{size:15}},grid:{color:'rgba(255,255,255,.04)'}}}}
   });
 }
 
