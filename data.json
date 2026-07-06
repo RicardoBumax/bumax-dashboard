@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 16847.16,
-    "vendas_qtd": 3,
-    "atividades": 17
+    "vendas_valor": 17412.06,
+    "vendas_qtd": 4,
+    "atividades": 18
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 55407.67
+      "total": 55972.57
     }
   },
   "vendedoras": [
@@ -24,25 +24,25 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 42,
-      "ganhos_qtd": 19,
-      "ganhos_valor": 35728.43,
-      "iniciados_qtd": 20,
-      "iniciados_valor": 27904.49,
+      "atividades": 43,
+      "ganhos_qtd": 20,
+      "ganhos_valor": 36293.33,
+      "iniciados_qtd": 21,
+      "iniciados_valor": 28469.39,
       "abertos_qtd": 10,
       "abertos_valor": 41025.42,
       "atrasados": 0,
       "perdidos_qtd": 5,
       "perdidos_valor": 38014.82,
-      "conversao": 79.2,
+      "conversao": 80,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 3,
-      "hoje_vendas_valor": 16847.16,
-      "hoje_orcado_qtd": 1,
-      "hoje_orcado_valor": 1123.57,
-      "hoje_movimentacoes": 13,
+      "hoje_vendas_qtd": 4,
+      "hoje_vendas_valor": 17412.06,
+      "hoje_orcado_qtd": 2,
+      "hoje_orcado_valor": 1688.47,
+      "hoje_movimentacoes": 14,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 29,
-      "valor": 56754.45,
+      "qtd": 30,
+      "valor": 57319.35,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 15,
       "valor": 60617.52,
-      "conv": 51.7,
+      "conv": 50,
       "cor": "#4facfe"
     },
     {
@@ -153,5 +153,5 @@
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-06T10:37:47.3131880-03:00"
+  "atualizado_em": "2026-07-06T10:44:40.8518120-03:00"
 }
