@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 27,
-      "valor": 54056.53,
+      "qtd": 29,
+      "valor": 56754.45,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,21 +89,21 @@
       "etapa": "Follow-up",
       "qtd": 15,
       "valor": 60617.52,
-      "conv": 55.6,
+      "conv": 51.7,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 13,
-      "valor": 30651.36,
-      "conv": 86.7,
+      "qtd": 11,
+      "valor": 27953.44,
+      "conv": 73.3,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 9,
       "valor": 7597.28,
-      "conv": 69.2,
+      "conv": 81.8,
       "cor": "#ffd60a"
     },
     {
@@ -153,5 +153,5 @@
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-06T10:10:01.4259866-03:00"
+  "atualizado_em": "2026-07-06T10:17:06.1675679-03:00"
 }
