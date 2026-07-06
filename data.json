@@ -30,11 +30,11 @@
       "iniciados_qtd": 20,
       "iniciados_valor": 27904.49,
       "abertos_qtd": 12,
-      "abertos_valor": 50229.29,
+      "abertos_valor": 44432.08,
       "atrasados": 0,
-      "perdidos_qtd": 4,
-      "perdidos_valor": 56661.75,
-      "conversao": 82.6,
+      "perdidos_qtd": 3,
+      "perdidos_valor": 34608.16,
+      "conversao": 86.4,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 16847.16,
@@ -109,7 +109,7 @@
     {
       "etapa": "Negociação",
       "qtd": 4,
-      "valor": 34593.7,
+      "valor": 28796.49,
       "conv": 44.4,
       "cor": "#00ff95"
     },
@@ -124,34 +124,34 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 30,
+      "pct": 33.3,
       "cor": "#ff4d6d"
     },
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 20,
+      "label": "Comprou outra Marca",
+      "pct": 22.2,
       "cor": "#ff9e00"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 20,
+      "label": "comprou na região devido a urgencia",
+      "pct": 11.1,
       "cor": "#ffd60a"
     },
     {
       "label": "Parou de Responder",
-      "pct": 10,
+      "pct": 11.1,
       "cor": "#6c63ff"
     },
     {
-      "label": "comprou na região devido a urgencia",
-      "pct": 10,
+      "label": "COMPROU COM A  TATO   + BARATO",
+      "pct": 11.1,
       "cor": "#4facfe"
     },
     {
-      "label": "COMPROU COM A  TATO   + BARATO",
-      "pct": 10,
+      "label": "Sem Previsão de Compra",
+      "pct": 11.1,
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-06T09:27:40.3231735-03:00"
+  "atualizado_em": "2026-07-06T09:35:03.5995849-03:00"
 }
