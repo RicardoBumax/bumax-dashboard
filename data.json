@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 16847.16,
     "vendas_qtd": 3,
-    "atividades": 11
+    "atividades": 14
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,23 +24,23 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 41,
+      "atividades": 42,
       "ganhos_qtd": 19,
       "ganhos_valor": 35728.43,
-      "iniciados_qtd": 19,
-      "iniciados_valor": 26228.98,
-      "abertos_qtd": 11,
-      "abertos_valor": 42756.57,
+      "iniciados_qtd": 20,
+      "iniciados_valor": 27904.49,
+      "abertos_qtd": 10,
+      "abertos_valor": 41025.42,
       "atrasados": 0,
-      "perdidos_qtd": 3,
-      "perdidos_valor": 34608.16,
-      "conversao": 86.4,
+      "perdidos_qtd": 5,
+      "perdidos_valor": 38014.82,
+      "conversao": 79.2,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 16847.16,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 1123.57,
-      "hoje_movimentacoes": 10,
+      "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -54,13 +54,13 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 36,
+      "atividades": 37,
       "ganhos_qtd": 14,
       "ganhos_valor": 19679.24,
-      "iniciados_qtd": 17,
-      "iniciados_valor": 27883.83,
-      "abertos_qtd": 15,
-      "abertos_valor": 58718.11,
+      "iniciados_qtd": 18,
+      "iniciados_valor": 31854.85,
+      "abertos_qtd": 16,
+      "abertos_valor": 62689.13,
       "atrasados": 0,
       "perdidos_qtd": 6,
       "perdidos_valor": 11355.23,
@@ -68,9 +68,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
-      "hoje_orcado_qtd": 0,
-      "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 1,
+      "hoje_orcado_qtd": 1,
+      "hoje_orcado_valor": 3971.02,
+      "hoje_movimentacoes": 2,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 23,
-      "valor": 45717.33,
+      "qtd": 25,
+      "valor": 53659.37,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,69 +89,69 @@
       "etapa": "Envio de Proposta",
       "qtd": 13,
       "valor": 30651.36,
-      "conv": 56.5,
+      "conv": 52,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 12,
-      "valor": 42825.03,
-      "conv": 92.3,
+      "qtd": 13,
+      "valor": 44500.54,
+      "conv": 100,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 9,
       "valor": 7597.28,
-      "conv": 75,
+      "conv": 69.2,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
-      "qtd": 4,
-      "valor": 28796.49,
-      "conv": 44.4,
+      "qtd": 3,
+      "valor": 27065.34,
+      "conv": 33.3,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 25,
+      "conv": 33.3,
       "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 33.3,
+      "pct": 36.4,
       "cor": "#ff4d6d"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 22.2,
+      "label": "Sem Previsão de Compra",
+      "pct": 18.2,
       "cor": "#ff9e00"
     },
     {
-      "label": "comprou na região devido a urgencia",
-      "pct": 11.1,
+      "label": "Comprou outra Marca",
+      "pct": 18.2,
       "cor": "#ffd60a"
     },
     {
-      "label": "Parou de Responder",
-      "pct": 11.1,
+      "label": "COMPROU COM A  TATO   + BARATO",
+      "pct": 9.1,
       "cor": "#6c63ff"
     },
     {
-      "label": "COMPROU COM A  TATO   + BARATO",
-      "pct": 11.1,
+      "label": "comprou na região devido a urgencia",
+      "pct": 9.1,
       "cor": "#4facfe"
     },
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 11.1,
+      "label": "Parou de Responder",
+      "pct": 9.1,
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-06T09:49:13.7814800-03:00"
+  "atualizado_em": "2026-07-06T09:55:58.4054088-03:00"
 }
