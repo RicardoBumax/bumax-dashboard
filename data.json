@@ -41,7 +41,7 @@
       "hoje_orcado_qtd": 4,
       "hoje_orcado_valor": 3394.97,
       "hoje_movimentacoes": 13,
-      "hoje_atv_ligacao": 1,
+      "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 31,
-      "valor": 117377.05,
-      "conv": 96.9,
+      "qtd": 29,
+      "valor": 111547.09,
+      "conv": 90.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 20,
       "valor": 10443.87,
-      "conv": 64.5,
+      "conv": 69,
       "cor": "#00d2b2"
     },
     {
@@ -107,11 +107,18 @@
       "cor": "#ffd60a"
     },
     {
+      "etapa": "Negociação",
+      "qtd": 2,
+      "valor": 5829.96,
+      "conv": 16.7,
+      "cor": "#00ff95"
+    },
+    {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 8.3,
-      "cor": "#00ff95"
+      "conv": 50,
+      "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
@@ -146,5 +153,5 @@
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-08T14:32:51.1102268-03:00"
+  "atualizado_em": "2026-07-08T14:39:46.5394753-03:00"
 }
