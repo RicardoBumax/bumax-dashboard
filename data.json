@@ -1,8 +1,8 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 144,
-    "vendas_qtd": 1,
+    "vendas_valor": 441.3,
+    "vendas_qtd": 2,
     "atividades": 5
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 90733.93
+      "total": 91031.23
     }
   },
   "vendedoras": [
@@ -24,13 +24,13 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 60,
+      "atividades": 59,
       "ganhos_qtd": 31,
       "ganhos_valor": 55488.59,
       "iniciados_qtd": 33,
       "iniciados_valor": 51714.23,
-      "abertos_qtd": 12,
-      "abertos_valor": 45840.11,
+      "abertos_qtd": 11,
+      "abertos_valor": 29583.73,
       "atrasados": 0,
       "perdidos_qtd": 5,
       "perdidos_valor": 38014.82,
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 144,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 144,
-      "hoje_movimentacoes": 3,
+      "hoje_movimentacoes": 2,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 1,
@@ -54,9 +54,9 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 50,
-      "ganhos_qtd": 26,
-      "ganhos_valor": 35245.34,
+      "atividades": 51,
+      "ganhos_qtd": 27,
+      "ganhos_valor": 35542.64,
       "iniciados_qtd": 32,
       "iniciados_valor": 65778.02,
       "abertos_qtd": 14,
@@ -64,13 +64,13 @@
       "atrasados": 0,
       "perdidos_qtd": 9,
       "perdidos_valor": 26240.84,
-      "conversao": 74.3,
+      "conversao": 75,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 297.3,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 3479.84,
-      "hoje_movimentacoes": 2,
+      "hoje_movimentacoes": 3,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 34,
-      "valor": 87560.18,
+      "qtd": 33,
+      "valor": 71303.8,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 23,
       "valor": 67880.77,
-      "conv": 67.6,
+      "conv": 69.7,
       "cor": "#4facfe"
     },
     {
@@ -146,5 +146,5 @@
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-08T08:49:37.5893249-03:00"
+  "atualizado_em": "2026-07-08T08:57:00.0724983-03:00"
 }
