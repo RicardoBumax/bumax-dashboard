@@ -54,13 +54,13 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 51,
+      "atividades": 50,
       "ganhos_qtd": 26,
       "ganhos_valor": 35245.34,
       "iniciados_qtd": 32,
       "iniciados_valor": 65778.02,
-      "abertos_qtd": 15,
-      "abertos_valor": 66160.59,
+      "abertos_qtd": 14,
+      "abertos_valor": 65863.17,
       "atrasados": 0,
       "perdidos_qtd": 9,
       "perdidos_valor": 26240.84,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 35,
-      "valor": 87857.6,
+      "qtd": 34,
+      "valor": 87560.18,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 23,
       "valor": 67880.77,
-      "conv": 65.7,
+      "conv": 67.6,
       "cor": "#4facfe"
     },
     {
@@ -146,5 +146,5 @@
       "cor": "#00d2b2"
     }
   ],
-  "atualizado_em": "2026-07-08T08:44:04.9413704-03:00"
+  "atualizado_em": "2026-07-08T08:49:37.5893249-03:00"
 }
