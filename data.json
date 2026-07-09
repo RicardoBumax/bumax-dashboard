@@ -28,9 +28,9 @@
       "ganhos_qtd": 36,
       "ganhos_valor": 75666.79,
       "iniciados_qtd": 43,
-      "iniciados_valor": 134504.22,
+      "iniciados_valor": 127977.8,
       "abertos_qtd": 15,
-      "abertos_valor": 101701.99,
+      "abertos_valor": 95175.57,
       "atrasados": 0,
       "perdidos_qtd": 8,
       "perdidos_valor": 46596.96,
@@ -39,7 +39,7 @@
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 3692.64,
       "hoje_orcado_qtd": 5,
-      "hoje_orcado_valor": 77570.89,
+      "hoje_orcado_valor": 71044.47,
       "hoje_movimentacoes": 11,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
@@ -109,7 +109,7 @@
     {
       "etapa": "Negociação",
       "qtd": 5,
-      "valor": 152150.74,
+      "valor": 139097.9,
       "conv": 31.2,
       "cor": "#00ff95"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-09T11:34:16.4704633-03:00"
+  "atualizado_em": "2026-07-09T11:39:58.9746179-03:00"
 }
