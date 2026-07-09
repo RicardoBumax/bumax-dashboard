@@ -1,8 +1,8 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 7781.31,
-    "vendas_qtd": 8,
+    "vendas_valor": 8341.89,
+    "vendas_qtd": 9,
     "atividades": 23
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 127195.6
+      "total": 127756.18
     }
   },
   "vendedoras": [
@@ -55,24 +55,24 @@
       "titulo": "Vendedora",
       "meta": 165000,
       "atividades": 63,
-      "ganhos_qtd": 39,
-      "ganhos_valor": 51528.81,
+      "ganhos_qtd": 40,
+      "ganhos_valor": 52089.39,
       "iniciados_qtd": 44,
       "iniciados_valor": 78836.7,
-      "abertos_qtd": 12,
-      "abertos_valor": 58135.78,
+      "abertos_qtd": 11,
+      "abertos_valor": 57575.2,
       "atrasados": 0,
       "perdidos_qtd": 11,
       "perdidos_valor": 31040.74,
-      "conversao": 78,
+      "conversao": 78.4,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 4088.67,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 4649.25,
       "hoje_orcado_qtd": 8,
       "hoje_orcado_valor": 8781.79,
       "hoje_movimentacoes": 10,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 3,
+      "hoje_atv_whatsapp": 4,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -94,23 +94,23 @@
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 26,
-      "valor": 14842.3,
-      "conv": 92.9,
+      "qtd": 24,
+      "valor": 13721.14,
+      "conv": 85.7,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 17,
-      "valor": 28513.57,
-      "conv": 65.4,
+      "qtd": 18,
+      "valor": 29074.15,
+      "conv": 75,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 5,
       "valor": 139715.34,
-      "conv": 29.4,
+      "conv": 27.8,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-09T14:07:02.0355981-03:00"
+  "atualizado_em": "2026-07-09T14:13:51.5318874-03:00"
 }
