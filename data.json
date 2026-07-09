@@ -87,30 +87,30 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 28,
-      "valor": 108480.16,
-      "conv": 77.8,
+      "qtd": 30,
+      "valor": 111743.12,
+      "conv": 83.3,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 24,
       "valor": 13721.14,
-      "conv": 85.7,
+      "conv": 80,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 18,
-      "valor": 29074.15,
-      "conv": 75,
+      "qtd": 16,
+      "valor": 25811.19,
+      "conv": 66.7,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 5,
       "valor": 139715.34,
-      "conv": 27.8,
+      "conv": 31.2,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-09T14:21:24.0074635-03:00"
+  "atualizado_em": "2026-07-09T14:27:56.7281090-03:00"
 }
