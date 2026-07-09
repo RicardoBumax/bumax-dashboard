@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 9889.61,
-    "vendas_qtd": 12,
-    "atividades": 38
+    "vendas_valor": 10007.14,
+    "vendas_qtd": 13,
+    "atividades": 40
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 129303.9
+      "total": 129421.43
     }
   },
   "vendedoras": [
@@ -25,24 +25,24 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 84,
-      "ganhos_qtd": 40,
-      "ganhos_valor": 77214.51,
+      "ganhos_qtd": 41,
+      "ganhos_valor": 77332.04,
       "iniciados_qtd": 47,
       "iniciados_valor": 129186.66,
-      "abertos_qtd": 16,
-      "abertos_valor": 94991.48,
+      "abertos_qtd": 15,
+      "abertos_valor": 94873.95,
       "atrasados": 0,
       "perdidos_qtd": 8,
       "perdidos_valor": 46596.96,
-      "conversao": 83.3,
+      "conversao": 83.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 6,
-      "hoje_vendas_valor": 5240.36,
+      "hoje_vendas_qtd": 7,
+      "hoje_vendas_valor": 5357.89,
       "hoje_orcado_qtd": 9,
       "hoje_orcado_valor": 72253.33,
-      "hoje_movimentacoes": 25,
+      "hoje_movimentacoes": 26,
       "hoje_atv_ligacao": 1,
-      "hoje_atv_whatsapp": 6,
+      "hoje_atv_whatsapp": 7,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 4649.25,
       "hoje_orcado_qtd": 10,
       "hoje_orcado_valor": 11576.38,
-      "hoje_movimentacoes": 13,
+      "hoje_movimentacoes": 14,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 5,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 40,
-      "valor": 69599.25,
+      "qtd": 39,
+      "valor": 69481.72,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 34,
       "valor": 117332.3,
-      "conv": 85,
+      "conv": 87.2,
       "cor": "#4facfe"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-09T16:33:55.2958115-03:00"
+  "atualizado_em": "2026-07-09T16:40:31.9322813-03:00"
 }
