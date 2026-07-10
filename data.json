@@ -29,12 +29,12 @@
       "ganhos_valor": 78754.86,
       "iniciados_qtd": 48,
       "iniciados_valor": 130454.71,
-      "abertos_qtd": 12,
-      "abertos_valor": 92666.66,
+      "abertos_qtd": 11,
+      "abertos_valor": 91790.82,
       "atrasados": 0,
-      "perdidos_qtd": 10,
-      "perdidos_valor": 48649.48,
-      "conversao": 81.1,
+      "perdidos_qtd": 11,
+      "perdidos_valor": 49525.32,
+      "conversao": 79.6,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 1422.82,
@@ -79,24 +79,24 @@
   ],
   "funil": [
     {
-      "etapa": "Follow-up",
-      "qtd": 39,
-      "valor": 133264.39,
-      "conv": 100,
-      "cor": "#6c63ff"
-    },
-    {
       "etapa": "Fechamento",
       "qtd": 39,
       "valor": 70595,
       "conv": 100,
+      "cor": "#6c63ff"
+    },
+    {
+      "etapa": "Follow-up",
+      "qtd": 38,
+      "valor": 132388.55,
+      "conv": 97.4,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 27,
       "valor": 15050.05,
-      "conv": 69.2,
+      "conv": 71.1,
       "cor": "#00d2b2"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 30.4,
+      "pct": 29.2,
       "cor": "#ff4d6d"
     },
     {
       "label": "Parou de Responder",
-      "pct": 17.4,
+      "pct": 16.7,
       "cor": "#ff9e00"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 13,
+      "pct": 12.5,
       "cor": "#ffd60a"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 13,
+      "pct": 12.5,
       "cor": "#6c63ff"
     },
     {
-      "label": "comprou na região devido a urgencia",
-      "pct": 4.3,
+      "label": "Prazo de Entrega",
+      "pct": 8.3,
       "cor": "#4facfe"
     },
     {
-      "label": "COMPROU COM A  TATO   + BARATO",
-      "pct": 4.3,
+      "label": "comprou na região devido a urgencia",
+      "pct": 4.2,
       "cor": "#00d2b2"
     },
     {
-      "label": "Recusa de Crédito",
-      "pct": 4.3,
+      "label": "COMPROU COM A  TATO   + BARATO",
+      "pct": 4.2,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-10T11:27:47.5461190-03:00"
+  "atualizado_em": "2026-07-10T11:34:58.2514592-03:00"
 }
