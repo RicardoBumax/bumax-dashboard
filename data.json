@@ -28,9 +28,9 @@
       "ganhos_qtd": 43,
       "ganhos_valor": 78754.86,
       "iniciados_qtd": 48,
-      "iniciados_valor": 130454.71,
+      "iniciados_valor": 112816.24,
       "abertos_qtd": 11,
-      "abertos_valor": 91790.82,
+      "abertos_valor": 74152.35,
       "atrasados": 0,
       "perdidos_qtd": 11,
       "perdidos_valor": 49525.32,
@@ -109,7 +109,7 @@
     {
       "etapa": "Negociação",
       "qtd": 4,
-      "valor": 138231.57,
+      "valor": 102954.63,
       "conv": 28.6,
       "cor": "#00ff95"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-10T11:34:58.2514592-03:00"
+  "atualizado_em": "2026-07-10T11:41:40.3840132-03:00"
 }
