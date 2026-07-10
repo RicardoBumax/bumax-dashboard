@@ -29,12 +29,12 @@
       "ganhos_valor": 115114.42,
       "iniciados_qtd": 49,
       "iniciados_valor": 99897.86,
-      "abertos_qtd": 10,
-      "abertos_valor": 24874.41,
+      "abertos_qtd": 9,
+      "abertos_valor": 24382.55,
       "atrasados": 0,
-      "perdidos_qtd": 11,
-      "perdidos_valor": 49525.32,
-      "conversao": 80.4,
+      "perdidos_qtd": 12,
+      "perdidos_valor": 50017.18,
+      "conversao": 78.9,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 4,
       "hoje_vendas_valor": 37782.38,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 37,
-      "valor": 121885.51,
-      "conv": 84.1,
+      "qtd": 36,
+      "valor": 121393.65,
+      "conv": 81.8,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 29,
       "valor": 16617.95,
-      "conv": 78.4,
+      "conv": 80.6,
       "cor": "#00d2b2"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 28,
+      "pct": 26.9,
       "cor": "#ff4d6d"
     },
     {
       "label": "Parou de Responder",
-      "pct": 16,
+      "pct": 19.2,
       "cor": "#ff9e00"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 16,
+      "pct": 15.4,
       "cor": "#ffd60a"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 12,
+      "pct": 11.5,
       "cor": "#6c63ff"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 8,
+      "pct": 7.7,
       "cor": "#4facfe"
     },
     {
       "label": "COMPROU COM A  TATO   + BARATO",
-      "pct": 4,
+      "pct": 3.8,
       "cor": "#00d2b2"
     },
     {
       "label": "comprou na região devido a urgencia",
-      "pct": 4,
+      "pct": 3.8,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-10T17:32:23.6878893-03:00"
+  "atualizado_em": "2026-07-10T17:38:28.4932794-03:00"
 }
