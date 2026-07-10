@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 11222.25,
     "vendas_qtd": 10,
-    "atividades": 33
+    "atividades": 35
   },
   "comparativo": {
     "mes_anterior": {
@@ -59,18 +59,18 @@
       "ganhos_valor": 61002.96,
       "iniciados_qtd": 56,
       "iniciados_valor": 111818.35,
-      "abertos_qtd": 14,
-      "abertos_valor": 83824.04,
+      "abertos_qtd": 13,
+      "abertos_valor": 71436.02,
       "atrasados": 0,
-      "perdidos_qtd": 13,
-      "perdidos_valor": 32153.05,
-      "conversao": 78.3,
+      "perdidos_qtd": 14,
+      "perdidos_valor": 44541.07,
+      "conversao": 77,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 7,
       "hoje_vendas_valor": 8913.57,
       "hoje_orcado_qtd": 10,
       "hoje_orcado_valor": 30313.36,
-      "hoje_movimentacoes": 19,
+      "hoje_movimentacoes": 21,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 38,
-      "valor": 134273.53,
-      "conv": 88.4,
+      "qtd": 37,
+      "valor": 121885.51,
+      "conv": 86,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 29,
       "valor": 16617.95,
-      "conv": 76.3,
+      "conv": 78.4,
       "cor": "#00d2b2"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 29.2,
+      "pct": 28,
       "cor": "#ff4d6d"
     },
     {
       "label": "Parou de Responder",
-      "pct": 16.7,
+      "pct": 16,
       "cor": "#ff9e00"
     },
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 12.5,
+      "label": "Comprou outra Marca",
+      "pct": 16,
       "cor": "#ffd60a"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 12.5,
+      "label": "Sem Previsão de Compra",
+      "pct": 12,
       "cor": "#6c63ff"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 8.3,
+      "pct": 8,
       "cor": "#4facfe"
     },
     {
-      "label": "comprou na região devido a urgencia",
-      "pct": 4.2,
+      "label": "COMPROU COM A  TATO   + BARATO",
+      "pct": 4,
       "cor": "#00d2b2"
     },
     {
-      "label": "COMPROU COM A  TATO   + BARATO",
-      "pct": 4.2,
+      "label": "comprou na região devido a urgencia",
+      "pct": 4,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-10T17:10:55.3365450-03:00"
+  "atualizado_em": "2026-07-10T17:18:35.4045047-03:00"
 }
