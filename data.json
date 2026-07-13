@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 4123.34,
     "vendas_qtd": 8,
-    "atividades": 24
+    "atividades": 25
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,13 +54,13 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 82,
+      "atividades": 83,
       "ganhos_qtd": 50,
       "ganhos_valor": 64740.1,
-      "iniciados_qtd": 62,
-      "iniciados_valor": 132319.54,
-      "abertos_qtd": 15,
-      "abertos_valor": 86837.62,
+      "iniciados_qtd": 63,
+      "iniciados_valor": 132631.53,
+      "abertos_qtd": 16,
+      "abertos_valor": 87149.61,
       "atrasados": 0,
       "perdidos_qtd": 15,
       "perdidos_valor": 45903.52,
@@ -68,9 +68,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 3737.14,
-      "hoje_orcado_qtd": 6,
-      "hoje_orcado_valor": 20188.1,
-      "hoje_movimentacoes": 11,
+      "hoje_orcado_qtd": 7,
+      "hoje_orcado_valor": 20500.09,
+      "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 46,
-      "valor": 113596.4,
+      "qtd": 50,
+      "valor": 115528.06,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 41,
       "valor": 156690.8,
-      "conv": 89.1,
+      "conv": 82,
       "cor": "#4facfe"
     },
     {
@@ -101,16 +101,16 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 19,
-      "valor": 51969.25,
-      "conv": 57.6,
+      "qtd": 17,
+      "valor": 50661.57,
+      "conv": 51.5,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 2,
       "valor": 4398.75,
-      "conv": 10.5,
+      "conv": 11.8,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-13T14:56:43.4631198-03:00"
+  "atualizado_em": "2026-07-13T15:03:45.7295643-03:00"
 }
