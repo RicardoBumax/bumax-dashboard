@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 90689.22,
     "vendas_qtd": 5,
-    "atividades": 19
+    "atividades": 20
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,13 +24,13 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 127,
+      "atividades": 128,
       "ganhos_qtd": 75,
       "ganhos_valor": 188587.11,
-      "iniciados_qtd": 85,
-      "iniciados_valor": 180468.58,
-      "abertos_qtd": 11,
-      "abertos_valor": 23464.81,
+      "iniciados_qtd": 86,
+      "iniciados_valor": 184840.32,
+      "abertos_qtd": 12,
+      "abertos_valor": 27836.55,
       "atrasados": 0,
       "perdidos_qtd": 17,
       "perdidos_valor": 58247.69,
@@ -38,11 +38,11 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 36368.83,
-      "hoje_orcado_qtd": 3,
-      "hoje_orcado_valor": 1761.91,
-      "hoje_movimentacoes": 13,
+      "hoje_orcado_qtd": 4,
+      "hoje_orcado_valor": 6133.65,
+      "hoje_movimentacoes": 14,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 3,
+      "hoje_atv_whatsapp": 4,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 73,
-      "valor": 185485.61,
+      "qtd": 75,
+      "valor": 194229.09,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 54,
       "valor": 227723.59,
-      "conv": 74,
+      "conv": 72,
       "cor": "#4facfe"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-20T10:51:56.8486485-03:00"
+  "atualizado_em": "2026-07-20T10:58:52.4627665-03:00"
 }
