@@ -8,7 +8,7 @@
   "comparativo": {
     "mes_anterior": {
       "nome": "Junho 2026",
-      "total": 310032.65
+      "total": 310165.79
     },
     "mes_atual": {
       "nome": "Julho 2026",
@@ -54,17 +54,17 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 127,
+      "atividades": 126,
       "ganhos_qtd": 74,
       "ganhos_valor": 153316.55,
-      "iniciados_qtd": 85,
-      "iniciados_valor": 180468.58,
-      "abertos_qtd": 13,
-      "abertos_valor": 60407.13,
+      "iniciados_qtd": 84,
+      "iniciados_valor": 145198.02,
+      "abertos_qtd": 11,
+      "abertos_valor": 23464.81,
       "atrasados": 0,
-      "perdidos_qtd": 16,
-      "perdidos_valor": 56575.93,
-      "conversao": 82.2,
+      "perdidos_qtd": 17,
+      "perdidos_valor": 58247.69,
+      "conversao": 81.3,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 1098.27,
@@ -80,23 +80,23 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 74,
-      "valor": 220756.17,
+      "qtd": 72,
+      "valor": 150215.05,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 55,
-      "valor": 229395.35,
-      "conv": 74.3,
+      "qtd": 54,
+      "valor": 227723.59,
+      "conv": 75,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 45,
       "valor": 33914.55,
-      "conv": 81.8,
+      "conv": 83.3,
       "cor": "#00d2b2"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 27,
+      "pct": 28.9,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 16.2,
+      "pct": 15.8,
       "cor": "#ff9e00"
     },
     {
       "label": "Parou de Responder",
-      "pct": 16.2,
+      "pct": 15.8,
       "cor": "#ffd60a"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 13.5,
+      "pct": 13.2,
       "cor": "#6c63ff"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 5.4,
+      "pct": 5.3,
       "cor": "#4facfe"
     },
     {
       "label": "comprou na região devido a urgencia",
-      "pct": 2.7,
+      "pct": 2.6,
       "cor": "#00d2b2"
     },
     {
       "label": "precisavam urgente e enrolaram comprar, tiveram que pegar  por lá",
-      "pct": 2.7,
+      "pct": 2.6,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-20T10:37:41.9894040-03:00"
+  "atualizado_em": "2026-07-20T10:44:40.8913373-03:00"
 }
