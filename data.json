@@ -1,9 +1,9 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 54498.58,
-    "vendas_qtd": 3,
-    "atividades": 9
+    "vendas_valor": 55418.66,
+    "vendas_qtd": 4,
+    "atividades": 11
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 330665.69
+      "total": 331585.77
     }
   },
   "vendedoras": [
@@ -40,8 +40,8 @@
       "hoje_vendas_valor": 54320.39,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 45896.12,
-      "hoje_movimentacoes": 2,
-      "hoje_atv_ligacao": 0,
+      "hoje_movimentacoes": 4,
+      "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
@@ -55,19 +55,19 @@
       "titulo": "Vendedora",
       "meta": 165000,
       "atividades": 126,
-      "ganhos_qtd": 73,
-      "ganhos_valor": 152396.47,
+      "ganhos_qtd": 74,
+      "ganhos_valor": 153316.55,
       "iniciados_qtd": 84,
       "iniciados_valor": 179804.94,
-      "abertos_qtd": 13,
-      "abertos_valor": 60663.57,
+      "abertos_qtd": 12,
+      "abertos_valor": 59743.49,
       "atrasados": 0,
       "perdidos_qtd": 16,
       "perdidos_valor": 56575.93,
-      "conversao": 82,
+      "conversao": 82.2,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 178.19,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 1098.27,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 1098.27,
       "hoje_movimentacoes": 7,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 75,
-      "valor": 221676.25,
+      "qtd": 74,
+      "valor": 220756.17,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 54,
       "valor": 241357.24,
-      "conv": 72,
+      "conv": 73,
       "cor": "#4facfe"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-20T10:09:39.3585324-03:00"
+  "atualizado_em": "2026-07-20T10:17:34.2354186-03:00"
 }
