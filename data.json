@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 8127.98,
     "vendas_qtd": 6,
-    "atividades": 7
+    "atividades": 18
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,23 +24,23 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 112,
+      "atividades": 151,
       "ganhos_qtd": 109,
       "ganhos_valor": 215692.27,
-      "iniciados_qtd": 101,
-      "iniciados_valor": 186272.91,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "iniciados_qtd": 127,
+      "iniciados_valor": 315377.46,
+      "abertos_qtd": 9,
+      "abertos_valor": 32034.76,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 27,
+      "perdidos_valor": 132812.13,
+      "conversao": 80.1,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 3289.14,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 2577.61,
-      "hoje_movimentacoes": 3,
+      "hoje_movimentacoes": 5,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 5,
       "hoje_atv_email": 0,
@@ -54,23 +54,23 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 121,
+      "atividades": 164,
       "ganhos_qtd": 98,
       "ganhos_valor": 212437.06,
-      "iniciados_qtd": 88,
-      "iniciados_valor": 168486.57,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "iniciados_qtd": 122,
+      "iniciados_valor": 243636.29,
+      "abertos_qtd": 13,
+      "abertos_valor": 39176.27,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 29,
+      "perdidos_valor": 81853.99,
+      "conversao": 77.2,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 4838.84,
-      "hoje_orcado_qtd": 1,
-      "hoje_orcado_valor": 540,
-      "hoje_movimentacoes": 4,
+      "hoje_orcado_qtd": 5,
+      "hoje_orcado_valor": 13025.4,
+      "hoje_movimentacoes": 13,
       "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 8,
       "hoje_atv_email": 3,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 88,
-      "valor": 196861.92,
+      "qtd": 99,
+      "valor": 234719.7,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,37 +89,74 @@
       "etapa": "Solicitação de Orçamento",
       "qtd": 63,
       "valor": 48157.14,
-      "conv": 71.6,
+      "conv": 63.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 19,
-      "valor": 82409.04,
-      "conv": 30.2,
+      "qtd": 60,
+      "valor": 229744.67,
+      "conv": 95.2,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 17,
-      "valor": 21582.3,
-      "conv": 89.5,
+      "qtd": 39,
+      "valor": 78068.06,
+      "conv": 65,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
-      "qtd": 2,
-      "valor": 5749.08,
-      "conv": 11.8,
+      "qtd": 9,
+      "valor": 39535.21,
+      "conv": 23.1,
       "cor": "#00ff95"
+    },
+    {
+      "etapa": "Envio de Amostras",
+      "qtd": 1,
+      "valor": 0,
+      "conv": 11.1,
+      "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
-      "label": "Sem perdas no mes",
-      "pct": 100,
-      "cor": "#00ff95"
+      "label": "Preço Produto",
+      "pct": 35.7,
+      "cor": "#ff4d6d"
+    },
+    {
+      "label": "Parou de Responder",
+      "pct": 21.4,
+      "cor": "#ff9e00"
+    },
+    {
+      "label": "Sem Previsão de Compra",
+      "pct": 12.5,
+      "cor": "#ffd60a"
+    },
+    {
+      "label": "Comprou outra Marca",
+      "pct": 12.5,
+      "cor": "#6c63ff"
+    },
+    {
+      "label": "Prazo de Entrega",
+      "pct": 3.6,
+      "cor": "#4facfe"
+    },
+    {
+      "label": "comprou na região devido a urgencia",
+      "pct": 1.8,
+      "cor": "#00d2b2"
+    },
+    {
+      "label": "precisavam urgente e enrolaram comprar, tiveram que pegar  por lá",
+      "pct": 1.8,
+      "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-27T14:27:20.9749608-03:00"
+  "atualizado_em": "2026-07-27T15:03:57.9642477-03:00"
 }
