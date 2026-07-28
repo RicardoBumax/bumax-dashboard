@@ -71,7 +71,7 @@
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 23548.26,
       "hoje_movimentacoes": 16,
-      "hoje_atv_ligacao": 0,
+      "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 10,
       "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-28T15:54:34.0593682-03:00"
+  "atualizado_em": "2026-07-28T16:02:20.3692466-03:00"
 }
