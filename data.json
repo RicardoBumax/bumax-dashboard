@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 12611.15,
     "vendas_qtd": 11,
-    "atividades": 33
+    "atividades": 34
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,13 +24,13 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 175,
+      "atividades": 176,
       "ganhos_qtd": 123,
       "ganhos_valor": 230918.76,
-      "iniciados_qtd": 151,
-      "iniciados_valor": 364800.72,
-      "abertos_qtd": 18,
-      "abertos_valor": 61864.09,
+      "iniciados_qtd": 152,
+      "iniciados_valor": 391282.13,
+      "abertos_qtd": 19,
+      "abertos_valor": 88345.5,
       "atrasados": 0,
       "perdidos_qtd": 28,
       "perdidos_valor": 137179.57,
@@ -38,12 +38,12 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 7,
       "hoje_vendas_valor": 8331.19,
-      "hoje_orcado_qtd": 16,
-      "hoje_orcado_valor": 39717.57,
-      "hoje_movimentacoes": 21,
+      "hoje_orcado_qtd": 17,
+      "hoje_orcado_valor": 66198.98,
+      "hoje_movimentacoes": 22,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
-      "hoje_atv_email": 2,
+      "hoje_atv_email": 3,
       "hoje_atv_proposta": 0
     },
     {
@@ -86,24 +86,24 @@
       "cor": "#6c63ff"
     },
     {
-      "etapa": "Follow-up",
+      "etapa": "Solicitação de Orçamento",
       "qtd": 73,
-      "valor": 243347.53,
+      "valor": 108486,
       "conv": 65.2,
       "cor": "#4facfe"
     },
     {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 71,
-      "valor": 55523.18,
-      "conv": 97.3,
+      "etapa": "Follow-up",
+      "qtd": 73,
+      "valor": 243347.53,
+      "conv": 100,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 50,
       "valor": 181806.95,
-      "conv": 70.4,
+      "conv": 68.5,
       "cor": "#ffd60a"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-29T13:57:35.1735861-03:00"
+  "atualizado_em": "2026-07-29T14:04:39.5875171-03:00"
 }
