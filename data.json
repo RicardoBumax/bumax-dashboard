@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 16907.76,
     "vendas_qtd": 15,
-    "atividades": 40
+    "atividades": 42
   },
   "comparativo": {
     "mes_anterior": {
@@ -29,18 +29,18 @@
       "ganhos_valor": 231386.2,
       "iniciados_qtd": 153,
       "iniciados_valor": 391749.57,
-      "abertos_qtd": 18,
-      "abertos_valor": 86278.57,
+      "abertos_qtd": 17,
+      "abertos_valor": 82116.33,
       "atrasados": 0,
-      "perdidos_qtd": 29,
-      "perdidos_valor": 139246.5,
-      "conversao": 81,
+      "perdidos_qtd": 30,
+      "perdidos_valor": 143408.74,
+      "conversao": 80.5,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 8,
       "hoje_vendas_valor": 8798.63,
       "hoje_orcado_qtd": 18,
       "hoje_orcado_valor": 66666.42,
-      "hoje_movimentacoes": 24,
+      "hoje_movimentacoes": 26,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 4,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 79,
-      "valor": 349031.99,
-      "conv": 68.7,
+      "qtd": 78,
+      "valor": 344869.75,
+      "conv": 67.8,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 71,
       "valor": 55523.18,
-      "conv": 89.9,
+      "conv": 91,
       "cor": "#00d2b2"
     },
     {
@@ -124,27 +124,27 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 39.7,
+      "pct": 39.1,
       "cor": "#ff4d6d"
     },
     {
       "label": "Parou de Responder",
-      "pct": 20.6,
+      "pct": 21.9,
       "cor": "#ff9e00"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 11.1,
+      "pct": 10.9,
       "cor": "#ffd60a"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 11.1,
+      "pct": 10.9,
       "cor": "#6c63ff"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 3.2,
+      "pct": 3.1,
       "cor": "#4facfe"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-29T16:24:27.8581521-03:00"
+  "atualizado_em": "2026-07-29T16:32:06.5878209-03:00"
 }
