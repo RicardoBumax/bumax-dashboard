@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 752.6,
     "vendas_qtd": 3,
-    "atividades": 4
+    "atividades": 6
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,23 +24,23 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 121,
+      "atividades": 162,
       "ganhos_qtd": 118,
       "ganhos_valor": 222929.1,
-      "iniciados_qtd": 110,
-      "iniciados_valor": 193509.74,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "iniciados_qtd": 138,
+      "iniciados_valor": 329469.47,
+      "abertos_qtd": 10,
+      "abertos_valor": 34522.5,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 28,
+      "perdidos_valor": 137179.57,
+      "conversao": 80.8,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 341.53,
-      "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 341.53,
-      "hoje_movimentacoes": 2,
+      "hoje_orcado_qtd": 3,
+      "hoje_orcado_valor": 4708.97,
+      "hoje_movimentacoes": 3,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
@@ -54,23 +54,23 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 126,
+      "atividades": 172,
       "ganhos_qtd": 103,
       "ganhos_valor": 218834.39,
-      "iniciados_qtd": 93,
-      "iniciados_valor": 174883.9,
-      "abertos_qtd": 0,
-      "abertos_valor": 0,
+      "iniciados_qtd": 130,
+      "iniciados_valor": 272800.03,
+      "abertos_qtd": 14,
+      "abertos_valor": 58561.68,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 31,
+      "perdidos_valor": 85234.99,
+      "conversao": 76.9,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 411.07,
-      "hoje_orcado_qtd": 0,
-      "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 2,
+      "hoje_orcado_qtd": 1,
+      "hoje_orcado_valor": 4207.63,
+      "hoje_movimentacoes": 3,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
@@ -80,46 +80,83 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 95,
-      "valor": 206890.04,
+      "qtd": 108,
+      "valor": 250647.08,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 68,
-      "valor": 50975.8,
-      "conv": 71.6,
+      "qtd": 69,
+      "valor": 55343.24,
+      "conv": 63.9,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 20,
-      "valor": 82495.41,
-      "conv": 29.4,
+      "qtd": 62,
+      "valor": 231530.04,
+      "conv": 89.9,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 18,
-      "valor": 22283.31,
-      "conv": 90,
+      "qtd": 45,
+      "valor": 124191.35,
+      "conv": 72.6,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
-      "qtd": 2,
-      "valor": 5749.08,
-      "conv": 11.1,
+      "qtd": 7,
+      "valor": 33641.97,
+      "conv": 15.6,
       "cor": "#00ff95"
+    },
+    {
+      "etapa": "Envio de Amostras",
+      "qtd": 1,
+      "valor": 0,
+      "conv": 14.3,
+      "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
-      "label": "Sem perdas no mes",
-      "pct": 100,
-      "cor": "#00ff95"
+      "label": "Preço Produto",
+      "pct": 39,
+      "cor": "#ff4d6d"
+    },
+    {
+      "label": "Parou de Responder",
+      "pct": 20.3,
+      "cor": "#ff9e00"
+    },
+    {
+      "label": "Sem Previsão de Compra",
+      "pct": 11.9,
+      "cor": "#ffd60a"
+    },
+    {
+      "label": "Comprou outra Marca",
+      "pct": 11.9,
+      "cor": "#6c63ff"
+    },
+    {
+      "label": "Prazo de Entrega",
+      "pct": 3.4,
+      "cor": "#4facfe"
+    },
+    {
+      "label": "comprou na região devido a urgencia",
+      "pct": 1.7,
+      "cor": "#00d2b2"
+    },
+    {
+      "label": "precisavam urgente e enrolaram comprar, tiveram que pegar  por lá",
+      "pct": 1.7,
+      "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-29T08:41:33.9948161-03:00"
+  "atualizado_em": "2026-07-29T08:50:02.8109036-03:00"
 }
