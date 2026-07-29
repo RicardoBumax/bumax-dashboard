@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 12611.15,
     "vendas_qtd": 11,
-    "atividades": 32
+    "atividades": 33
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,13 +24,13 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 174,
+      "atividades": 175,
       "ganhos_qtd": 123,
       "ganhos_valor": 230918.76,
-      "iniciados_qtd": 150,
-      "iniciados_valor": 364267.99,
-      "abertos_qtd": 17,
-      "abertos_valor": 61331.36,
+      "iniciados_qtd": 151,
+      "iniciados_valor": 364800.72,
+      "abertos_qtd": 18,
+      "abertos_valor": 61864.09,
       "atrasados": 0,
       "perdidos_qtd": 28,
       "perdidos_valor": 137179.57,
@@ -38,12 +38,12 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 7,
       "hoje_vendas_valor": 8331.19,
-      "hoje_orcado_qtd": 15,
-      "hoje_orcado_valor": 39184.84,
-      "hoje_movimentacoes": 20,
+      "hoje_orcado_qtd": 16,
+      "hoje_orcado_valor": 39717.57,
+      "hoje_movimentacoes": 21,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
-      "hoje_atv_email": 1,
+      "hoje_atv_email": 2,
       "hoje_atv_proposta": 0
     },
     {
@@ -80,37 +80,37 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 110,
-      "valor": 247929.48,
+      "qtd": 112,
+      "valor": 253957.98,
       "conv": 100,
       "cor": "#6c63ff"
+    },
+    {
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 73,
+      "valor": 56588.64,
+      "conv": 65.2,
+      "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 73,
       "valor": 243347.53,
-      "conv": 66.4,
-      "cor": "#4facfe"
-    },
-    {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 71,
-      "valor": 55523.18,
-      "conv": 97.3,
+      "conv": 100,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 50,
-      "valor": 186769.99,
-      "conv": 70.4,
+      "qtd": 48,
+      "valor": 180741.49,
+      "conv": 65.8,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 7,
       "valor": 33641.97,
-      "conv": 14,
+      "conv": 14.6,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-29T11:44:19.2683717-03:00"
+  "atualizado_em": "2026-07-29T11:51:21.4393900-03:00"
 }
