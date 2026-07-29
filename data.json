@@ -29,12 +29,12 @@
       "ganhos_valor": 231386.2,
       "iniciados_qtd": 153,
       "iniciados_valor": 391749.57,
-      "abertos_qtd": 19,
-      "abertos_valor": 88345.5,
+      "abertos_qtd": 18,
+      "abertos_valor": 86278.57,
       "atrasados": 0,
-      "perdidos_qtd": 28,
-      "perdidos_valor": 137179.57,
-      "conversao": 81.6,
+      "perdidos_qtd": 29,
+      "perdidos_valor": 139246.5,
+      "conversao": 81,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 8,
       "hoje_vendas_valor": 8798.63,
@@ -87,30 +87,30 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 77,
-      "valor": 297375.81,
-      "conv": 66.4,
+      "qtd": 79,
+      "valor": 349031.99,
+      "conv": 68.1,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 71,
       "valor": 55523.18,
-      "conv": 92.2,
+      "conv": 89.9,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 50,
-      "valor": 174943.95,
-      "conv": 70.4,
+      "qtd": 47,
+      "valor": 121220.84,
+      "conv": 66.2,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 7,
       "valor": 33641.97,
-      "conv": 14,
+      "conv": 14.9,
       "cor": "#00ff95"
     },
     {
@@ -124,22 +124,22 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 40.3,
+      "pct": 39.7,
       "cor": "#ff4d6d"
     },
     {
       "label": "Parou de Responder",
-      "pct": 21,
+      "pct": 20.6,
       "cor": "#ff9e00"
     },
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 11.3,
+      "label": "Comprou outra Marca",
+      "pct": 11.1,
       "cor": "#ffd60a"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 11.3,
+      "label": "Sem Previsão de Compra",
+      "pct": 11.1,
       "cor": "#6c63ff"
     },
     {
@@ -148,7 +148,7 @@
       "cor": "#4facfe"
     },
     {
-      "label": "comprou na região devido a urgencia",
+      "label": "demoraram  comprar e precisavam urgente, tiveram que pega por lá mesmo.",
       "pct": 1.6,
       "cor": "#00d2b2"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-29T15:14:32.2620682-03:00"
+  "atualizado_em": "2026-07-29T15:21:57.5081548-03:00"
 }
