@@ -8,11 +8,11 @@
   "comparativo": {
     "mes_anterior": {
       "nome": "Junho 2026",
-      "total": 310032.65
+      "total": 5449.82
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 467328.98
+      "total": 377676.88
     }
   },
   "vendedoras": [
@@ -24,17 +24,17 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 178,
-      "ganhos_qtd": 127,
-      "ganhos_valor": 240513.31,
-      "iniciados_qtd": 154,
-      "iniciados_valor": 399147.04,
+      "atividades": 151,
+      "ganhos_qtd": 101,
+      "ganhos_valor": 205494.72,
+      "iniciados_qtd": 135,
+      "iniciados_valor": 383262.84,
       "abertos_qtd": 14,
       "abertos_valor": 79731.87,
       "atrasados": 0,
       "perdidos_qtd": 31,
       "perdidos_valor": 144063.56,
-      "conversao": 80.4,
+      "conversao": 76.5,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 9127.11,
@@ -54,17 +54,17 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 179,
-      "ganhos_qtd": 110,
-      "ganhos_valor": 226815.67,
-      "iniciados_qtd": 137,
-      "iniciados_valor": 284343.14,
+      "atividades": 138,
+      "ganhos_qtd": 81,
+      "ganhos_valor": 172182.16,
+      "iniciados_qtd": 115,
+      "iniciados_valor": 256564.24,
       "abertos_qtd": 10,
       "abertos_valor": 44880.94,
       "atrasados": 0,
       "perdidos_qtd": 35,
       "perdidos_valor": 102477.56,
-      "conversao": 75.9,
+      "conversao": 69.8,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
@@ -80,37 +80,37 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 115,
-      "valor": 259224.78,
+      "qtd": 94,
+      "valor": 229585.77,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 75,
-      "valor": 339474.57,
-      "conv": 65.2,
+      "qtd": 73,
+      "valor": 335796.72,
+      "conv": 77.7,
       "cor": "#4facfe"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 71,
-      "valor": 55523.18,
-      "conv": 94.7,
+      "qtd": 55,
+      "valor": 45971.52,
+      "conv": 75.3,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 46,
-      "valor": 120238.49,
-      "conv": 64.8,
+      "qtd": 44,
+      "valor": 119443.91,
+      "conv": 80,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 7,
       "valor": 33641.97,
-      "conv": 15.2,
+      "conv": 15.9,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-30T09:27:02.9748913-03:00"
+  "atualizado_em": "2026-07-30T09:34:04.9422746-03:00"
 }
