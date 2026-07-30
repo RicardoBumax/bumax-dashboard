@@ -58,9 +58,9 @@
       "ganhos_qtd": 110,
       "ganhos_valor": 226815.67,
       "iniciados_qtd": 137,
-      "iniciados_valor": 284343.14,
+      "iniciados_valor": 272840.75,
       "abertos_qtd": 10,
-      "abertos_valor": 44880.94,
+      "abertos_valor": 33378.55,
       "atrasados": 0,
       "perdidos_qtd": 35,
       "perdidos_valor": 102477.56,
@@ -102,7 +102,7 @@
     {
       "etapa": "Envio de Proposta",
       "qtd": 45,
-      "valor": 113289.29,
+      "valor": 90284.51,
       "conv": 62.5,
       "cor": "#ffd60a"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-30T10:29:35.2224700-03:00"
+  "atualizado_em": "2026-07-30T10:36:54.2538444-03:00"
 }
