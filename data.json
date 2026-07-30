@@ -59,7 +59,7 @@
       "ganhos_valor": 226815.67,
       "iniciados_qtd": 137,
       "iniciados_valor": 284343.14,
-      "abertos_qtd": 9,
+      "abertos_qtd": 10,
       "abertos_valor": 44880.94,
       "atrasados": 0,
       "perdidos_qtd": 35,
@@ -112,6 +112,13 @@
       "valor": 33641.97,
       "conv": 15.2,
       "cor": "#00ff95"
+    },
+    {
+      "etapa": "Envio de Amostras",
+      "qtd": 1,
+      "valor": 0,
+      "conv": 14.3,
+      "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
@@ -151,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-30T09:19:20.6199283-03:00"
+  "atualizado_em": "2026-07-30T09:27:02.9748913-03:00"
 }
