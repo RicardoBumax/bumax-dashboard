@@ -28,9 +28,9 @@
       "ganhos_qtd": 140,
       "ganhos_valor": 259144.44,
       "iniciados_qtd": 168,
-      "iniciados_valor": 416387.96,
+      "iniciados_valor": 403619.89,
       "abertos_qtd": 13,
-      "abertos_valor": 77243.21,
+      "abertos_valor": 64475.14,
       "atrasados": 0,
       "perdidos_qtd": 33,
       "perdidos_valor": 145162.01,
@@ -73,7 +73,7 @@
       "hoje_movimentacoes": 19,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 7,
-      "hoje_atv_email": 0,
+      "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
     }
   ],
@@ -95,7 +95,7 @@
     {
       "etapa": "Follow-up",
       "qtd": 74,
-      "valor": 292928.66,
+      "valor": 267392.52,
       "conv": 86,
       "cor": "#00d2b2"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-31T16:14:26.3415201-03:00"
+  "atualizado_em": "2026-07-31T16:29:22.4457909-03:00"
 }
