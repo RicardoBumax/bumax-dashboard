@@ -1,18 +1,18 @@
 {
   "periodo": "Julho 2026",
   "hoje": {
-    "vendas_valor": 1319.25,
-    "vendas_qtd": 1,
-    "atividades": 8
+    "vendas_valor": 1456.45,
+    "vendas_qtd": 2,
+    "atividades": 9
   },
   "comparativo": {
     "mes_anterior": {
       "nome": "Junho 2026",
-      "total": 310032.65
+      "total": 211651.17
     },
     "mes_atual": {
       "nome": "Julho 2026",
-      "total": 482170.37
+      "total": 482307.57
     }
   },
   "vendedoras": [
@@ -24,23 +24,23 @@
       "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 197,
-      "ganhos_qtd": 133,
-      "ganhos_valor": 251491.19,
-      "iniciados_qtd": 163,
-      "iniciados_valor": 410081.99,
+      "atividades": 198,
+      "ganhos_qtd": 134,
+      "ganhos_valor": 251628.39,
+      "iniciados_qtd": 164,
+      "iniciados_valor": 410219.19,
       "abertos_qtd": 16,
       "abertos_valor": 79350.05,
       "atrasados": 0,
       "perdidos_qtd": 32,
       "perdidos_valor": 144402.45,
-      "conversao": 80.6,
+      "conversao": 80.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 1319.25,
-      "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 378.67,
-      "hoje_movimentacoes": 3,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 1456.45,
+      "hoje_orcado_qtd": 3,
+      "hoje_orcado_valor": 515.87,
+      "hoje_movimentacoes": 4,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 1,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 78,
-      "valor": 63800.03,
-      "conv": 64.5,
+      "qtd": 79,
+      "valor": 63937.23,
+      "conv": 65.3,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 75,
       "valor": 342683.47,
-      "conv": 96.2,
+      "conv": 94.9,
       "cor": "#00d2b2"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-31T10:24:45.2111843-03:00"
+  "atualizado_em": "2026-07-31T10:32:25.2880767-03:00"
 }
