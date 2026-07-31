@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 4555.67,
     "vendas_qtd": 8,
-    "atividades": 23
+    "atividades": 24
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,7 +54,7 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 189,
+      "atividades": 190,
       "ganhos_qtd": 117,
       "ganhos_valor": 230679.18,
       "iniciados_qtd": 145,
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 4,
       "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 11,
+      "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 0,
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-07-31T11:27:41.1501654-03:00"
+  "atualizado_em": "2026-07-31T11:34:40.1874934-03:00"
 }
