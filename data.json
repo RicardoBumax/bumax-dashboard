@@ -29,8 +29,8 @@
       "ganhos_valor": 0,
       "iniciados_qtd": 0,
       "iniciados_valor": 0,
-      "abertos_qtd": 11,
-      "abertos_valor": 32188.94,
+      "abertos_qtd": 0,
+      "abertos_valor": 0,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -59,8 +59,8 @@
       "ganhos_valor": 0,
       "iniciados_qtd": 0,
       "iniciados_valor": 0,
-      "abertos_qtd": 13,
-      "abertos_valor": 63487.95,
+      "abertos_qtd": 0,
+      "abertos_valor": 0,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -79,39 +79,11 @@
   ],
   "funil": [
     {
-      "etapa": "Follow-up",
-      "qtd": 9,
-      "valor": 36563.98,
-      "conv": 100,
-      "cor": "#6c63ff"
-    },
-    {
-      "etapa": "Fechamento",
-      "qtd": 8,
-      "valor": 44475.97,
-      "conv": 88.9,
-      "cor": "#4facfe"
-    },
-    {
-      "etapa": "Envio de Proposta",
-      "qtd": 5,
-      "valor": 5183.58,
-      "conv": 62.5,
-      "cor": "#00d2b2"
-    },
-    {
-      "etapa": "Envio de Amostras",
-      "qtd": 1,
+      "etapa": "Sem dados",
+      "qtd": 0,
       "valor": 0,
-      "conv": 20,
-      "cor": "#ffd60a"
-    },
-    {
-      "etapa": "Negociação",
-      "qtd": 1,
-      "valor": 9453.36,
-      "conv": 100,
-      "cor": "#00ff95"
+      "conv": 0,
+      "cor": "#64748b"
     }
   ],
   "motivos_perda": [
@@ -121,5 +93,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-08-02T13:16:59.0516508-03:00"
+  "atualizado_em": "2026-08-02T15:54:21.1088076-03:00"
 }
