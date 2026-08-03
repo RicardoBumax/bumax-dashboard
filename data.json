@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 929.69,
     "vendas_qtd": 5,
-    "atividades": 21
+    "atividades": 23
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,13 +54,13 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 15,
+      "atividades": 17,
       "ganhos_qtd": 2,
       "ganhos_valor": 444.58,
-      "iniciados_qtd": 9,
-      "iniciados_valor": 18700.8,
-      "abertos_qtd": 18,
-      "abertos_valor": 53937.52,
+      "iniciados_qtd": 11,
+      "iniciados_valor": 19769.72,
+      "abertos_qtd": 20,
+      "abertos_valor": 55006.44,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -68,9 +68,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 444.58,
-      "hoje_orcado_qtd": 9,
-      "hoje_orcado_valor": 18700.8,
-      "hoje_movimentacoes": 15,
+      "hoje_orcado_qtd": 11,
+      "hoje_orcado_valor": 19769.72,
+      "hoje_movimentacoes": 17,
       "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Envio de Proposta",
-      "qtd": 20,
-      "valor": 41369.96,
+      "qtd": 22,
+      "valor": 42125.08,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Fechamento",
       "qtd": 12,
       "valor": 47027.67,
-      "conv": 60,
+      "conv": 54.5,
       "cor": "#4facfe"
     },
     {
@@ -100,17 +100,17 @@
       "cor": "#00d2b2"
     },
     {
-      "etapa": "Envio de Amostras",
-      "qtd": 1,
-      "valor": 0,
-      "conv": 10,
+      "etapa": "Negociação",
+      "qtd": 3,
+      "valor": 10836.08,
+      "conv": 30,
       "cor": "#ffd60a"
     },
     {
-      "etapa": "Negociação",
+      "etapa": "Envio de Amostras",
       "qtd": 1,
-      "valor": 9453.36,
-      "conv": 100,
+      "valor": 0,
+      "conv": 33.3,
       "cor": "#00ff95"
     },
     {
@@ -128,5 +128,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-08-03T15:12:02.9683819-03:00"
+  "atualizado_em": "2026-08-03T15:19:32.6838212-03:00"
 }
