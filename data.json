@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 0,
-    "vendas_qtd": 0,
-    "atividades": 1
+    "vendas_valor": 277.58,
+    "vendas_qtd": 1,
+    "atividades": 3
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 0
+      "total": 277.58
     }
   },
   "vendedoras": [
@@ -22,27 +22,27 @@
       "classe": "ag",
       "cor1": "#6c63ff",
       "cor2": "#a855f7",
-      "titulo": "Vendedora",
+      "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 1,
-      "ganhos_qtd": 0,
-      "ganhos_valor": 0,
-      "iniciados_qtd": 1,
-      "iniciados_valor": 2928.17,
+      "atividades": 3,
+      "ganhos_qtd": 1,
+      "ganhos_valor": 277.58,
+      "iniciados_qtd": 2,
+      "iniciados_valor": 3205.75,
       "abertos_qtd": 12,
       "abertos_valor": 35117.11,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
-      "conversao": 0,
+      "conversao": 100,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
-      "hoje_orcado_qtd": 1,
-      "hoje_orcado_valor": 2928.17,
-      "hoje_movimentacoes": 1,
-      "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 277.58,
+      "hoje_orcado_qtd": 2,
+      "hoje_orcado_valor": 3205.75,
+      "hoje_movimentacoes": 3,
+      "hoje_atv_ligacao": 1,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -79,24 +79,24 @@
   ],
   "funil": [
     {
-      "etapa": "Follow-up",
+      "etapa": "Fechamento",
       "qtd": 9,
-      "valor": 36563.98,
+      "valor": 44753.55,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
-      "etapa": "Fechamento",
-      "qtd": 8,
-      "valor": 44475.97,
-      "conv": 88.9,
+      "etapa": "Follow-up",
+      "qtd": 9,
+      "valor": 36563.98,
+      "conv": 100,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 7,
       "valor": 11039.92,
-      "conv": 87.5,
+      "conv": 77.8,
       "cor": "#00d2b2"
     },
     {
@@ -121,5 +121,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-08-03T08:53:04.7363169-03:00"
+  "atualizado_em": "2026-08-03T08:59:26.5079691-03:00"
 }
