@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 929.69,
     "vendas_qtd": 5,
-    "atividades": 19
+    "atividades": 20
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,13 +54,13 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 13,
+      "atividades": 14,
       "ganhos_qtd": 2,
       "ganhos_valor": 444.58,
-      "iniciados_qtd": 7,
-      "iniciados_valor": 7840.92,
-      "abertos_qtd": 16,
-      "abertos_valor": 43077.64,
+      "iniciados_qtd": 8,
+      "iniciados_valor": 10766.98,
+      "abertos_qtd": 17,
+      "abertos_valor": 46003.7,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -68,9 +68,9 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 444.58,
-      "hoje_orcado_qtd": 7,
-      "hoje_orcado_valor": 7840.92,
-      "hoje_movimentacoes": 13,
+      "hoje_orcado_qtd": 8,
+      "hoje_orcado_valor": 10766.98,
+      "hoje_movimentacoes": 14,
       "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Envio de Proposta",
-      "qtd": 14,
-      "valor": 15671.88,
+      "qtd": 18,
+      "valor": 25502.32,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Fechamento",
       "qtd": 12,
       "valor": 47027.67,
-      "conv": 85.7,
+      "conv": 66.7,
       "cor": "#4facfe"
     },
     {
@@ -100,23 +100,23 @@
       "cor": "#00d2b2"
     },
     {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 3,
-      "valor": 4082.7,
-      "conv": 30,
-      "cor": "#ffd60a"
-    },
-    {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 33.3,
-      "cor": "#00ff95"
+      "conv": 10,
+      "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 1,
       "valor": 9453.36,
+      "conv": 100,
+      "cor": "#00ff95"
+    },
+    {
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 1,
+      "valor": 104.38,
       "conv": 100,
       "cor": "#a855f7"
     }
@@ -128,5 +128,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-08-03T14:23:48.6846953-03:00"
+  "atualizado_em": "2026-08-03T14:28:58.0440269-03:00"
 }
