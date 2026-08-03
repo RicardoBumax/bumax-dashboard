@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 277.58,
-    "vendas_qtd": 1,
-    "atividades": 8
+    "vendas_valor": 658.31,
+    "vendas_qtd": 3,
+    "atividades": 12
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,25 +12,55 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 277.58
+      "total": 658.31
     }
   },
   "vendedoras": [
+    {
+      "iniciais": "ADR",
+      "nome": "Adriane",
+      "classe": "aa",
+      "cor1": "#4facfe",
+      "cor2": "#00f2fe",
+      "titulo": "Lider do Mes",
+      "meta": 165000,
+      "atividades": 2,
+      "ganhos_qtd": 2,
+      "ganhos_valor": 380.73,
+      "iniciados_qtd": 1,
+      "iniciados_valor": 89.97,
+      "abertos_qtd": 12,
+      "abertos_valor": 63197.19,
+      "atrasados": 0,
+      "perdidos_qtd": 0,
+      "perdidos_valor": 0,
+      "conversao": 100,
+      "atrasados_ok": true,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 380.73,
+      "hoje_orcado_qtd": 1,
+      "hoje_orcado_valor": 89.97,
+      "hoje_movimentacoes": 2,
+      "hoje_atv_ligacao": 0,
+      "hoje_atv_whatsapp": 0,
+      "hoje_atv_email": 1,
+      "hoje_atv_proposta": 0
+    },
     {
       "iniciais": "GAB",
       "nome": "Gabriele",
       "classe": "ag",
       "cor1": "#6c63ff",
       "cor2": "#a855f7",
-      "titulo": "Lider do Mes",
+      "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 8,
+      "atividades": 10,
       "ganhos_qtd": 1,
       "ganhos_valor": 277.58,
-      "iniciados_qtd": 3,
-      "iniciados_valor": 4259.31,
-      "abertos_qtd": 13,
-      "abertos_valor": 39663.03,
+      "iniciados_qtd": 5,
+      "iniciados_valor": 7320.36,
+      "abertos_qtd": 15,
+      "abertos_valor": 42724.08,
       "atrasados": 0,
       "perdidos_qtd": 0,
       "perdidos_valor": 0,
@@ -38,72 +68,42 @@
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 277.58,
-      "hoje_orcado_qtd": 3,
-      "hoje_orcado_valor": 4259.31,
-      "hoje_movimentacoes": 8,
+      "hoje_orcado_qtd": 5,
+      "hoje_orcado_valor": 7320.36,
+      "hoje_movimentacoes": 10,
       "hoje_atv_ligacao": 2,
-      "hoje_atv_whatsapp": 2,
-      "hoje_atv_email": 0,
-      "hoje_atv_proposta": 0
-    },
-    {
-      "iniciais": "ADR",
-      "nome": "Adriane",
-      "classe": "aa",
-      "cor1": "#4facfe",
-      "cor2": "#00f2fe",
-      "titulo": "Vendedora",
-      "meta": 165000,
-      "atividades": 0,
-      "ganhos_qtd": 0,
-      "ganhos_valor": 0,
-      "iniciados_qtd": 0,
-      "iniciados_valor": 0,
-      "abertos_qtd": 13,
-      "abertos_valor": 63487.95,
-      "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 0,
-      "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
-      "hoje_orcado_qtd": 0,
-      "hoje_orcado_valor": 0,
-      "hoje_movimentacoes": 0,
-      "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
   ],
   "funil": [
     {
-      "etapa": "Fechamento",
+      "etapa": "Envio de Proposta",
       "qtd": 11,
-      "valor": 46860.67,
+      "valor": 16056.43,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
-      "etapa": "Follow-up",
-      "qtd": 10,
-      "valor": 41251.9,
-      "conv": 90.9,
+      "etapa": "Fechamento",
+      "qtd": 11,
+      "valor": 46860.67,
+      "conv": 100,
       "cor": "#4facfe"
     },
     {
-      "etapa": "Envio de Proposta",
-      "qtd": 6,
-      "valor": 9844.36,
-      "conv": 60,
+      "etapa": "Follow-up",
+      "qtd": 9,
+      "valor": 40961.14,
+      "conv": 81.8,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 16.7,
+      "conv": 11.1,
       "cor": "#ffd60a"
     },
     {
@@ -121,5 +121,5 @@
       "cor": "#00ff95"
     }
   ],
-  "atualizado_em": "2026-08-03T09:41:45.0329655-03:00"
+  "atualizado_em": "2026-08-03T11:03:16.9183704-03:00"
 }
