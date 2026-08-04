@@ -1,18 +1,18 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 3018.67,
-    "vendas_qtd": 5,
+    "vendas_valor": 3338.67,
+    "vendas_qtd": 6,
     "atividades": 21
   },
   "comparativo": {
     "mes_anterior": {
       "nome": "Julho 2026",
-      "total": 468473.02
+      "total": 489823.62
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 4947.95
+      "total": 5267.95
     }
   },
   "vendedoras": [
@@ -25,19 +25,19 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 27,
-      "ganhos_qtd": 8,
-      "ganhos_valor": 3799.25,
+      "ganhos_qtd": 9,
+      "ganhos_valor": 4119.25,
       "iniciados_qtd": 19,
       "iniciados_valor": 36033.92,
-      "abertos_qtd": 22,
-      "abertos_valor": 66465.81,
+      "abertos_qtd": 21,
+      "abertos_valor": 66145.81,
       "atrasados": 0,
       "perdidos_qtd": 1,
       "perdidos_valor": 1749.16,
-      "conversao": 88.9,
+      "conversao": 90,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 3018.67,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 3338.67,
       "hoje_orcado_qtd": 5,
       "hoje_orcado_valor": 11974.75,
       "hoje_movimentacoes": 20,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Fechamento",
-      "qtd": 17,
-      "valor": 53220.96,
-      "conv": 94.4,
+      "qtd": 18,
+      "valor": 53540.96,
+      "conv": 100,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 14,
       "valor": 51148.4,
-      "conv": 82.4,
+      "conv": 77.8,
       "cor": "#00d2b2"
     },
     {
@@ -107,17 +107,17 @@
       "cor": "#ffd60a"
     },
     {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 3,
-      "valor": 744.38,
-      "conv": 100,
-      "cor": "#00ff95"
-    },
-    {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
       "conv": 33.3,
+      "cor": "#00ff95"
+    },
+    {
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 1,
+      "valor": 104.38,
+      "conv": 100,
       "cor": "#a855f7"
     }
   ],
@@ -133,5 +133,5 @@
       "cor": "#ff9e00"
     }
   ],
-  "atualizado_em": "2026-08-04T16:02:18.0510727-03:00"
+  "atualizado_em": "2026-08-04T16:08:51.9222216-03:00"
 }
