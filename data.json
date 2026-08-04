@@ -29,12 +29,12 @@
       "ganhos_valor": 3799.25,
       "iniciados_qtd": 18,
       "iniciados_valor": 35713.92,
-      "abertos_qtd": 22,
-      "abertos_valor": 67894.97,
+      "abertos_qtd": 21,
+      "abertos_valor": 66145.81,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 1,
+      "perdidos_valor": 1749.16,
+      "conversao": 88.9,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 5,
       "hoje_vendas_valor": 3018.67,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Envio de Proposta",
-      "qtd": 19,
-      "valor": 42539.55,
+      "qtd": 18,
+      "valor": 40790.39,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Fechamento",
       "qtd": 17,
       "valor": 53220.96,
-      "conv": 89.5,
+      "conv": 94.4,
       "cor": "#4facfe"
     },
     {
@@ -123,15 +123,15 @@
   ],
   "motivos_perda": [
     {
-      "label": "Preço Produto",
-      "pct": 50,
+      "label": "Sem Previsão de Compra",
+      "pct": 66.7,
       "cor": "#ff4d6d"
     },
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 50,
+      "label": "Preço Produto",
+      "pct": 33.3,
       "cor": "#ff9e00"
     }
   ],
-  "atualizado_em": "2026-08-04T15:26:34.4483237-03:00"
+  "atualizado_em": "2026-08-04T15:34:22.9999884-03:00"
 }
