@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 1929.28,
-    "vendas_qtd": 7,
-    "atividades": 34
+    "vendas_valor": 691.36,
+    "vendas_qtd": 1,
+    "atividades": 3
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,17 +12,47 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 1929.28
+      "total": 2620.64
     }
   },
   "vendedoras": [
+    {
+      "iniciais": "GAB",
+      "nome": "Gabriele",
+      "classe": "ag",
+      "cor1": "#6c63ff",
+      "cor2": "#a855f7",
+      "titulo": "Lider do Mes",
+      "meta": 165000,
+      "atividades": 20,
+      "ganhos_qtd": 4,
+      "ganhos_valor": 1471.94,
+      "iniciados_qtd": 14,
+      "iniciados_valor": 24058.73,
+      "abertos_qtd": 21,
+      "abertos_valor": 58268.09,
+      "atrasados": 0,
+      "perdidos_qtd": 0,
+      "perdidos_valor": 0,
+      "conversao": 100,
+      "atrasados_ok": true,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 691.36,
+      "hoje_orcado_qtd": 0,
+      "hoje_orcado_valor": 0,
+      "hoje_movimentacoes": 3,
+      "hoje_atv_ligacao": 0,
+      "hoje_atv_whatsapp": 0,
+      "hoje_atv_email": 0,
+      "hoje_atv_proposta": 0
+    },
     {
       "iniciais": "ADR",
       "nome": "Adriane",
       "classe": "aa",
       "cor1": "#4facfe",
       "cor2": "#00f2fe",
-      "titulo": "Lider do Mes",
+      "titulo": "Vendedora",
       "meta": 165000,
       "atividades": 14,
       "ganhos_qtd": 4,
@@ -36,44 +66,14 @@
       "perdidos_valor": 2360.35,
       "conversao": 66.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 4,
-      "hoje_vendas_valor": 1148.7,
-      "hoje_orcado_qtd": 4,
-      "hoje_orcado_valor": 2847.1,
-      "hoje_movimentacoes": 14,
+      "hoje_vendas_qtd": 0,
+      "hoje_vendas_valor": 0,
+      "hoje_orcado_qtd": 0,
+      "hoje_orcado_valor": 0,
+      "hoje_movimentacoes": 0,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
-      "hoje_atv_email": 2,
-      "hoje_atv_proposta": 0
-    },
-    {
-      "iniciais": "GAB",
-      "nome": "Gabriele",
-      "classe": "ag",
-      "cor1": "#6c63ff",
-      "cor2": "#a855f7",
-      "titulo": "Vendedora",
-      "meta": 165000,
-      "atividades": 20,
-      "ganhos_qtd": 3,
-      "ganhos_valor": 780.58,
-      "iniciados_qtd": 14,
-      "iniciados_valor": 24058.73,
-      "abertos_qtd": 22,
-      "abertos_valor": 58959.45,
-      "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
-      "atrasados_ok": true,
-      "hoje_vendas_qtd": 3,
-      "hoje_vendas_valor": 780.58,
-      "hoje_orcado_qtd": 14,
-      "hoje_orcado_valor": 24058.73,
-      "hoje_movimentacoes": 20,
-      "hoje_atv_ligacao": 2,
-      "hoje_atv_whatsapp": 4,
-      "hoje_atv_email": 1,
+      "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
   ],
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Fechamento",
-      "qtd": 15,
-      "valor": 48746.39,
-      "conv": 65.2,
+      "qtd": 14,
+      "valor": 48055.03,
+      "conv": 60.9,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 10,
       "valor": 41313.74,
-      "conv": 66.7,
+      "conv": 71.4,
       "cor": "#00d2b2"
     },
     {
@@ -133,5 +133,5 @@
       "cor": "#ff9e00"
     }
   ],
-  "atualizado_em": "2026-08-03T22:38:30.6024952-03:00"
+  "atualizado_em": "2026-08-04T08:46:09.0470327-03:00"
 }
