@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 2037.86,
     "vendas_qtd": 2,
-    "atividades": 7
+    "atividades": 12
   },
   "comparativo": {
     "mes_anterior": {
@@ -59,18 +59,18 @@
       "ganhos_valor": 1235.07,
       "iniciados_qtd": 6,
       "iniciados_valor": 3230.89,
-      "abertos_qtd": 12,
-      "abertos_valor": 63123.42,
+      "abertos_qtd": 11,
+      "abertos_valor": 62627.25,
       "atrasados": 0,
-      "perdidos_qtd": 2,
-      "perdidos_valor": 2360.35,
-      "conversao": 71.4,
+      "perdidos_qtd": 3,
+      "perdidos_valor": 2856.52,
+      "conversao": 62.5,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 86.37,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 383.79,
-      "hoje_movimentacoes": 2,
+      "hoje_movimentacoes": 7,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 16,
-      "valor": 52774.28,
-      "conv": 72.7,
+      "qtd": 15,
+      "valor": 52278.11,
+      "conv": 68.2,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 11,
       "valor": 25684.72,
-      "conv": 68.8,
+      "conv": 73.3,
       "cor": "#00d2b2"
     },
     {
@@ -124,14 +124,19 @@
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 75,
+      "pct": 60,
       "cor": "#ff4d6d"
     },
     {
-      "label": "Preço Produto",
-      "pct": 25,
+      "label": "Comprou outra Marca",
+      "pct": 20,
       "cor": "#ff9e00"
+    },
+    {
+      "label": "Preço Produto",
+      "pct": 20,
+      "cor": "#ffd60a"
     }
   ],
-  "atualizado_em": "2026-08-05T10:14:10.5910212-03:00"
+  "atualizado_em": "2026-08-05T10:21:10.3512862-03:00"
 }
