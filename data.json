@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 12937.92,
     "vendas_qtd": 12,
-    "atividades": 34
+    "atividades": 36
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,23 +54,23 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 27,
+      "atividades": 28,
       "ganhos_qtd": 9,
       "ganhos_valor": 3184.1,
       "iniciados_qtd": 16,
       "iniciados_valor": 32351.65,
-      "abertos_qtd": 14,
-      "abertos_valor": 70216.07,
+      "abertos_qtd": 13,
+      "abertos_valor": 64127.84,
       "atrasados": 0,
-      "perdidos_qtd": 5,
-      "perdidos_valor": 20232.87,
-      "conversao": 64.3,
+      "perdidos_qtd": 7,
+      "perdidos_valor": 28527.66,
+      "conversao": 56.2,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 986.98,
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 13129.65,
-      "hoje_movimentacoes": 15,
+      "hoje_movimentacoes": 17,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 9,
       "hoje_atv_email": 1,
@@ -87,23 +87,23 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 21,
-      "valor": 50804.56,
-      "conv": 55.3,
+      "qtd": 19,
+      "valor": 49162.98,
+      "conv": 50,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 12,
-      "valor": 52023.19,
-      "conv": 57.1,
+      "qtd": 13,
+      "valor": 47576.54,
+      "conv": 68.4,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 4,
       "valor": 314,
-      "conv": 33.3,
+      "conv": 30.8,
       "cor": "#ffd60a"
     },
     {
@@ -124,29 +124,39 @@
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 41.7,
+      "pct": 35.7,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 33.3,
+      "pct": 28.6,
       "cor": "#ff9e00"
     },
     {
-      "label": "ficou mais barato na espaferro",
-      "pct": 8.3,
+      "label": "Preço Produto",
+      "pct": 7.1,
       "cor": "#ffd60a"
     },
     {
-      "label": "Preço Produto",
-      "pct": 8.3,
+      "label": "NAO DEU MAIS RETORNO",
+      "pct": 7.1,
       "cor": "#6c63ff"
     },
     {
-      "label": "NAO DEU MAIS RETORNO",
-      "pct": 8.3,
+      "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
+      "pct": 7.1,
       "cor": "#4facfe"
+    },
+    {
+      "label": "ficou mais barato na espaferro",
+      "pct": 7.1,
+      "cor": "#00d2b2"
+    },
+    {
+      "label": "não recebi mais nehum retorno",
+      "pct": 7.1,
+      "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-06T17:23:49.3408645-03:00"
+  "atualizado_em": "2026-08-06T17:30:00.8792531-03:00"
 }
