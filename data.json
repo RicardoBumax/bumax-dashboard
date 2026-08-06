@@ -24,17 +24,17 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 35,
+      "atividades": 39,
       "ganhos_qtd": 20,
       "ganhos_valor": 13416.06,
-      "iniciados_qtd": 29,
-      "iniciados_valor": 42535.35,
+      "iniciados_qtd": 31,
+      "iniciados_valor": 44638.07,
       "abertos_qtd": 20,
       "abertos_valor": 63824.52,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 3,
+      "perdidos_valor": 3377.79,
+      "conversao": 87,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 1614.01,
@@ -54,7 +54,7 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 21,
+      "atividades": 25,
       "ganhos_qtd": 7,
       "ganhos_valor": 2271.23,
       "iniciados_qtd": 14,
@@ -62,9 +62,9 @@
       "abertos_qtd": 17,
       "abertos_valor": 89798.98,
       "atrasados": 0,
-      "perdidos_qtd": 0,
-      "perdidos_valor": 0,
-      "conversao": 100,
+      "perdidos_qtd": 3,
+      "perdidos_valor": 2856.52,
+      "conversao": 70,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 74.11,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 19,
-      "valor": 57010.17,
-      "conv": 57.6,
+      "qtd": 21,
+      "valor": 59112.89,
+      "conv": 63.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 19,
       "valor": 75183.85,
-      "conv": 100,
+      "conv": 90.5,
       "cor": "#00d2b2"
     },
     {
@@ -123,10 +123,20 @@
   ],
   "motivos_perda": [
     {
-      "label": "Sem perdas no mes",
-      "pct": 100,
-      "cor": "#00ff95"
+      "label": "Sem Previsão de Compra",
+      "pct": 50,
+      "cor": "#ff4d6d"
+    },
+    {
+      "label": "Comprou outra Marca",
+      "pct": 33.3,
+      "cor": "#ff9e00"
+    },
+    {
+      "label": "Preço Produto",
+      "pct": 16.7,
+      "cor": "#ffd60a"
     }
   ],
-  "atualizado_em": "2026-08-06T10:03:36.7095032-03:00"
+  "atualizado_em": "2026-08-06T10:10:07.3469495-03:00"
 }
