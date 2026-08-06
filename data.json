@@ -1,8 +1,8 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 2199.87,
-    "vendas_qtd": 6,
+    "vendas_valor": 3087.2,
+    "vendas_qtd": 7,
     "atividades": 17
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 16199.04
+      "total": 17086.37
     }
   },
   "vendedoras": [
@@ -25,19 +25,19 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 41,
-      "ganhos_qtd": 22,
-      "ganhos_valor": 13927.81,
+      "ganhos_qtd": 23,
+      "ganhos_valor": 14815.14,
       "iniciados_qtd": 33,
       "iniciados_valor": 45677.26,
-      "abertos_qtd": 20,
-      "abertos_valor": 64351.96,
+      "abertos_qtd": 19,
+      "abertos_valor": 63464.63,
       "atrasados": 0,
       "perdidos_qtd": 3,
       "perdidos_valor": 3377.79,
-      "conversao": 88,
+      "conversao": 88.5,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 2125.76,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 3013.09,
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 9415.86,
       "hoje_movimentacoes": 12,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 34,
-      "valor": 72167.15,
+      "qtd": 35,
+      "valor": 73054.48,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Envio de Proposta",
       "qtd": 21,
       "valor": 59112.89,
-      "conv": 61.8,
+      "conv": 60,
       "cor": "#4facfe"
     },
     {
@@ -108,16 +108,16 @@
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 5,
-      "valor": 2039.52,
-      "conv": 100,
+      "qtd": 3,
+      "valor": 264.86,
+      "conv": 60,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 20,
+      "conv": 33.3,
       "cor": "#a855f7"
     }
   ],
@@ -138,5 +138,5 @@
       "cor": "#ffd60a"
     }
   ],
-  "atualizado_em": "2026-08-06T11:34:01.0170716-03:00"
+  "atualizado_em": "2026-08-06T11:42:26.9294247-03:00"
 }
