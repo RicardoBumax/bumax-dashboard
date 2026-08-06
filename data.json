@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 12937.92,
     "vendas_qtd": 12,
-    "atividades": 29
+    "atividades": 30
   },
   "comparativo": {
     "mes_anterior": {
@@ -29,12 +29,12 @@
       "ganhos_valor": 23752.99,
       "iniciados_qtd": 35,
       "iniciados_valor": 48306.84,
-      "abertos_qtd": 15,
-      "abertos_valor": 45226.5,
+      "abertos_qtd": 14,
+      "abertos_valor": 44848.94,
       "atrasados": 0,
-      "perdidos_qtd": 6,
-      "perdidos_valor": 15307.65,
-      "conversao": 81.2,
+      "perdidos_qtd": 7,
+      "perdidos_valor": 15685.21,
+      "conversao": 78.8,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 9,
       "hoje_vendas_valor": 11950.94,
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 986.98,
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 13129.65,
-      "hoje_movimentacoes": 11,
+      "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 8,
       "hoje_atv_email": 1,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 22,
-      "valor": 50941.42,
-      "conv": 57.9,
+      "qtd": 21,
+      "valor": 50563.86,
+      "conv": 55.3,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 14,
       "valor": 57892.76,
-      "conv": 63.6,
+      "conv": 66.7,
       "cor": "#00d2b2"
     },
     {
@@ -123,25 +123,25 @@
   ],
   "motivos_perda": [
     {
-      "label": "Comprou outra Marca",
-      "pct": 40,
+      "label": "Sem Previsão de Compra",
+      "pct": 45.5,
       "cor": "#ff4d6d"
     },
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 40,
+      "label": "Comprou outra Marca",
+      "pct": 36.4,
       "cor": "#ff9e00"
     },
     {
       "label": "ficou mais barato na espaferro",
-      "pct": 10,
+      "pct": 9.1,
       "cor": "#ffd60a"
     },
     {
       "label": "Preço Produto",
-      "pct": 10,
+      "pct": 9.1,
       "cor": "#6c63ff"
     }
   ],
-  "atualizado_em": "2026-08-06T16:40:34.0046278-03:00"
+  "atualizado_em": "2026-08-06T16:48:08.9103326-03:00"
 }
