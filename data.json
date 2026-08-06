@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 12937.92,
     "vendas_qtd": 12,
-    "atividades": 35
+    "atividades": 34
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,25 +54,25 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 28,
+      "atividades": 27,
       "ganhos_qtd": 9,
       "ganhos_valor": 3184.1,
       "iniciados_qtd": 16,
       "iniciados_valor": 32351.65,
-      "abertos_qtd": 16,
-      "abertos_valor": 76085.64,
+      "abertos_qtd": 14,
+      "abertos_valor": 70216.07,
       "atrasados": 0,
-      "perdidos_qtd": 4,
-      "perdidos_valor": 16569.86,
-      "conversao": 69.2,
+      "perdidos_qtd": 5,
+      "perdidos_valor": 20232.87,
+      "conversao": 64.3,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 986.98,
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 13129.65,
-      "hoje_movimentacoes": 16,
+      "hoje_movimentacoes": 15,
       "hoje_atv_ligacao": 1,
-      "hoje_atv_whatsapp": 8,
+      "hoje_atv_whatsapp": 9,
       "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
     }
@@ -94,16 +94,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 14,
-      "valor": 57892.76,
-      "conv": 66.7,
+      "qtd": 12,
+      "valor": 52023.19,
+      "conv": 57.1,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 4,
       "valor": 314,
-      "conv": 28.6,
+      "conv": 33.3,
       "cor": "#ffd60a"
     },
     {
@@ -124,24 +124,29 @@
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 45.5,
+      "pct": 41.7,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 36.4,
+      "pct": 33.3,
       "cor": "#ff9e00"
     },
     {
       "label": "ficou mais barato na espaferro",
-      "pct": 9.1,
+      "pct": 8.3,
       "cor": "#ffd60a"
     },
     {
       "label": "Preço Produto",
-      "pct": 9.1,
+      "pct": 8.3,
       "cor": "#6c63ff"
+    },
+    {
+      "label": "NAO DEU MAIS RETORNO",
+      "pct": 8.3,
+      "cor": "#4facfe"
     }
   ],
-  "atualizado_em": "2026-08-06T17:16:44.1741718-03:00"
+  "atualizado_em": "2026-08-06T17:23:49.3408645-03:00"
 }
