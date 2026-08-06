@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 4724.44,
-    "vendas_qtd": 8,
-    "atividades": 18
+    "vendas_valor": 4773.58,
+    "vendas_qtd": 9,
+    "atividades": 19
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 18723.61
+      "total": 18772.75
     }
   },
   "vendedoras": [
@@ -54,23 +54,23 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 25,
-      "ganhos_qtd": 7,
-      "ganhos_valor": 2271.23,
-      "iniciados_qtd": 14,
-      "iniciados_valor": 31438.78,
+      "atividades": 26,
+      "ganhos_qtd": 8,
+      "ganhos_valor": 2320.37,
+      "iniciados_qtd": 15,
+      "iniciados_valor": 31487.92,
       "abertos_qtd": 17,
       "abertos_valor": 89798.98,
       "atrasados": 0,
       "perdidos_qtd": 3,
       "perdidos_valor": 2856.52,
-      "conversao": 70,
+      "conversao": 72.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 74.11,
-      "hoje_orcado_qtd": 4,
-      "hoje_orcado_valor": 12216.78,
-      "hoje_movimentacoes": 5,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 123.25,
+      "hoje_orcado_qtd": 5,
+      "hoje_orcado_valor": 12265.92,
+      "hoje_movimentacoes": 6,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
@@ -100,17 +100,17 @@
       "cor": "#00d2b2"
     },
     {
-      "etapa": "Negociação",
-      "qtd": 3,
-      "valor": 10830.12,
-      "conv": 16.7,
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 4,
+      "valor": 314,
+      "conv": 22.2,
       "cor": "#ffd60a"
     },
     {
-      "etapa": "Solicitação de Orçamento",
+      "etapa": "Negociação",
       "qtd": 3,
-      "valor": 264.86,
-      "conv": 100,
+      "valor": 10830.12,
+      "conv": 75,
       "cor": "#00ff95"
     },
     {
@@ -138,5 +138,5 @@
       "cor": "#ffd60a"
     }
   ],
-  "atualizado_em": "2026-08-06T13:53:25.5187545-03:00"
+  "atualizado_em": "2026-08-06T14:00:42.9736874-03:00"
 }
