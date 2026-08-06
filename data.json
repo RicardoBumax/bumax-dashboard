@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 5637.31,
-    "vendas_qtd": 10,
-    "atividades": 26
+    "vendas_valor": 6530.25,
+    "vendas_qtd": 11,
+    "atividades": 27
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 19636.48
+      "total": 20529.42
     }
   },
   "vendedoras": [
@@ -25,22 +25,22 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 42,
-      "ganhos_qtd": 24,
-      "ganhos_valor": 16452.38,
+      "ganhos_qtd": 25,
+      "ganhos_valor": 17345.32,
       "iniciados_qtd": 34,
-      "iniciados_valor": 47314.5,
-      "abertos_qtd": 16,
-      "abertos_valor": 51534.77,
+      "iniciados_valor": 47394.5,
+      "abertos_qtd": 15,
+      "abertos_valor": 50721.83,
       "atrasados": 0,
       "perdidos_qtd": 6,
       "perdidos_valor": 15307.65,
-      "conversao": 80,
+      "conversao": 80.6,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 7,
-      "hoje_vendas_valor": 4650.33,
+      "hoje_vendas_qtd": 8,
+      "hoje_vendas_valor": 5543.27,
       "hoje_orcado_qtd": 7,
       "hoje_orcado_valor": 11053.1,
-      "hoje_movimentacoes": 15,
+      "hoje_movimentacoes": 16,
       "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 4,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 38,
-      "valor": 87507.06,
+      "qtd": 39,
+      "valor": 88400,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,21 +89,21 @@
       "etapa": "Envio de Proposta",
       "qtd": 20,
       "valor": 49116.74,
-      "conv": 52.6,
+      "conv": 51.3,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 16,
-      "valor": 59518.64,
-      "conv": 80,
+      "qtd": 14,
+      "valor": 57892.76,
+      "conv": 70,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 4,
       "valor": 314,
-      "conv": 25,
+      "conv": 28.6,
       "cor": "#ffd60a"
     },
     {
@@ -143,5 +143,5 @@
       "cor": "#6c63ff"
     }
   ],
-  "atualizado_em": "2026-08-06T15:37:59.2456426-03:00"
+  "atualizado_em": "2026-08-06T15:45:00.7393960-03:00"
 }
