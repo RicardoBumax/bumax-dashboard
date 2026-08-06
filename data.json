@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 5637.31,
     "vendas_qtd": 10,
-    "atividades": 23
+    "atividades": 24
   },
   "comparativo": {
     "mes_anterior": {
@@ -43,7 +43,7 @@
       "hoje_movimentacoes": 15,
       "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 2,
-      "hoje_atv_email": 3,
+      "hoje_atv_email": 4,
       "hoje_atv_proposta": 0
     },
     {
@@ -59,20 +59,20 @@
       "ganhos_valor": 3184.1,
       "iniciados_qtd": 16,
       "iniciados_valor": 32351.65,
-      "abertos_qtd": 17,
-      "abertos_valor": 89798.98,
+      "abertos_qtd": 16,
+      "abertos_valor": 76085.64,
       "atrasados": 0,
-      "perdidos_qtd": 3,
-      "perdidos_valor": 2856.52,
-      "conversao": 75,
+      "perdidos_qtd": 4,
+      "perdidos_valor": 16569.86,
+      "conversao": 69.2,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 986.98,
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 13129.65,
-      "hoje_movimentacoes": 8,
+      "hoje_movimentacoes": 9,
       "hoje_atv_ligacao": 1,
-      "hoje_atv_whatsapp": 6,
+      "hoje_atv_whatsapp": 7,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -94,16 +94,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 17,
-      "valor": 73231.98,
-      "conv": 85,
+      "qtd": 16,
+      "valor": 59518.64,
+      "conv": 80,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 4,
       "valor": 314,
-      "conv": 23.5,
+      "conv": 25,
       "cor": "#ffd60a"
     },
     {
@@ -124,19 +124,24 @@
   "motivos_perda": [
     {
       "label": "Comprou outra Marca",
-      "pct": 44.4,
+      "pct": 40,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 44.4,
+      "pct": 40,
       "cor": "#ff9e00"
     },
     {
-      "label": "Preço Produto",
-      "pct": 11.1,
+      "label": "ficou mais barato na espaferro",
+      "pct": 10,
       "cor": "#ffd60a"
+    },
+    {
+      "label": "Preço Produto",
+      "pct": 10,
+      "cor": "#6c63ff"
     }
   ],
-  "atualizado_em": "2026-08-06T15:24:02.5928151-03:00"
+  "atualizado_em": "2026-08-06T15:31:29.8687825-03:00"
 }
