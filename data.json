@@ -1,8 +1,8 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 1442.47,
-    "vendas_qtd": 4,
+    "vendas_valor": 2409.5,
+    "vendas_qtd": 5,
     "atividades": 26
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 28379.56
+      "total": 29346.59
     }
   },
   "vendedoras": [
@@ -25,19 +25,19 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 53,
-      "ganhos_qtd": 28,
-      "ganhos_valor": 24353.35,
+      "ganhos_qtd": 29,
+      "ganhos_valor": 25320.38,
       "iniciados_qtd": 43,
       "iniciados_valor": 55398.46,
-      "abertos_qtd": 19,
-      "abertos_valor": 50144.64,
+      "abertos_qtd": 18,
+      "abertos_valor": 49177.61,
       "atrasados": 0,
       "perdidos_qtd": 8,
       "perdidos_valor": 16880.77,
-      "conversao": 77.8,
+      "conversao": 78.4,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 2,
-      "hoje_vendas_valor": 600.36,
+      "hoje_vendas_qtd": 3,
+      "hoje_vendas_valor": 1567.39,
       "hoje_orcado_qtd": 7,
       "hoje_orcado_valor": 5934.44,
       "hoje_movimentacoes": 11,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 42,
-      "valor": 93810.77,
+      "qtd": 43,
+      "valor": 94777.8,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Envio de Proposta",
       "qtd": 32,
       "valor": 48317.54,
-      "conv": 76.2,
+      "conv": 74.4,
       "cor": "#4facfe"
     },
     {
@@ -100,24 +100,24 @@
       "cor": "#00d2b2"
     },
     {
-      "etapa": "Negociação",
+      "etapa": "Solicitação de Orçamento",
       "qtd": 5,
-      "valor": 12764.18,
+      "valor": 617.43,
       "conv": 25,
       "cor": "#ffd60a"
     },
     {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 5,
-      "valor": 617.43,
-      "conv": 100,
+      "etapa": "Negociação",
+      "qtd": 3,
+      "valor": 10830.12,
+      "conv": 60,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 20,
+      "conv": 33.3,
       "cor": "#a855f7"
     }
   ],
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-07T14:08:46.5523842-03:00"
+  "atualizado_em": "2026-08-07T14:28:09.1326811-03:00"
 }
