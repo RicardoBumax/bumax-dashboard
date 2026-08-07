@@ -3,12 +3,12 @@
   "hoje": {
     "vendas_valor": 270.99,
     "vendas_qtd": 1,
-    "atividades": 4
+    "atividades": 5
   },
   "comparativo": {
     "mes_anterior": {
       "nome": "Julho 2026",
-      "total": 55746.18
+      "total": 489823.62
     },
     "mes_atual": {
       "nome": "Agosto 2026",
@@ -29,18 +29,18 @@
       "ganhos_valor": 24023.98,
       "iniciados_qtd": 38,
       "iniciados_valor": 51358.06,
-      "abertos_qtd": 16,
-      "abertos_valor": 47629.17,
+      "abertos_qtd": 15,
+      "abertos_valor": 46433.61,
       "atrasados": 0,
-      "perdidos_qtd": 7,
-      "perdidos_valor": 15685.21,
-      "conversao": 79.4,
+      "perdidos_qtd": 8,
+      "perdidos_valor": 16880.77,
+      "conversao": 77.1,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 270.99,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 1894.04,
-      "hoje_movimentacoes": 2,
+      "hoje_movimentacoes": 3,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 1,
@@ -94,16 +94,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 13,
-      "valor": 47576.54,
-      "conv": 52,
+      "qtd": 12,
+      "valor": 46380.98,
+      "conv": 48,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 4,
       "valor": 314,
-      "conv": 30.8,
+      "conv": 33.3,
       "cor": "#ffd60a"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 35.7,
+      "pct": 40,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 28.6,
+      "pct": 26.7,
       "cor": "#ff9e00"
     },
     {
       "label": "Preço Produto",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#ffd60a"
     },
     {
       "label": "NAO DEU MAIS RETORNO",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#6c63ff"
     },
     {
       "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#4facfe"
     },
     {
       "label": "ficou mais barato na espaferro",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#00d2b2"
     },
     {
       "label": "não recebi mais nehum retorno",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-07T08:33:04.9939387-03:00"
+  "atualizado_em": "2026-08-07T08:40:06.6799768-03:00"
 }
