@@ -58,9 +58,9 @@
       "ganhos_qtd": 17,
       "ganhos_valor": 12861.28,
       "iniciados_qtd": 37,
-      "iniciados_valor": 109220.19,
+      "iniciados_valor": 109220.18,
       "abertos_qtd": 23,
-      "abertos_valor": 102327.2,
+      "abertos_valor": 102327.19,
       "atrasados": 0,
       "perdidos_qtd": 10,
       "perdidos_valor": 57579.11,
@@ -69,7 +69,7 @@
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 583.09,
       "hoje_orcado_qtd": 8,
-      "hoje_orcado_valor": 16555.4,
+      "hoje_orcado_valor": 16555.39,
       "hoje_movimentacoes": 9,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
@@ -87,30 +87,30 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 39,
-      "valor": 125974.89,
-      "conv": 79.6,
+      "qtd": 41,
+      "valor": 129042.19,
+      "conv": 83.7,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 33,
       "valor": 110605.89,
-      "conv": 84.6,
+      "conv": 80.5,
       "cor": "#00d2b2"
-    },
-    {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 8,
-      "valor": 3760.28,
-      "conv": 24.2,
-      "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 6,
       "valor": 13119.38,
-      "conv": 75,
+      "conv": 18.2,
+      "cor": "#ffd60a"
+    },
+    {
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 6,
+      "valor": 692.96,
+      "conv": 100,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T14:31:32.9023977-03:00"
+  "atualizado_em": "2026-08-11T14:38:03.8969759-03:00"
 }
