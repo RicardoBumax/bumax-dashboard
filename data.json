@@ -29,12 +29,12 @@
       "ganhos_valor": 38665.14,
       "iniciados_qtd": 65,
       "iniciados_valor": 97224.02,
-      "abertos_qtd": 19,
-      "abertos_valor": 55720.14,
+      "abertos_qtd": 18,
+      "abertos_valor": 55031.76,
       "atrasados": 0,
-      "perdidos_qtd": 15,
-      "perdidos_valor": 38819.04,
-      "conversao": 74.1,
+      "perdidos_qtd": 16,
+      "perdidos_valor": 39507.42,
+      "conversao": 72.9,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 10,
       "hoje_vendas_valor": 4739.74,
@@ -108,55 +108,55 @@
     },
     {
       "etapa": "Negociação",
-      "qtd": 6,
-      "valor": 13119.38,
-      "conv": 75,
+      "qtd": 5,
+      "valor": 12431,
+      "conv": 62.5,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 16.7,
+      "conv": 20,
       "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 30.8,
+      "pct": 29.6,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 26.9,
+      "pct": 25.9,
       "cor": "#ff9e00"
     },
     {
-      "label": "Preço Produto",
-      "pct": 11.5,
+      "label": "Parou de Responder",
+      "pct": 11.1,
       "cor": "#ffd60a"
     },
     {
-      "label": "Parou de Responder",
-      "pct": 7.7,
+      "label": "Preço Produto",
+      "pct": 11.1,
       "cor": "#6c63ff"
     },
     {
       "label": "NAO DEU MAIS RETORNO",
-      "pct": 3.8,
+      "pct": 3.7,
       "cor": "#4facfe"
     },
     {
       "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
-      "pct": 3.8,
+      "pct": 3.7,
       "cor": "#00d2b2"
     },
     {
       "label": "não recebi mais nehum retorno",
-      "pct": 3.8,
+      "pct": 3.7,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T17:11:57.5557151-03:00"
+  "atualizado_em": "2026-08-11T17:19:18.6790435-03:00"
 }
