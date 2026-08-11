@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 4230.36,
-    "vendas_qtd": 6,
-    "atividades": 27
+    "vendas_valor": 4337.36,
+    "vendas_qtd": 7,
+    "atividades": 29
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 50433.95
+      "total": 50540.95
     }
   },
   "vendedoras": [
@@ -24,25 +24,25 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 69,
-      "ganhos_qtd": 37,
-      "ganhos_valor": 36039.02,
-      "iniciados_qtd": 58,
-      "iniciados_valor": 84911.25,
+      "atividades": 70,
+      "ganhos_qtd": 38,
+      "ganhos_valor": 36146.02,
+      "iniciados_qtd": 59,
+      "iniciados_valor": 85018.25,
       "abertos_qtd": 18,
       "abertos_valor": 46033.49,
       "atrasados": 0,
       "perdidos_qtd": 15,
       "perdidos_valor": 38819.04,
-      "conversao": 71.2,
+      "conversao": 71.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 4,
-      "hoje_vendas_valor": 2113.62,
-      "hoje_orcado_qtd": 10,
-      "hoje_orcado_valor": 17779.61,
-      "hoje_movimentacoes": 18,
+      "hoje_vendas_qtd": 5,
+      "hoje_vendas_valor": 2220.62,
+      "hoje_orcado_qtd": 11,
+      "hoje_orcado_valor": 17886.61,
+      "hoje_movimentacoes": 19,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 1,
+      "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
     },
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 2116.74,
       "hoje_orcado_qtd": 8,
       "hoje_orcado_valor": 16555.39,
-      "hoje_movimentacoes": 9,
+      "hoje_movimentacoes": 10,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 49,
-      "valor": 89031.69,
+      "qtd": 50,
+      "valor": 89138.69,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Envio de Proposta",
       "qtd": 39,
       "valor": 125974.89,
-      "conv": 79.6,
+      "conv": 78,
       "cor": "#4facfe"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T14:44:50.3421337-03:00"
+  "atualizado_em": "2026-08-11T14:52:12.3638391-03:00"
 }
