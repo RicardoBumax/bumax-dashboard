@@ -1,8 +1,8 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 2696.71,
-    "vendas_qtd": 5,
+    "vendas_valor": 4230.36,
+    "vendas_qtd": 6,
     "atividades": 27
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 48900.3
+      "total": 50433.95
     }
   },
   "vendedoras": [
@@ -55,24 +55,24 @@
       "titulo": "Vendedora",
       "meta": 165000,
       "atividades": 50,
-      "ganhos_qtd": 17,
-      "ganhos_valor": 12861.28,
+      "ganhos_qtd": 18,
+      "ganhos_valor": 14394.93,
       "iniciados_qtd": 37,
       "iniciados_valor": 109220.18,
-      "abertos_qtd": 23,
-      "abertos_valor": 102327.19,
+      "abertos_qtd": 22,
+      "abertos_valor": 100793.54,
       "atrasados": 0,
       "perdidos_qtd": 10,
       "perdidos_valor": 57579.11,
-      "conversao": 63,
+      "conversao": 64.3,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 583.09,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 2116.74,
       "hoje_orcado_qtd": 8,
       "hoje_orcado_valor": 16555.39,
       "hoje_movimentacoes": 9,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -87,23 +87,23 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 41,
-      "valor": 129042.19,
-      "conv": 83.7,
+      "qtd": 39,
+      "valor": 125974.89,
+      "conv": 79.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 33,
-      "valor": 110605.89,
-      "conv": 80.5,
+      "qtd": 34,
+      "valor": 112139.54,
+      "conv": 87.2,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Negociação",
       "qtd": 6,
       "valor": 13119.38,
-      "conv": 18.2,
+      "conv": 17.6,
       "cor": "#ffd60a"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T14:38:03.8969759-03:00"
+  "atualizado_em": "2026-08-11T14:44:50.3421337-03:00"
 }
