@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 4337.36,
-    "vendas_qtd": 7,
-    "atividades": 29
+    "vendas_valor": 4685.43,
+    "vendas_qtd": 8,
+    "atividades": 30
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 50540.95
+      "total": 50889.02
     }
   },
   "vendedoras": [
@@ -24,25 +24,25 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 70,
-      "ganhos_qtd": 38,
-      "ganhos_valor": 36146.02,
-      "iniciados_qtd": 59,
-      "iniciados_valor": 85018.25,
+      "atividades": 71,
+      "ganhos_qtd": 39,
+      "ganhos_valor": 36494.09,
+      "iniciados_qtd": 60,
+      "iniciados_valor": 85366.32,
       "abertos_qtd": 18,
       "abertos_valor": 46033.49,
       "atrasados": 0,
       "perdidos_qtd": 15,
       "perdidos_valor": 38819.04,
-      "conversao": 71.7,
+      "conversao": 72.2,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 2220.62,
-      "hoje_orcado_qtd": 11,
-      "hoje_orcado_valor": 17886.61,
-      "hoje_movimentacoes": 19,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 2568.69,
+      "hoje_orcado_qtd": 12,
+      "hoje_orcado_valor": 18234.68,
+      "hoje_movimentacoes": 20,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 2,
+      "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
     },
@@ -80,30 +80,30 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 50,
-      "valor": 89138.69,
+      "qtd": 51,
+      "valor": 89486.76,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 39,
-      "valor": 125974.89,
-      "conv": 78,
+      "qtd": 37,
+      "valor": 124811.69,
+      "conv": 72.5,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 34,
-      "valor": 112139.54,
-      "conv": 87.2,
+      "qtd": 36,
+      "valor": 113302.74,
+      "conv": 97.3,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Negociação",
       "qtd": 6,
       "valor": 13119.38,
-      "conv": 17.6,
+      "conv": 16.7,
       "cor": "#ffd60a"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T14:59:03.2428216-03:00"
+  "atualizado_em": "2026-08-11T15:06:25.6435597-03:00"
 }
