@@ -1,8 +1,8 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 8317.29,
-    "vendas_qtd": 13,
+    "vendas_valor": 8898.89,
+    "vendas_qtd": 14,
     "atividades": 39
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 54520.88
+      "total": 55102.48
     }
   },
   "vendedoras": [
@@ -55,19 +55,19 @@
       "titulo": "Vendedora",
       "meta": 165000,
       "atividades": 53,
-      "ganhos_qtd": 21,
-      "ganhos_valor": 17129.31,
+      "ganhos_qtd": 22,
+      "ganhos_valor": 17710.91,
       "iniciados_qtd": 40,
       "iniciados_valor": 111954.56,
-      "abertos_qtd": 21,
-      "abertos_valor": 97447.21,
+      "abertos_qtd": 20,
+      "abertos_valor": 96865.61,
       "atrasados": 0,
       "perdidos_qtd": 11,
       "perdidos_valor": 60925.44,
-      "conversao": 65.6,
+      "conversao": 66.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 4851.12,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 5432.72,
       "hoje_orcado_qtd": 11,
       "hoje_orcado_valor": 19289.77,
       "hoje_movimentacoes": 14,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 40,
-      "valor": 113951.46,
-      "conv": 75.5,
+      "qtd": 39,
+      "valor": 113369.86,
+      "conv": 73.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 35,
       "valor": 123852.39,
-      "conv": 87.5,
+      "conv": 89.7,
       "cor": "#00d2b2"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T16:50:57.0583011-03:00"
+  "atualizado_em": "2026-08-11T16:58:10.7628605-03:00"
 }
