@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 6314.96,
-    "vendas_qtd": 9,
-    "atividades": 32
+    "vendas_valor": 7105.44,
+    "vendas_qtd": 10,
+    "atividades": 33
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 52518.55
+      "total": 53309.03
     }
   },
   "vendedoras": [
@@ -25,25 +25,25 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 72,
-      "ganhos_qtd": 39,
-      "ganhos_valor": 36494.09,
+      "ganhos_qtd": 40,
+      "ganhos_valor": 37284.57,
       "iniciados_qtd": 61,
-      "iniciados_valor": 86069.43,
-      "abertos_qtd": 19,
-      "abertos_valor": 46736.6,
+      "iniciados_valor": 86752.91,
+      "abertos_qtd": 18,
+      "abertos_valor": 46629.6,
       "atrasados": 0,
       "perdidos_qtd": 15,
       "perdidos_valor": 38819.04,
-      "conversao": 72.2,
+      "conversao": 72.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 6,
-      "hoje_vendas_valor": 2568.69,
+      "hoje_vendas_qtd": 7,
+      "hoje_vendas_valor": 3359.17,
       "hoje_orcado_qtd": 13,
-      "hoje_orcado_valor": 18937.79,
+      "hoje_orcado_valor": 19621.27,
       "hoje_movimentacoes": 21,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 3,
-      "hoje_atv_email": 1,
+      "hoje_atv_whatsapp": 5,
+      "hoje_atv_email": 2,
       "hoje_atv_proposta": 0
     },
     {
@@ -59,18 +59,18 @@
       "ganhos_valor": 16024.46,
       "iniciados_qtd": 38,
       "iniciados_valor": 110849.71,
-      "abertos_qtd": 22,
-      "abertos_valor": 100793.54,
+      "abertos_qtd": 21,
+      "abertos_valor": 97447.21,
       "atrasados": 0,
-      "perdidos_qtd": 10,
-      "perdidos_valor": 57579.11,
-      "conversao": 65.5,
+      "perdidos_qtd": 11,
+      "perdidos_valor": 60925.44,
+      "conversao": 63.3,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 3,
       "hoje_vendas_valor": 3746.27,
       "hoje_orcado_qtd": 9,
       "hoje_orcado_valor": 18184.92,
-      "hoje_movimentacoes": 11,
+      "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
@@ -80,37 +80,37 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 51,
-      "valor": 89486.76,
+      "qtd": 50,
+      "valor": 90063.24,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 39,
-      "valor": 115891.57,
-      "conv": 76.5,
+      "qtd": 40,
+      "valor": 113951.46,
+      "conv": 80,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 35,
       "valor": 123852.39,
-      "conv": 89.7,
+      "conv": 87.5,
       "cor": "#00d2b2"
-    },
-    {
-      "etapa": "Solicitação de Orçamento",
-      "qtd": 8,
-      "valor": 2099.18,
-      "conv": 22.9,
-      "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 6,
       "valor": 13119.38,
-      "conv": 75,
+      "conv": 17.1,
+      "cor": "#ffd60a"
+    },
+    {
+      "etapa": "Solicitação de Orçamento",
+      "qtd": 6,
+      "valor": 692.96,
+      "conv": 100,
       "cor": "#00ff95"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 32,
+      "pct": 30.8,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 28,
+      "pct": 26.9,
       "cor": "#ff9e00"
     },
     {
       "label": "Preço Produto",
-      "pct": 12,
+      "pct": 11.5,
       "cor": "#ffd60a"
     },
     {
       "label": "Parou de Responder",
-      "pct": 8,
+      "pct": 7.7,
       "cor": "#6c63ff"
     },
     {
-      "label": "tinha esse mesmo orçamento a 14.100,00",
-      "pct": 4,
+      "label": "NAO DEU MAIS RETORNO",
+      "pct": 3.8,
       "cor": "#4facfe"
     },
     {
-      "label": "NAO DEU MAIS RETORNO",
-      "pct": 4,
+      "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
+      "pct": 3.8,
       "cor": "#00d2b2"
     },
     {
-      "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
-      "pct": 4,
+      "label": "não recebi mais nehum retorno",
+      "pct": 3.8,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T15:50:24.1302361-03:00"
+  "atualizado_em": "2026-08-11T15:54:54.3413454-03:00"
 }
