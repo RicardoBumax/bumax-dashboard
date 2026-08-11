@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 0,
-    "vendas_qtd": 0,
-    "atividades": 3
+    "vendas_valor": 569.84,
+    "vendas_qtd": 1,
+    "atividades": 10
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 46203.59
+      "total": 46773.43
     }
   },
   "vendedoras": [
@@ -24,26 +24,26 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 60,
-      "ganhos_qtd": 33,
-      "ganhos_valor": 33925.4,
-      "iniciados_qtd": 49,
-      "iniciados_valor": 67976.64,
-      "abertos_qtd": 18,
-      "abertos_valor": 45072.58,
+      "atividades": 61,
+      "ganhos_qtd": 34,
+      "ganhos_valor": 34495.24,
+      "iniciados_qtd": 50,
+      "iniciados_valor": 68546.48,
+      "abertos_qtd": 15,
+      "abertos_valor": 41578.2,
       "atrasados": 0,
-      "perdidos_qtd": 10,
-      "perdidos_valor": 24958.96,
-      "conversao": 76.7,
+      "perdidos_qtd": 13,
+      "perdidos_valor": 28453.34,
+      "conversao": 72.3,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
-      "hoje_orcado_qtd": 1,
-      "hoje_orcado_valor": 845,
-      "hoje_movimentacoes": 1,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 569.84,
+      "hoje_orcado_qtd": 2,
+      "hoje_orcado_valor": 1414.84,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
-      "hoje_atv_email": 0,
+      "hoje_atv_email": 1,
       "hoje_atv_proposta": 0
     },
     {
@@ -80,30 +80,30 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 43,
-      "valor": 86704.07,
+      "qtd": 44,
+      "valor": 87273.91,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 33,
-      "valor": 112821.84,
-      "conv": 76.7,
+      "qtd": 31,
+      "valor": 109497.01,
+      "conv": 70.5,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 24,
-      "valor": 90989.49,
-      "conv": 72.7,
+      "qtd": 23,
+      "valor": 90819.94,
+      "conv": 74.2,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Negociação",
       "qtd": 9,
       "valor": 24262.74,
-      "conv": 37.5,
+      "conv": 39.1,
       "cor": "#ffd60a"
     },
     {
@@ -123,40 +123,40 @@
   ],
   "motivos_perda": [
     {
-      "label": "Sem Previsão de Compra",
-      "pct": 35,
+      "label": "Comprou outra Marca",
+      "pct": 30.4,
       "cor": "#ff4d6d"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 35,
+      "label": "Sem Previsão de Compra",
+      "pct": 30.4,
       "cor": "#ff9e00"
     },
     {
-      "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
-      "pct": 5,
+      "label": "Preço Produto",
+      "pct": 13,
       "cor": "#ffd60a"
     },
     {
-      "label": "NAO DEU MAIS RETORNO",
-      "pct": 5,
+      "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
+      "pct": 4.3,
       "cor": "#6c63ff"
     },
     {
-      "label": "Preço Produto",
-      "pct": 5,
+      "label": "NAO DEU MAIS RETORNO",
+      "pct": 4.3,
       "cor": "#4facfe"
     },
     {
-      "label": "tinha esse mesmo orçamento a 14.100,00",
-      "pct": 5,
+      "label": "não recebi mais nehum retorno",
+      "pct": 4.3,
       "cor": "#00d2b2"
     },
     {
-      "label": "ficou mais barato na espaferro",
-      "pct": 5,
+      "label": "tinha esse mesmo orçamento a 14.100,00",
+      "pct": 4.3,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T08:55:24.4634894-03:00"
+  "atualizado_em": "2026-08-11T09:16:17.3391984-03:00"
 }
