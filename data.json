@@ -86,24 +86,24 @@
       "cor": "#6c63ff"
     },
     {
-      "etapa": "Envio de Proposta",
-      "qtd": 37,
-      "valor": 124811.69,
-      "conv": 72.5,
+      "etapa": "Follow-up",
+      "qtd": 38,
+      "valor": 114262.04,
+      "conv": 74.5,
       "cor": "#4facfe"
     },
     {
-      "etapa": "Follow-up",
-      "qtd": 36,
-      "valor": 113302.74,
-      "conv": 97.3,
+      "etapa": "Envio de Proposta",
+      "qtd": 35,
+      "valor": 123852.39,
+      "conv": 92.1,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Negociação",
       "qtd": 6,
       "valor": 13119.38,
-      "conv": 16.7,
+      "conv": 17.1,
       "cor": "#ffd60a"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-11T15:06:25.6435597-03:00"
+  "atualizado_em": "2026-08-11T15:13:17.8267411-03:00"
 }
