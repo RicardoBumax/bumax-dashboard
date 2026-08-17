@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 7661.06,
-    "vendas_qtd": 11,
-    "atividades": 39
+    "vendas_valor": 8168.67,
+    "vendas_qtd": 12,
+    "atividades": 40
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 120341.24
+      "total": 120848.85
     }
   },
   "vendedoras": [
@@ -54,27 +54,27 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 84,
-      "ganhos_qtd": 37,
-      "ganhos_valor": 44814.18,
-      "iniciados_qtd": 70,
-      "iniciados_valor": 313126.46,
+      "atividades": 85,
+      "ganhos_qtd": 38,
+      "ganhos_valor": 45321.79,
+      "iniciados_qtd": 71,
+      "iniciados_valor": 315602.59,
       "abertos_qtd": 30,
-      "abertos_valor": 236704.82,
+      "abertos_valor": 238673.34,
       "atrasados": 0,
       "perdidos_qtd": 16,
       "perdidos_valor": 95154.86,
-      "conversao": 69.8,
+      "conversao": 70.4,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 1201.19,
-      "hoje_orcado_qtd": 6,
-      "hoje_orcado_valor": 8347.25,
-      "hoje_movimentacoes": 19,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 1708.8,
+      "hoje_orcado_qtd": 7,
+      "hoje_orcado_valor": 10823.38,
+      "hoje_movimentacoes": 20,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
-      "hoje_atv_proposta": 0
+      "hoje_atv_proposta": 1
     }
   ],
   "funil": [
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 68,
-      "valor": 476635.01,
-      "conv": 86.1,
+      "qtd": 69,
+      "valor": 481079.66,
+      "conv": 87.3,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 40,
       "valor": 77251.25,
-      "conv": 58.8,
+      "conv": 58,
       "cor": "#00d2b2"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-17T14:07:54.6290251-03:00"
+  "atualizado_em": "2026-08-17T14:29:02.5158933-03:00"
 }
