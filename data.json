@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 7661.06,
     "vendas_qtd": 11,
-    "atividades": 37
+    "atividades": 39
   },
   "comparativo": {
     "mes_anterior": {
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 1201.19,
       "hoje_orcado_qtd": 6,
       "hoje_orcado_valor": 8347.25,
-      "hoje_movimentacoes": 17,
+      "hoje_movimentacoes": 19,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 66,
-      "valor": 473529.41,
-      "conv": 83.5,
+      "qtd": 68,
+      "valor": 476635.01,
+      "conv": 86.1,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 40,
       "valor": 77251.25,
-      "conv": 60.6,
+      "conv": 58.8,
       "cor": "#00d2b2"
     },
     {
@@ -108,16 +108,16 @@
     },
     {
       "etapa": "Negociação",
-      "qtd": 8,
-      "valor": 24997.05,
-      "conv": 57.1,
+      "qtd": 6,
+      "valor": 21891.45,
+      "conv": 42.9,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 12.5,
+      "conv": 16.7,
       "cor": "#a855f7"
     }
   ],
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-17T14:01:22.8168531-03:00"
+  "atualizado_em": "2026-08-17T14:07:54.6290251-03:00"
 }
