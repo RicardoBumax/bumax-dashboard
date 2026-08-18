@@ -1,7 +1,7 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 7330.11,
+    "vendas_valor": 8175.61,
     "vendas_qtd": 10,
     "atividades": 28
   },
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 133060.78
+      "total": 133906.28
     }
   },
   "vendedoras": [
@@ -26,9 +26,9 @@
       "meta": 165000,
       "atividades": 118,
       "ganhos_qtd": 76,
-      "ganhos_valor": 86135.46,
+      "ganhos_valor": 86980.96,
       "iniciados_qtd": 103,
-      "iniciados_valor": 153244.98,
+      "iniciados_valor": 154090.48,
       "abertos_qtd": 12,
       "abertos_valor": 37117.39,
       "atrasados": 0,
@@ -37,9 +37,9 @@
       "conversao": 73.8,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 7,
-      "hoje_vendas_valor": 6826.58,
+      "hoje_vendas_valor": 7672.08,
       "hoje_orcado_qtd": 8,
-      "hoje_orcado_valor": 10373.66,
+      "hoje_orcado_valor": 11219.16,
       "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
@@ -81,7 +81,7 @@
     {
       "etapa": "Fechamento",
       "qtd": 90,
-      "valor": 155560.96,
+      "valor": 156406.46,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-18T13:27:59.2334809-03:00"
+  "atualizado_em": "2026-08-18T13:34:44.2919822-03:00"
 }
