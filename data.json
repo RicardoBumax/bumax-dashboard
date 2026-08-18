@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 13050.49,
-    "vendas_qtd": 15,
-    "atividades": 55
+    "vendas_valor": 6743.84,
+    "vendas_qtd": 8,
+    "atividades": 24
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 125730.67
+      "total": 132474.51
     }
   },
   "vendedoras": [
@@ -24,24 +24,24 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 110,
-      "ganhos_qtd": 69,
-      "ganhos_valor": 79308.88,
-      "iniciados_qtd": 95,
-      "iniciados_valor": 142871.32,
+      "atividades": 118,
+      "ganhos_qtd": 75,
+      "ganhos_valor": 85747.26,
+      "iniciados_qtd": 103,
+      "iniciados_valor": 153244.98,
       "abertos_qtd": 13,
-      "abertos_valor": 38769.77,
+      "abertos_valor": 37505.59,
       "atrasados": 0,
-      "perdidos_qtd": 25,
-      "perdidos_valor": 60716.45,
-      "conversao": 73.4,
+      "perdidos_qtd": 27,
+      "perdidos_valor": 65915.91,
+      "conversao": 73.5,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 12,
-      "hoje_vendas_valor": 10241.69,
-      "hoje_orcado_qtd": 9,
-      "hoje_orcado_valor": 6841.56,
-      "hoje_movimentacoes": 23,
-      "hoje_atv_ligacao": 1,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 6438.38,
+      "hoje_orcado_qtd": 8,
+      "hoje_orcado_valor": 10373.66,
+      "hoje_movimentacoes": 12,
+      "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
@@ -54,56 +54,56 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 87,
-      "ganhos_qtd": 39,
-      "ganhos_valor": 46421.79,
-      "iniciados_qtd": 73,
-      "iniciados_valor": 318952.59,
-      "abertos_qtd": 31,
-      "abertos_valor": 240923.34,
+      "atividades": 92,
+      "ganhos_qtd": 41,
+      "ganhos_valor": 46727.25,
+      "iniciados_qtd": 78,
+      "iniciados_valor": 325050.01,
+      "abertos_qtd": 32,
+      "abertos_valor": 244866.4,
       "atrasados": 0,
-      "perdidos_qtd": 16,
-      "perdidos_valor": 95154.86,
-      "conversao": 70.9,
+      "perdidos_qtd": 18,
+      "perdidos_valor": 97003.76,
+      "conversao": 69.5,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 3,
-      "hoje_vendas_valor": 2808.8,
-      "hoje_orcado_qtd": 9,
-      "hoje_orcado_valor": 13742.42,
-      "hoje_movimentacoes": 32,
+      "hoje_vendas_qtd": 2,
+      "hoje_vendas_valor": 305.46,
+      "hoje_orcado_qtd": 5,
+      "hoje_orcado_valor": 4646.29,
+      "hoje_movimentacoes": 12,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 1,
+      "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
-      "hoje_atv_proposta": 2
+      "hoje_atv_proposta": 0
     }
   ],
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 83,
-      "valor": 148734.38,
+      "qtd": 91,
+      "valor": 155949.16,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 69,
-      "valor": 482116.28,
-      "conv": 83.1,
+      "qtd": 71,
+      "valor": 487914.64,
+      "conv": 78,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 39,
-      "valor": 74136.99,
-      "conv": 56.5,
+      "qtd": 43,
+      "valor": 80273.81,
+      "conv": 60.6,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 14,
       "valor": 14637.92,
-      "conv": 35.9,
+      "conv": 32.6,
       "cor": "#ffd60a"
     },
     {
@@ -124,39 +124,39 @@
   "motivos_perda": [
     {
       "label": "Sem Previsão de Compra",
-      "pct": 29.3,
+      "pct": 28.9,
       "cor": "#ff4d6d"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 22,
+      "pct": 20,
       "cor": "#ff9e00"
     },
     {
       "label": "Preço Produto",
-      "pct": 17.1,
+      "pct": 17.8,
       "cor": "#ffd60a"
     },
     {
       "label": "Parou de Responder",
-      "pct": 12.2,
+      "pct": 13.3,
       "cor": "#6c63ff"
     },
     {
-      "label": "N�?O TEMOS O TUBO",
-      "pct": 2.4,
+      "label": "cliente quer colocar preço nos nosso produtos",
+      "pct": 2.2,
       "cor": "#4facfe"
     },
     {
       "label": "N�?O DEU MAIS RETORNO SOBRE A PROPOSTA",
-      "pct": 2.4,
+      "pct": 2.2,
       "cor": "#00d2b2"
     },
     {
-      "label": "PEDIDO TINHA 3 ITENS, FABRICAMOS APENAS UM N�?O CONPENSOU PARA A CLIENTE.",
-      "pct": 2.4,
+      "label": "N�?O TEMOS O TUBO",
+      "pct": 2.2,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-17T20:34:57.9692144-03:00"
+  "atualizado_em": "2026-08-18T13:12:39.2035699-03:00"
 }
