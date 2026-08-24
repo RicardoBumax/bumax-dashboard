@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 27756.14,
-    "vendas_qtd": 12,
-    "atividades": 20
+    "vendas_valor": 28932.36,
+    "vendas_qtd": 13,
+    "atividades": 21
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 213631.29
+      "total": 214807.51
     }
   },
   "vendedoras": [
@@ -54,23 +54,23 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 124,
-      "ganhos_qtd": 70,
-      "ganhos_valor": 85805.21,
-      "iniciados_qtd": 109,
-      "iniciados_valor": 398211.3,
+      "atividades": 125,
+      "ganhos_qtd": 71,
+      "ganhos_valor": 86981.43,
+      "iniciados_qtd": 110,
+      "iniciados_valor": 399387.52,
       "abertos_qtd": 17,
       "abertos_valor": 91697.46,
       "atrasados": 0,
       "perdidos_qtd": 35,
       "perdidos_valor": 284256.03,
-      "conversao": 66.7,
+      "conversao": 67,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 4,
-      "hoje_vendas_valor": 10384.2,
-      "hoje_orcado_qtd": 3,
-      "hoje_orcado_valor": 3537.06,
-      "hoje_movimentacoes": 7,
+      "hoje_vendas_qtd": 5,
+      "hoje_vendas_valor": 11560.42,
+      "hoje_orcado_qtd": 4,
+      "hoje_orcado_valor": 4713.28,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -94,16 +94,16 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 49,
-      "valor": 76520.82,
-      "conv": 73.1,
+      "qtd": 50,
+      "valor": 77697.04,
+      "conv": 74.6,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 21,
       "valor": 16645.11,
-      "conv": 42.9,
+      "conv": 42,
       "cor": "#ffd60a"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-24T13:53:40.9121529-03:00"
+  "atualizado_em": "2026-08-24T14:01:26.3138074-03:00"
 }
