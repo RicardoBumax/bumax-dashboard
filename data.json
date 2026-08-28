@@ -24,13 +24,13 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 165,
+      "atividades": 164,
       "ganhos_qtd": 115,
       "ganhos_valor": 154306.21,
-      "iniciados_qtd": 146,
-      "iniciados_valor": 214530.93,
-      "abertos_qtd": 9,
-      "abertos_valor": 18087.43,
+      "iniciados_qtd": 145,
+      "iniciados_valor": 212632.67,
+      "abertos_qtd": 8,
+      "abertos_valor": 16189.17,
       "atrasados": 0,
       "perdidos_qtd": 34,
       "perdidos_valor": 78061.07,
@@ -42,7 +42,7 @@
       "hoje_orcado_valor": 0,
       "hoje_movimentacoes": 0,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 69,
-      "valor": 365502.73,
-      "conv": 55.2,
+      "qtd": 67,
+      "valor": 361706.21,
+      "conv": 53.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 66,
       "valor": 101689.56,
-      "conv": 95.7,
+      "conv": 98.5,
       "cor": "#00d2b2"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-28T08:14:07.1816636-03:00"
+  "atualizado_em": "2026-08-28T08:18:36.2764522-03:00"
 }
