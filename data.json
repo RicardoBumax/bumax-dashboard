@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 693.42,
-    "vendas_qtd": 1,
-    "atividades": 9
+    "vendas_valor": 1177.58,
+    "vendas_qtd": 2,
+    "atividades": 10
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 267006.93
+      "total": 267491.09
     }
   },
   "vendedoras": [
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 693.42,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 1997.02,
-      "hoje_movimentacoes": 7,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 2,
       "hoje_atv_email": 0,
@@ -55,24 +55,24 @@
       "titulo": "Vendedora",
       "meta": 165000,
       "atividades": 149,
-      "ganhos_qtd": 88,
-      "ganhos_valor": 112007.3,
+      "ganhos_qtd": 89,
+      "ganhos_valor": 112491.46,
       "iniciados_qtd": 132,
-      "iniciados_valor": 435162.85,
-      "abertos_qtd": 21,
+      "iniciados_valor": 435647.01,
+      "abertos_qtd": 20,
       "abertos_valor": 92626.83,
       "atrasados": 0,
       "perdidos_qtd": 36,
       "perdidos_valor": 294076.12,
-      "conversao": 71,
+      "conversao": 71.2,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 484.16,
       "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 7928.33,
+      "hoje_orcado_valor": 8412.49,
       "hoje_movimentacoes": 2,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -94,23 +94,23 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 68,
-      "valor": 104296.76,
-      "conv": 97.1,
+      "qtd": 69,
+      "valor": 104780.92,
+      "conv": 98.6,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 34,
+      "qtd": 32,
       "valor": 29223.4,
-      "conv": 50,
+      "conv": 46.4,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 11,
       "valor": 25536.29,
-      "conv": 32.4,
+      "conv": 34.4,
       "cor": "#00ff95"
     },
     {
@@ -143,12 +143,12 @@
       "cor": "#6c63ff"
     },
     {
-      "label": "N�?O TEMOS O TUBO",
+      "label": "EST�?O SEM MATERIAL N�?O V�?O CONSEGUIR ESPERAR",
       "pct": 1.4,
       "cor": "#4facfe"
     },
     {
-      "label": "EST�?O SEM MATERIAL N�?O V�?O CONSEGUIR ESPERAR",
+      "label": "N�?O ATENDE - N�?O RESPONDE",
       "pct": 1.4,
       "cor": "#00d2b2"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-28T09:14:47.7230831-03:00"
+  "atualizado_em": "2026-08-28T09:22:28.6680956-03:00"
 }
