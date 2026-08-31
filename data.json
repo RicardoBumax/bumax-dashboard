@@ -1,9 +1,9 @@
 {
   "periodo": "Agosto 2026",
   "hoje": {
-    "vendas_valor": 1177.58,
-    "vendas_qtd": 2,
-    "atividades": 11
+    "vendas_valor": 1953.37,
+    "vendas_qtd": 3,
+    "atividades": 15
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Agosto 2026",
-      "total": 267491.09
+      "total": 271888.06
     }
   },
   "vendedoras": [
@@ -24,25 +24,25 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 167,
-      "ganhos_qtd": 116,
-      "ganhos_valor": 154999.63,
-      "iniciados_qtd": 148,
-      "iniciados_valor": 216527.95,
-      "abertos_qtd": 9,
-      "abertos_valor": 17492.77,
+      "atividades": 171,
+      "ganhos_qtd": 119,
+      "ganhos_valor": 157443.23,
+      "iniciados_qtd": 152,
+      "iniciados_valor": 219542.53,
+      "abertos_qtd": 10,
+      "abertos_valor": 18063.75,
       "atrasados": 0,
       "perdidos_qtd": 35,
       "perdidos_valor": 79959.33,
-      "conversao": 76.8,
+      "conversao": 77.3,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 693.42,
-      "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 1997.02,
-      "hoje_movimentacoes": 9,
-      "hoje_atv_ligacao": 1,
-      "hoje_atv_whatsapp": 2,
+      "hoje_vendas_qtd": 0,
+      "hoje_vendas_valor": 0,
+      "hoje_orcado_qtd": 3,
+      "hoje_orcado_valor": 2607.16,
+      "hoje_movimentacoes": 8,
+      "hoje_atv_ligacao": 0,
+      "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -54,25 +54,25 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 149,
-      "ganhos_qtd": 89,
-      "ganhos_valor": 112491.46,
-      "iniciados_qtd": 132,
-      "iniciados_valor": 435647.01,
-      "abertos_qtd": 20,
-      "abertos_valor": 92626.83,
+      "atividades": 154,
+      "ganhos_qtd": 92,
+      "ganhos_valor": 114444.83,
+      "iniciados_qtd": 135,
+      "iniciados_valor": 532760.6,
+      "abertos_qtd": 18,
+      "abertos_valor": 157956.08,
       "atrasados": 0,
-      "perdidos_qtd": 36,
-      "perdidos_valor": 294076.12,
-      "conversao": 71.2,
+      "perdidos_qtd": 38,
+      "perdidos_valor": 323907.09,
+      "conversao": 70.8,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 1,
-      "hoje_vendas_valor": 484.16,
-      "hoje_orcado_qtd": 2,
-      "hoje_orcado_valor": 8412.49,
-      "hoje_movimentacoes": 2,
+      "hoje_vendas_qtd": 3,
+      "hoje_vendas_valor": 1953.37,
+      "hoje_orcado_qtd": 1,
+      "hoje_orcado_valor": 388.18,
+      "hoje_movimentacoes": 7,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 1,
+      "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -80,75 +80,75 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 126,
-      "valor": 223292.82,
+      "qtd": 127,
+      "valor": 196370.6,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 70,
-      "valor": 379461.13,
-      "conv": 55.6,
+      "qtd": 78,
+      "valor": 584015.47,
+      "conv": 61.4,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 69,
-      "valor": 104780.92,
-      "conv": 98.6,
+      "qtd": 64,
+      "valor": 91351.72,
+      "conv": 82.1,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 32,
       "valor": 29223.4,
-      "conv": 46.4,
+      "conv": 50,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
-      "qtd": 11,
-      "valor": 25536.29,
-      "conv": 34.4,
+      "qtd": 13,
+      "valor": 27361.77,
+      "conv": 40.6,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 9.1,
+      "conv": 7.7,
       "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 22.5,
+      "pct": 21.9,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 21.1,
+      "pct": 20.5,
       "cor": "#ff9e00"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 15.5,
+      "label": "Parou de Responder",
+      "pct": 15.1,
       "cor": "#ffd60a"
     },
     {
-      "label": "Parou de Responder",
-      "pct": 12.7,
+      "label": "Comprou outra Marca",
+      "pct": 15.1,
       "cor": "#6c63ff"
     },
     {
-      "label": "EST�?O SEM MATERIAL N�?O V�?O CONSEGUIR ESPERAR",
+      "label": "N�?O TEMOS O TUBO",
       "pct": 1.4,
       "cor": "#4facfe"
     },
     {
-      "label": "N�?O ATENDE - N�?O RESPONDE",
+      "label": "EST�?O SEM MATERIAL N�?O V�?O CONSEGUIR ESPERAR",
       "pct": 1.4,
       "cor": "#00d2b2"
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-08-28T10:25:46.7648136-03:00"
+  "atualizado_em": "2026-08-31T10:44:51.4937137-03:00"
 }
