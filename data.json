@@ -24,13 +24,13 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 57,
+      "atividades": 56,
       "ganhos_qtd": 28,
       "ganhos_valor": 45589.58,
-      "iniciados_qtd": 45,
-      "iniciados_valor": 81383.39,
-      "abertos_qtd": 21,
-      "abertos_valor": 43857.78,
+      "iniciados_qtd": 44,
+      "iniciados_valor": 80074.44,
+      "abertos_qtd": 20,
+      "abertos_valor": 42548.83,
       "atrasados": 0,
       "perdidos_qtd": 6,
       "perdidos_valor": 10056.24,
@@ -101,16 +101,16 @@
     },
     {
       "etapa": "Negociação",
-      "qtd": 15,
-      "valor": 37528.82,
-      "conv": 62.5,
+      "qtd": 13,
+      "valor": 34910.92,
+      "conv": 54.2,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 9,
       "valor": 5854.07,
-      "conv": 60,
+      "conv": 69.2,
       "cor": "#00ff95"
     },
     {
@@ -148,5 +148,5 @@
       "cor": "#4facfe"
     }
   ],
-  "atualizado_em": "2026-09-09T09:54:28.5450265-03:00"
+  "atualizado_em": "2026-09-09T10:01:09.3720374-03:00"
 }
