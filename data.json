@@ -1,8 +1,8 @@
 {
   "periodo": "Setembro 2026",
   "hoje": {
-    "vendas_valor": 860.69,
-    "vendas_qtd": 1,
+    "vendas_valor": 2099.17,
+    "vendas_qtd": 2,
     "atividades": 5
   },
   "comparativo": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Setembro 2026",
-      "total": 72528.29
+      "total": 73766.77
     }
   },
   "vendedoras": [
@@ -25,19 +25,19 @@
       "titulo": "Lider do Mes",
       "meta": 165000,
       "atividades": 54,
-      "ganhos_qtd": 26,
-      "ganhos_valor": 44025.1,
+      "ganhos_qtd": 27,
+      "ganhos_valor": 45263.58,
       "iniciados_qtd": 42,
       "iniciados_valor": 77737.88,
-      "abertos_qtd": 20,
-      "abertos_valor": 41776.75,
+      "abertos_qtd": 19,
+      "abertos_valor": 40538.27,
       "atrasados": 0,
       "perdidos_qtd": 6,
       "perdidos_valor": 10056.24,
-      "conversao": 81.2,
+      "conversao": 81.8,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 0,
-      "hoje_vendas_valor": 0,
+      "hoje_vendas_qtd": 1,
+      "hoje_vendas_valor": 1238.48,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 1238.48,
       "hoje_movimentacoes": 4,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 41,
-      "valor": 82340.62,
+      "qtd": 40,
+      "valor": 81102.14,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 32,
       "valor": 178474.1,
-      "conv": 78,
+      "conv": 80,
       "cor": "#4facfe"
     },
     {
@@ -148,5 +148,5 @@
       "cor": "#4facfe"
     }
   ],
-  "atualizado_em": "2026-09-09T09:04:53.1232826-03:00"
+  "atualizado_em": "2026-09-09T09:10:50.2061047-03:00"
 }
