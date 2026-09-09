@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 2425.17,
     "vendas_qtd": 3,
-    "atividades": 14
+    "atividades": 17
   },
   "comparativo": {
     "mes_anterior": {
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 1564.48,
       "hoje_orcado_qtd": 4,
       "hoje_orcado_valor": 4883.99,
-      "hoje_movimentacoes": 7,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 1,
@@ -54,23 +54,23 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 50,
+      "atividades": 51,
       "ganhos_qtd": 27,
       "ganhos_valor": 28503.19,
-      "iniciados_qtd": 39,
-      "iniciados_valor": 110081.34,
-      "abertos_qtd": 19,
-      "abertos_valor": 170768.19,
+      "iniciados_qtd": 40,
+      "iniciados_valor": 110527.08,
+      "abertos_qtd": 18,
+      "abertos_valor": 168671.12,
       "atrasados": 0,
-      "perdidos_qtd": 6,
-      "perdidos_valor": 55277.83,
-      "conversao": 81.8,
+      "perdidos_qtd": 8,
+      "perdidos_valor": 57820.64,
+      "conversao": 77.1,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 1,
       "hoje_vendas_valor": 860.69,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 860.69,
-      "hoje_movimentacoes": 7,
+      "hoje_movimentacoes": 9,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
@@ -88,7 +88,7 @@
     {
       "etapa": "Follow-up",
       "qtd": 30,
-      "valor": 177582.62,
+      "valor": 175931.29,
       "conv": 66.7,
       "cor": "#4facfe"
     },
@@ -124,29 +124,29 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 41.7,
+      "pct": 50,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 25,
+      "pct": 21.4,
       "cor": "#ff9e00"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 16.7,
+      "pct": 14.3,
       "cor": "#ffd60a"
     },
     {
       "label": "Parou de Responder",
-      "pct": 8.3,
+      "pct": 7.1,
       "cor": "#6c63ff"
     },
     {
       "label": "OBRA OPTOU PELA CORTAG QUE JA UTILIZAM",
-      "pct": 8.3,
+      "pct": 7.1,
       "cor": "#4facfe"
     }
   ],
-  "atualizado_em": "2026-09-09T09:47:05.5736970-03:00"
+  "atualizado_em": "2026-09-09T09:54:28.5450265-03:00"
 }
