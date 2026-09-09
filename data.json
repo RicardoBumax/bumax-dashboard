@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 2425.17,
     "vendas_qtd": 3,
-    "atividades": 17
+    "atividades": 18
   },
   "comparativo": {
     "mes_anterior": {
@@ -24,23 +24,23 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 56,
+      "atividades": 57,
       "ganhos_qtd": 28,
       "ganhos_valor": 45589.58,
-      "iniciados_qtd": 44,
-      "iniciados_valor": 80074.44,
+      "iniciados_qtd": 45,
+      "iniciados_valor": 81383.39,
       "abertos_qtd": 20,
       "abertos_valor": 42548.83,
       "atrasados": 0,
-      "perdidos_qtd": 6,
-      "perdidos_valor": 10056.24,
-      "conversao": 82.4,
+      "perdidos_qtd": 7,
+      "perdidos_valor": 11365.19,
+      "conversao": 80,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 1564.48,
       "hoje_orcado_qtd": 4,
       "hoje_orcado_valor": 4883.99,
-      "hoje_movimentacoes": 8,
+      "hoje_movimentacoes": 9,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 1,
@@ -71,7 +71,7 @@
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 860.69,
       "hoje_movimentacoes": 9,
-      "hoje_atv_ligacao": 1,
+      "hoje_atv_ligacao": 2,
       "hoje_atv_whatsapp": 3,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
@@ -101,16 +101,16 @@
     },
     {
       "etapa": "Negociação",
-      "qtd": 13,
-      "valor": 34910.92,
-      "conv": 54.2,
+      "qtd": 14,
+      "valor": 36219.87,
+      "conv": 58.3,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 9,
       "valor": 5854.07,
-      "conv": 69.2,
+      "conv": 64.3,
       "cor": "#00ff95"
     },
     {
@@ -124,29 +124,29 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 50,
+      "pct": 53.3,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 21.4,
+      "pct": 20,
       "cor": "#ff9e00"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 14.3,
+      "pct": 13.3,
       "cor": "#ffd60a"
     },
     {
       "label": "Parou de Responder",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#6c63ff"
     },
     {
       "label": "OBRA OPTOU PELA CORTAG QUE JA UTILIZAM",
-      "pct": 7.1,
+      "pct": 6.7,
       "cor": "#4facfe"
     }
   ],
-  "atualizado_em": "2026-09-09T10:01:09.3720374-03:00"
+  "atualizado_em": "2026-09-09T10:08:46.4536250-03:00"
 }
