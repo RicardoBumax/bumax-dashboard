@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Setembro 2026",
-      "total": 107414.06
+      "total": 140619.14
     }
   },
   "vendedoras": [
@@ -24,17 +24,17 @@
       "cor2": "#a855f7",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 72,
-      "ganhos_qtd": 41,
-      "ganhos_valor": 63489.95,
-      "iniciados_qtd": 59,
-      "iniciados_valor": 104279.47,
-      "abertos_qtd": 14,
-      "abertos_valor": 32633.63,
+      "atividades": 82,
+      "ganhos_qtd": 45,
+      "ganhos_valor": 73500.8,
+      "iniciados_qtd": 69,
+      "iniciados_valor": 124043.76,
+      "abertos_qtd": 17,
+      "abertos_valor": 30171.98,
       "atrasados": 0,
-      "perdidos_qtd": 14,
-      "perdidos_valor": 26276.1,
-      "conversao": 74.5,
+      "perdidos_qtd": 17,
+      "perdidos_valor": 38491.19,
+      "conversao": 72.6,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
@@ -54,17 +54,17 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 71,
-      "ganhos_qtd": 39,
-      "ganhos_valor": 43924.11,
-      "iniciados_qtd": 60,
-      "iniciados_valor": 164919.9,
-      "abertos_qtd": 20,
-      "abertos_valor": 186139.64,
+      "atividades": 78,
+      "ganhos_qtd": 45,
+      "ganhos_valor": 67118.34,
+      "iniciados_qtd": 67,
+      "iniciados_valor": 175426.88,
+      "abertos_qtd": 15,
+      "abertos_valor": 76132.55,
       "atrasados": 0,
-      "perdidos_qtd": 14,
-      "perdidos_valor": 79324.02,
-      "conversao": 73.6,
+      "perdidos_qtd": 19,
+      "perdidos_valor": 176643.86,
+      "conversao": 70.3,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
@@ -80,83 +80,83 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 63,
-      "valor": 200970.17,
+      "qtd": 70,
+      "valor": 199566.37,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 39,
-      "valor": 89377.8,
-      "conv": 61.9,
+      "qtd": 38,
+      "valor": 83648.6,
+      "conv": 54.3,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 29,
-      "valor": 172935.4,
-      "conv": 74.4,
+      "qtd": 30,
+      "valor": 78082.14,
+      "conv": 78.9,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 14,
-      "valor": 10920.43,
-      "conv": 48.3,
+      "qtd": 16,
+      "valor": 12323.78,
+      "conv": 53.3,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
-      "qtd": 7,
-      "valor": 13768.84,
-      "conv": 50,
+      "qtd": 13,
+      "valor": 32154.28,
+      "conv": 81.2,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 14.3,
+      "conv": 7.7,
       "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 39.3,
+      "pct": 38.9,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 28.6,
+      "pct": 25,
       "cor": "#ff9e00"
     },
     {
-      "label": "Prazo de Entrega",
-      "pct": 7.1,
+      "label": "Parou de Responder",
+      "pct": 8.3,
       "cor": "#ffd60a"
     },
     {
-      "label": "CLIENTE N�?O RESPONDE E N�?O ATENDE",
-      "pct": 3.6,
+      "label": "Comprou outra Marca",
+      "pct": 5.6,
       "cor": "#6c63ff"
     },
     {
-      "label": "PRECISAVA URGENTE.",
-      "pct": 3.6,
+      "label": "Prazo de Entrega",
+      "pct": 5.6,
       "cor": "#4facfe"
     },
     {
-      "label": "SEM MAIS RETORNO  DO CLIENTE.",
-      "pct": 3.6,
+      "label": "OBRA OPTOU PELA CORTAG QUE JA UTILIZAM",
+      "pct": 2.8,
       "cor": "#00d2b2"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 3.6,
+      "label": "CLIENTE N�?O RESPONDE E N�?O ATENDE",
+      "pct": 2.8,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-09-12T10:19:35.4608484-03:00"
+  "atualizado_em": "2026-09-15T06:13:44.1712021-03:00"
 }
