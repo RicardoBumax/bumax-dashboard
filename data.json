@@ -12,29 +12,29 @@
     },
     "mes_atual": {
       "nome": "Setembro 2026",
-      "total": 140619.14
+      "total": 158238.13
     }
   },
   "vendedoras": [
     {
-      "iniciais": "GAB",
-      "nome": "Gabriele",
-      "classe": "ag",
-      "cor1": "#6c63ff",
-      "cor2": "#a855f7",
+      "iniciais": "ADR",
+      "nome": "Adriane",
+      "classe": "aa",
+      "cor1": "#4facfe",
+      "cor2": "#00f2fe",
       "titulo": "Lider do Mes",
       "meta": 165000,
-      "atividades": 82,
-      "ganhos_qtd": 45,
-      "ganhos_valor": 73500.8,
-      "iniciados_qtd": 69,
-      "iniciados_valor": 124043.76,
-      "abertos_qtd": 17,
-      "abertos_valor": 30171.98,
+      "atividades": 85,
+      "ganhos_qtd": 53,
+      "ganhos_valor": 79353,
+      "iniciados_qtd": 74,
+      "iniciados_valor": 184795.9,
+      "abertos_qtd": 10,
+      "abertos_valor": 60206.52,
       "atrasados": 0,
-      "perdidos_qtd": 17,
-      "perdidos_valor": 38491.19,
-      "conversao": 72.6,
+      "perdidos_qtd": 23,
+      "perdidos_valor": 189704.25,
+      "conversao": 69.7,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
@@ -47,24 +47,24 @@
       "hoje_atv_proposta": 0
     },
     {
-      "iniciais": "ADR",
-      "nome": "Adriane",
-      "classe": "aa",
-      "cor1": "#4facfe",
-      "cor2": "#00f2fe",
+      "iniciais": "GAB",
+      "nome": "Gabriele",
+      "classe": "ag",
+      "cor1": "#6c63ff",
+      "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 78,
-      "ganhos_qtd": 45,
-      "ganhos_valor": 67118.34,
-      "iniciados_qtd": 67,
-      "iniciados_valor": 175426.88,
-      "abertos_qtd": 15,
-      "abertos_valor": 76132.55,
+      "atividades": 89,
+      "ganhos_qtd": 49,
+      "ganhos_valor": 78885.13,
+      "iniciados_qtd": 76,
+      "iniciados_valor": 129102.85,
+      "abertos_qtd": 19,
+      "abertos_valor": 28700.74,
       "atrasados": 0,
-      "perdidos_qtd": 19,
-      "perdidos_valor": 176643.86,
-      "conversao": 70.3,
+      "perdidos_qtd": 18,
+      "perdidos_valor": 39637.19,
+      "conversao": 73.1,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
@@ -80,83 +80,83 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 70,
-      "valor": 199566.37,
+      "qtd": 76,
+      "valor": 201498.4,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 38,
-      "valor": 83648.6,
-      "conv": 54.3,
+      "qtd": 40,
+      "valor": 74150.23,
+      "conv": 52.6,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
-      "qtd": 30,
-      "valor": 78082.14,
-      "conv": 78.9,
+      "qtd": 31,
+      "valor": 87516.34,
+      "conv": 77.5,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 16,
-      "valor": 12323.78,
-      "conv": 53.3,
+      "qtd": 20,
+      "valor": 13810.32,
+      "conv": 64.5,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
-      "qtd": 13,
-      "valor": 32154.28,
-      "conv": 81.2,
+      "qtd": 11,
+      "valor": 25830.72,
+      "conv": 55,
       "cor": "#00ff95"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 7.7,
+      "conv": 9.1,
       "cor": "#a855f7"
     }
   ],
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 38.9,
+      "pct": 34.1,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 25,
+      "pct": 26.8,
       "cor": "#ff9e00"
     },
     {
       "label": "Parou de Responder",
-      "pct": 8.3,
+      "pct": 7.3,
       "cor": "#ffd60a"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 5.6,
+      "label": "N�?O RESPONDE N�?O ATENDE",
+      "pct": 4.9,
       "cor": "#6c63ff"
     },
     {
-      "label": "Prazo de Entrega",
-      "pct": 5.6,
+      "label": "Comprou outra Marca",
+      "pct": 4.9,
       "cor": "#4facfe"
     },
     {
-      "label": "OBRA OPTOU PELA CORTAG QUE JA UTILIZAM",
-      "pct": 2.8,
+      "label": "Prazo de Entrega",
+      "pct": 4.9,
       "cor": "#00d2b2"
     },
     {
       "label": "CLIENTE N�?O RESPONDE E N�?O ATENDE",
-      "pct": 2.8,
+      "pct": 2.4,
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-09-15T06:36:13.9152752-03:00"
+  "atualizado_em": "2026-09-16T07:49:55.1728068-03:00"
 }
