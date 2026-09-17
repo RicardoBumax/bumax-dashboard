@@ -8,7 +8,7 @@
   "comparativo": {
     "mes_anterior": {
       "nome": "Agosto 2026",
-      "total": 96014.16
+      "total": 278921.84
     },
     "mes_atual": {
       "nome": "Setembro 2026",
@@ -87,30 +87,30 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 44,
-      "valor": 105255.66,
-      "conv": 52.4,
+      "qtd": 46,
+      "valor": 130062.32,
+      "conv": 54.8,
       "cor": "#4facfe"
     },
     {
       "etapa": "Follow-up",
       "qtd": 32,
       "valor": 77086.64,
-      "conv": 72.7,
+      "conv": 69.6,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 26,
-      "valor": 43949.76,
-      "conv": 81.2,
+      "qtd": 24,
+      "valor": 19143.1,
+      "conv": 75,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Negociação",
       "qtd": 16,
       "valor": 34148.75,
-      "conv": 61.5,
+      "conv": 66.7,
       "cor": "#00ff95"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-09-17T16:37:25.0297826-03:00"
+  "atualizado_em": "2026-09-17T16:42:30.1270635-03:00"
 }
