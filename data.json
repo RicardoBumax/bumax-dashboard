@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 18188.28,
     "vendas_qtd": 10,
-    "atividades": 23
+    "atividades": 26
   },
   "comparativo": {
     "mes_anterior": {
@@ -29,18 +29,18 @@
       "ganhos_valor": 127233.52,
       "iniciados_qtd": 103,
       "iniciados_valor": 279761.18,
-      "abertos_qtd": 16,
-      "abertos_valor": 106324.15,
+      "abertos_qtd": 15,
+      "abertos_valor": 100892.37,
       "atrasados": 0,
-      "perdidos_qtd": 24,
-      "perdidos_valor": 190671.38,
-      "conversao": 75.8,
+      "perdidos_qtd": 25,
+      "perdidos_valor": 196103.16,
+      "conversao": 75,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 4,
       "hoje_vendas_valor": 4055,
       "hoje_orcado_qtd": 8,
       "hoje_orcado_valor": 25286.99,
-      "hoje_movimentacoes": 12,
+      "hoje_movimentacoes": 15,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -94,16 +94,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 37,
-      "valor": 117146.19,
-      "conv": 63.8,
+      "qtd": 36,
+      "valor": 111714.41,
+      "conv": 62.1,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 29,
       "valor": 27867.31,
-      "conv": 78.4,
+      "conv": 80.6,
       "cor": "#ffd60a"
     },
     {
@@ -124,32 +124,32 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 30.6,
+      "pct": 30,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 26.5,
+      "pct": 26,
       "cor": "#ff9e00"
     },
     {
       "label": "Parou de Responder",
-      "pct": 10.2,
+      "pct": 12,
       "cor": "#ffd60a"
     },
     {
       "label": "Comprou outra Marca",
-      "pct": 6.1,
+      "pct": 6,
       "cor": "#6c63ff"
     },
     {
       "label": "Prazo de Entrega",
-      "pct": 4.1,
+      "pct": 4,
       "cor": "#4facfe"
     },
     {
       "label": "N�?O RESPONDE N�?O ATENDE",
-      "pct": 4.1,
+      "pct": 4,
       "cor": "#00d2b2"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-09-21T16:48:37.9103496-03:00"
+  "atualizado_em": "2026-09-21T16:55:34.9654246-03:00"
 }
