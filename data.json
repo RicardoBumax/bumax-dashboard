@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 35119.73,
     "vendas_qtd": 13,
-    "atividades": 40
+    "atividades": 39
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,13 +54,13 @@
       "cor2": "#00f2fe",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 61,
+      "atividades": 60,
       "ganhos_qtd": 19,
       "ganhos_valor": 37550.06,
       "iniciados_qtd": 20,
       "iniciados_valor": 36292.19,
-      "abertos_qtd": 17,
-      "abertos_valor": 99886.63,
+      "abertos_qtd": 16,
+      "abertos_valor": 95444.41,
       "atrasados": 0,
       "perdidos_qtd": 6,
       "perdidos_valor": 38038.38,
@@ -70,7 +70,7 @@
       "hoje_vendas_valor": 8197.87,
       "hoje_orcado_qtd": 1,
       "hoje_orcado_valor": 6347.81,
-      "hoje_movimentacoes": 17,
+      "hoje_movimentacoes": 16,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -87,16 +87,16 @@
     },
     {
       "etapa": "Follow-up",
-      "qtd": 15,
-      "valor": 54498.36,
-      "conv": 45.5,
+      "qtd": 14,
+      "valor": 50056.14,
+      "conv": 42.4,
       "cor": "#4facfe"
     },
     {
       "etapa": "Envio de Proposta",
       "qtd": 12,
       "valor": 29112.34,
-      "conv": 80,
+      "conv": 85.7,
       "cor": "#00d2b2"
     },
     {
@@ -143,5 +143,5 @@
       "cor": "#6c63ff"
     }
   ],
-  "atualizado_em": "2026-10-07T16:32:16.3984820-03:00"
+  "atualizado_em": "2026-10-07T16:38:46.6451142-03:00"
 }
