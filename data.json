@@ -3,7 +3,7 @@
   "hoje": {
     "vendas_valor": 1843.45,
     "vendas_qtd": 1,
-    "atividades": 7
+    "atividades": 9
   },
   "comparativo": {
     "mes_anterior": {
@@ -54,25 +54,25 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 117,
+      "atividades": 118,
       "ganhos_qtd": 73,
       "ganhos_valor": 115221.17,
-      "iniciados_qtd": 96,
-      "iniciados_valor": 165339.17,
+      "iniciados_qtd": 97,
+      "iniciados_valor": 165506.05,
       "abertos_qtd": 13,
       "abertos_valor": 31331.16,
       "atrasados": 0,
-      "perdidos_qtd": 23,
-      "perdidos_valor": 46674.13,
-      "conversao": 76,
+      "perdidos_qtd": 24,
+      "perdidos_valor": 46841.01,
+      "conversao": 75.3,
       "atrasados_ok": true,
       "hoje_vendas_qtd": 0,
       "hoje_vendas_valor": 0,
       "hoje_orcado_qtd": 3,
       "hoje_orcado_valor": 3807.16,
-      "hoje_movimentacoes": 4,
+      "hoje_movimentacoes": 6,
       "hoje_atv_ligacao": 1,
-      "hoje_atv_whatsapp": 3,
+      "hoje_atv_whatsapp": 4,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     }
@@ -94,16 +94,16 @@
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 43,
-      "valor": 55599.94,
-      "conv": 87.8,
+      "qtd": 44,
+      "valor": 55766.82,
+      "conv": 89.8,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 41,
       "valor": 27497.28,
-      "conv": 95.3,
+      "conv": 93.2,
       "cor": "#ffd60a"
     },
     {
@@ -124,32 +124,32 @@
   "motivos_perda": [
     {
       "label": "Preço Produto",
-      "pct": 28.9,
+      "pct": 28.3,
       "cor": "#ff4d6d"
     },
     {
       "label": "Sem Previsão de Compra",
-      "pct": 28.9,
+      "pct": 28.3,
       "cor": "#ff9e00"
     },
     {
-      "label": "Comprou outra Marca",
-      "pct": 8.9,
+      "label": "Parou de Responder",
+      "pct": 10.9,
       "cor": "#ffd60a"
     },
     {
-      "label": "Prazo de Entrega",
-      "pct": 8.9,
+      "label": "Comprou outra Marca",
+      "pct": 8.7,
       "cor": "#6c63ff"
     },
     {
-      "label": "Parou de Responder",
-      "pct": 8.9,
+      "label": "Prazo de Entrega",
+      "pct": 8.7,
       "cor": "#4facfe"
     },
     {
       "label": "Recusa de Crédito",
-      "pct": 4.4,
+      "pct": 4.3,
       "cor": "#00d2b2"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-10-26T10:45:57.5565825-03:00"
+  "atualizado_em": "2026-10-26T10:53:01.3535663-03:00"
 }
