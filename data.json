@@ -8,7 +8,7 @@
   "comparativo": {
     "mes_anterior": {
       "nome": "Setembro 2026",
-      "total": 37794.67
+      "total": 347465.85
     },
     "mes_atual": {
       "nome": "Outubro 2026",
@@ -42,7 +42,7 @@
       "hoje_orcado_valor": 1427.88,
       "hoje_movimentacoes": 1,
       "hoje_atv_ligacao": 0,
-      "hoje_atv_whatsapp": 0,
+      "hoje_atv_whatsapp": 1,
       "hoje_atv_email": 0,
       "hoje_atv_proposta": 0
     },
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-10-26T09:28:12.3986744-03:00"
+  "atualizado_em": "2026-10-26T09:34:48.6015956-03:00"
 }
