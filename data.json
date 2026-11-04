@@ -58,9 +58,9 @@
       "ganhos_qtd": 7,
       "ganhos_valor": 5788.02,
       "iniciados_qtd": 10,
-      "iniciados_valor": 23647.74,
+      "iniciados_valor": 23967.44,
       "abertos_qtd": 19,
-      "abertos_valor": 66862.98,
+      "abertos_valor": 67182.68,
       "atrasados": 0,
       "perdidos_qtd": 3,
       "perdidos_valor": 5410.14,
@@ -69,7 +69,7 @@
       "hoje_vendas_qtd": 2,
       "hoje_vendas_valor": 437.39,
       "hoje_orcado_qtd": 6,
-      "hoje_orcado_valor": 19585.62,
+      "hoje_orcado_valor": 19905.32,
       "hoje_movimentacoes": 17,
       "hoje_atv_ligacao": 1,
       "hoje_atv_whatsapp": 1,
@@ -102,7 +102,7 @@
     {
       "etapa": "Solicitação de Orçamento",
       "qtd": 11,
-      "valor": 20015.18,
+      "valor": 20654.58,
       "conv": 84.6,
       "cor": "#ffd60a"
     },
@@ -133,5 +133,5 @@
       "cor": "#ff9e00"
     }
   ],
-  "atualizado_em": "2026-11-04T15:21:40.6213998-03:00"
+  "atualizado_em": "2026-11-04T15:28:34.2337870-03:00"
 }
