@@ -60,7 +60,7 @@
       "iniciados_qtd": 10,
       "iniciados_valor": 23967.44,
       "abertos_qtd": 19,
-      "abertos_valor": 67182.68,
+      "abertos_valor": 67313.24,
       "atrasados": 0,
       "perdidos_qtd": 3,
       "perdidos_valor": 5410.14,
@@ -80,37 +80,37 @@
   "funil": [
     {
       "etapa": "Follow-up",
-      "qtd": 19,
-      "valor": 67332.56,
+      "qtd": 18,
+      "valor": 66825.5,
       "conv": 100,
       "cor": "#6c63ff"
     },
     {
       "etapa": "Envio de Proposta",
-      "qtd": 15,
-      "valor": 49025.75,
-      "conv": 78.9,
+      "qtd": 17,
+      "valor": 66253.29,
+      "conv": 94.4,
       "cor": "#4facfe"
     },
     {
       "etapa": "Fechamento",
-      "qtd": 13,
-      "valor": 35799.55,
-      "conv": 86.7,
+      "qtd": 14,
+      "valor": 36437.17,
+      "conv": 82.4,
       "cor": "#00d2b2"
     },
     {
       "etapa": "Solicitação de Orçamento",
-      "qtd": 11,
-      "valor": 20654.58,
-      "conv": 84.6,
+      "qtd": 9,
+      "valor": 3427.04,
+      "conv": 64.3,
       "cor": "#ffd60a"
     },
     {
       "etapa": "Envio de Amostras",
       "qtd": 1,
       "valor": 0,
-      "conv": 9.1,
+      "conv": 11.1,
       "cor": "#00ff95"
     },
     {
@@ -133,5 +133,5 @@
       "cor": "#ff9e00"
     }
   ],
-  "atualizado_em": "2026-11-04T15:28:34.2337870-03:00"
+  "atualizado_em": "2026-11-04T15:35:38.5115342-03:00"
 }
