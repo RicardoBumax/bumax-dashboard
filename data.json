@@ -1,9 +1,9 @@
 {
   "periodo": "Novembro 2026",
   "hoje": {
-    "vendas_valor": 1370.36,
-    "vendas_qtd": 6,
-    "atividades": 27
+    "vendas_valor": 1946.05,
+    "vendas_qtd": 7,
+    "atividades": 31
   },
   "comparativo": {
     "mes_anterior": {
@@ -12,7 +12,7 @@
     },
     "mes_atual": {
       "nome": "Novembro 2026",
-      "total": 122701.49
+      "total": 123277.18
     }
   },
   "vendedoras": [
@@ -40,7 +40,7 @@
       "hoje_vendas_valor": 207.5,
       "hoje_orcado_qtd": 2,
       "hoje_orcado_valor": 723.97,
-      "hoje_movimentacoes": 5,
+      "hoje_movimentacoes": 8,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -54,23 +54,23 @@
       "cor2": "#a855f7",
       "titulo": "Vendedora",
       "meta": 165000,
-      "atividades": 84,
-      "ganhos_qtd": 47,
-      "ganhos_valor": 43326.57,
-      "iniciados_qtd": 62,
-      "iniciados_valor": 113946.46,
+      "atividades": 85,
+      "ganhos_qtd": 48,
+      "ganhos_valor": 43902.26,
+      "iniciados_qtd": 63,
+      "iniciados_valor": 114522.15,
       "abertos_qtd": 11,
       "abertos_valor": 53058.45,
       "atrasados": 0,
       "perdidos_qtd": 24,
       "perdidos_valor": 66127.75,
-      "conversao": 66.2,
+      "conversao": 66.7,
       "atrasados_ok": true,
-      "hoje_vendas_qtd": 5,
-      "hoje_vendas_valor": 1162.86,
-      "hoje_orcado_qtd": 5,
-      "hoje_orcado_valor": 2357.88,
-      "hoje_movimentacoes": 22,
+      "hoje_vendas_qtd": 6,
+      "hoje_vendas_valor": 1738.55,
+      "hoje_orcado_qtd": 6,
+      "hoje_orcado_valor": 2933.57,
+      "hoje_movimentacoes": 23,
       "hoje_atv_ligacao": 0,
       "hoje_atv_whatsapp": 0,
       "hoje_atv_email": 0,
@@ -80,8 +80,8 @@
   "funil": [
     {
       "etapa": "Fechamento",
-      "qtd": 46,
-      "valor": 89630.41,
+      "qtd": 47,
+      "valor": 90206.1,
       "conv": 100,
       "cor": "#6c63ff"
     },
@@ -89,7 +89,7 @@
       "etapa": "Follow-up",
       "qtd": 41,
       "valor": 129546.64,
-      "conv": 89.1,
+      "conv": 87.2,
       "cor": "#4facfe"
     },
     {
@@ -158,5 +158,5 @@
       "cor": "#a855f7"
     }
   ],
-  "atualizado_em": "2026-11-18T17:27:48.3332790-03:00"
+  "atualizado_em": "2026-11-18T17:35:38.8652208-03:00"
 }
